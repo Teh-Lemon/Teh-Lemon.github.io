@@ -3,7 +3,7 @@ title: Teh Lemon
 email: tehlemon@outlook.com
 description: > # this means to ignore newlines until "baseurl:"
   A simple, whitespace, helvetica based portfolio theme.
-baseurl:  # the subpath of your site, e.g. /blog/
+baseurl:  
 url:  https://tehlemon.com
 twitter_username: tehlemon
 github_username:  Teh-Lemon

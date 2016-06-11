@@ -50,7 +50,7 @@ permalink: /projects/
 {% endfor %}
 </div>
 
-# Projects that can still be downloaded but can't be guarunteed to run on modern systems.
+# These can still be downloaded but can't be guaranteed to run on modern systems.
 
 <div class="portfolioWrapper">
 {% for project in site.poetry %}

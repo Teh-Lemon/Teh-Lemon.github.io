@@ -4,8 +4,6 @@ Title: Projects
 permalink: /projects/
 ---
 
-# Links to project pages in roughly chronological order.
-
 <div class="portfolioWrapper">
 {% for project in site.portfolio reversed %}
 

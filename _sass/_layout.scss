@@ -55,7 +55,7 @@ padding-bottom: 5px;
     position: relative;
     font-size: 20px;
     display: block;
-    opacity: 0.75;
+    opacity: 1;
     width: 100%;
     text-align: center;
     padding-top: 25px;
@@ -209,8 +209,7 @@ box-sizing: border-box;
 padding: 5px;
 }
 .thumbnail{
-width: 225px;
-height: 225px;
+width:100%;
 overflow: hidden;
 }
 .thumbnail img{

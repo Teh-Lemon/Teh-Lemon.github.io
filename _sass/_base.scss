@@ -34,10 +34,14 @@ $purple: #B509AC;
 
 $grey-color-dark: #333;   /* footer */
 $grey-color-light: #ddd;  /* navigation bar border */
-$text-color:     #666;
+//$text-color:     #666;
+//$text-color:     #d4d4d4;babbbc
+$text-color:     #babbbc; /* fallback */
+$text-color:     hsla(0,0%,100%,0.7);
 
 /* Set theme color *************************/
-$theme-color:   $red;
+//$theme-color:   $red;7289da
+$theme-color:   #da7272;
 
 
 /************************************************************/

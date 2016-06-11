@@ -7,6 +7,7 @@ baseurl:
 url:  https://tehlemon.com
 twitter_username: tehlemon
 github_username:  Teh-Lemon
+favicon:     "img/favicon.ico"
 
 # Build settings
 markdown: kramdown

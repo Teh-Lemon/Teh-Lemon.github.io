@@ -10,6 +10,9 @@ google_analytics: # set tracking, remove from /javascripts/basic.js if unwanted.
 links:
   - name:         About
     url:          /
+  - name:         Portfolio
+    url:          https://portfolio.tehlemon.com
+    external:     true    
   - name:         Projects
     url:          /projects
 highlighter:      rouge

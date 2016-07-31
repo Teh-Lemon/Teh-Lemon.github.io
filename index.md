@@ -9,7 +9,7 @@ title: About
 
 
 I'm a programmer and game developer.  
-I'm most confident in C# and I enjoy working on gameplay mechanics and game "feel".  
+I'm most confident in C#. I enjoy working on gameplay mechanics and audiovisual feedback.  
 Currently working on a 3D platformer in Unity. Check it out __[here](https://cuteplatformer.tehlemon.com/)__.
 
 __You can contact me at__  

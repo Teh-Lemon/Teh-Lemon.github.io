@@ -1,3 +1,3 @@
-# Personal website homepage
+# Personal website
 
-https://tehlemon.com/
+<https://www.tehlemon.com/>

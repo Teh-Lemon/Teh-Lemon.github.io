@@ -2,39 +2,39 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Teh Lemon</title>
-    <link>/categories/</link>
+    <link>tehlemon.com/categories/</link>
     <description>Recent content in Categories on Teh Lemon</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Fri, 18 May 2018 01:06:50 +0100</lastBuildDate>
     
-	<atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="tehlemon.com/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Blog</title>
-      <link>/categories/blog/</link>
+      <link>tehlemon.com/categories/blog/</link>
       <pubDate>Fri, 18 May 2018 01:06:50 +0100</pubDate>
       
-      <guid>/categories/blog/</guid>
+      <guid>tehlemon.com/categories/blog/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Web</title>
-      <link>/categories/web/</link>
+      <link>tehlemon.com/categories/web/</link>
       <pubDate>Thu, 17 May 2018 05:04:10 +0100</pubDate>
       
-      <guid>/categories/web/</guid>
+      <guid>tehlemon.com/categories/web/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Workflow</title>
-      <link>/categories/workflow/</link>
+      <link>tehlemon.com/categories/workflow/</link>
       <pubDate>Fri, 18 May 2018 00:17:02 +0100</pubDate>
       
-      <guid>/categories/workflow/</guid>
+      <guid>tehlemon.com/categories/workflow/</guid>
       <description></description>
     </item>
     

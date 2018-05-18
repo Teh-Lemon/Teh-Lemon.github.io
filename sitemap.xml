@@ -3,116 +3,116 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>tehlemon.com/blog/2018/hello-world/</loc>
+    <loc>/blog/2018/hello-world/</loc>
     <lastmod>2018-05-18T01:06:50+01:00</lastmod>
   </url>
   
   <url>
-    <loc>tehlemon.com/notes/2018/git-cheat-sheet/</loc>
+    <loc>/notes/2018/git-cheat-sheet/</loc>
     <lastmod>2018-05-18T00:17:02+01:00</lastmod>
   </url>
   
   <url>
-    <loc>tehlemon.com/notes/2018/hugo-cheat-sheet/</loc>
+    <loc>/notes/2018/hugo-cheat-sheet/</loc>
     <lastmod>2018-05-17T05:04:10+01:00</lastmod>
   </url>
   
   <url>
-    <loc>tehlemon.com/about/</loc>
+    <loc>/about/</loc>
     <lastmod>2015-06-20T14:02:37+02:00</lastmod>
   </url>
   
   <url>
-    <loc>tehlemon.com/projects/</loc>
+    <loc>/projects/</loc>
     <lastmod>2015-06-20T14:02:37+02:00</lastmod>
   </url>
   
   <url>
-    <loc>tehlemon.com/categories/blog/</loc>
+    <loc>/tags/blog/</loc>
     <lastmod>2018-05-18T01:06:50+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>tehlemon.com/tags/blog/</loc>
+    <loc>/categories/blog/</loc>
     <lastmod>2018-05-18T01:06:50+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>tehlemon.com/blog/</loc>
+    <loc>/blog/</loc>
     <lastmod>2018-05-18T01:06:50+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>tehlemon.com/categories/</loc>
+    <loc>/categories/</loc>
     <lastmod>2018-05-18T01:06:50+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>tehlemon.com/tags/git/</loc>
+    <loc>/tags/git/</loc>
     <lastmod>2018-05-18T00:17:02+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>tehlemon.com/tags/hugo/</loc>
+    <loc>/tags/hugo/</loc>
     <lastmod>2018-05-17T05:04:10+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>tehlemon.com/notes/</loc>
+    <loc>/notes/</loc>
     <lastmod>2018-05-18T00:17:02+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>tehlemon.com/tags/programming/</loc>
+    <loc>/tags/programming/</loc>
     <lastmod>2018-05-18T00:17:02+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>tehlemon.com/tags/</loc>
+    <loc>/tags/</loc>
     <lastmod>2018-05-18T01:06:50+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>tehlemon.com/</loc>
+    <loc>/</loc>
     <lastmod>2018-05-18T01:06:50+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>tehlemon.com/tags/version-control/</loc>
+    <loc>/tags/version-control/</loc>
     <lastmod>2018-05-18T00:17:02+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>tehlemon.com/categories/web/</loc>
+    <loc>/categories/web/</loc>
     <lastmod>2018-05-17T05:04:10+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>tehlemon.com/tags/web-dev/</loc>
+    <loc>/tags/web-dev/</loc>
     <lastmod>2018-05-17T05:04:10+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>tehlemon.com/categories/workflow/</loc>
+    <loc>/tags/workflow/</loc>
     <lastmod>2018-05-18T00:17:02+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>tehlemon.com/tags/workflow/</loc>
+    <loc>/categories/workflow/</loc>
     <lastmod>2018-05-18T00:17:02+01:00</lastmod>
     <priority>0</priority>
   </url>

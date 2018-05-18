@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Notes on Teh Lemon</title>
-    <link>tehlemon.com/notes/</link>
+    <link>/notes/</link>
     <description>Recent content in Notes on Teh Lemon</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Fri, 18 May 2018 00:17:02 +0100</lastBuildDate>
     
-	<atom:link href="tehlemon.com/notes/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/notes/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Git Cheat Sheet</title>
-      <link>tehlemon.com/notes/2018/git-cheat-sheet/</link>
+      <link>/notes/2018/git-cheat-sheet/</link>
       <pubDate>Fri, 18 May 2018 00:17:02 +0100</pubDate>
       
-      <guid>tehlemon.com/notes/2018/git-cheat-sheet/</guid>
+      <guid>/notes/2018/git-cheat-sheet/</guid>
       <description>&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Hugo Cheat Sheet</title>
-      <link>tehlemon.com/notes/2018/hugo-cheat-sheet/</link>
+      <link>/notes/2018/hugo-cheat-sheet/</link>
       <pubDate>Thu, 17 May 2018 05:04:10 +0100</pubDate>
       
-      <guid>tehlemon.com/notes/2018/hugo-cheat-sheet/</guid>
+      <guid>/notes/2018/hugo-cheat-sheet/</guid>
       <description>&lt;p&gt;&lt;/p&gt;</description>
     </item>
     

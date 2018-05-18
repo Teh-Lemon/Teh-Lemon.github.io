@@ -2,75 +2,75 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Teh Lemon</title>
-    <link>tehlemon.com/tags/</link>
+    <link>/tags/</link>
     <description>Recent content in Tags on Teh Lemon</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Fri, 18 May 2018 01:06:50 +0100</lastBuildDate>
     
-	<atom:link href="tehlemon.com/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Blog</title>
-      <link>tehlemon.com/tags/blog/</link>
+      <link>/tags/blog/</link>
       <pubDate>Fri, 18 May 2018 01:06:50 +0100</pubDate>
       
-      <guid>tehlemon.com/tags/blog/</guid>
+      <guid>/tags/blog/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Git</title>
-      <link>tehlemon.com/tags/git/</link>
+      <link>/tags/git/</link>
       <pubDate>Fri, 18 May 2018 00:17:02 +0100</pubDate>
       
-      <guid>tehlemon.com/tags/git/</guid>
+      <guid>/tags/git/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Hugo</title>
-      <link>tehlemon.com/tags/hugo/</link>
+      <link>/tags/hugo/</link>
       <pubDate>Thu, 17 May 2018 05:04:10 +0100</pubDate>
       
-      <guid>tehlemon.com/tags/hugo/</guid>
+      <guid>/tags/hugo/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Programming</title>
-      <link>tehlemon.com/tags/programming/</link>
+      <link>/tags/programming/</link>
       <pubDate>Fri, 18 May 2018 00:17:02 +0100</pubDate>
       
-      <guid>tehlemon.com/tags/programming/</guid>
+      <guid>/tags/programming/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Version Control</title>
-      <link>tehlemon.com/tags/version-control/</link>
+      <link>/tags/version-control/</link>
       <pubDate>Fri, 18 May 2018 00:17:02 +0100</pubDate>
       
-      <guid>tehlemon.com/tags/version-control/</guid>
+      <guid>/tags/version-control/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Web Dev</title>
-      <link>tehlemon.com/tags/web-dev/</link>
+      <link>/tags/web-dev/</link>
       <pubDate>Thu, 17 May 2018 05:04:10 +0100</pubDate>
       
-      <guid>tehlemon.com/tags/web-dev/</guid>
+      <guid>/tags/web-dev/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Workflow</title>
-      <link>tehlemon.com/tags/workflow/</link>
+      <link>/tags/workflow/</link>
       <pubDate>Fri, 18 May 2018 00:17:02 +0100</pubDate>
       
-      <guid>tehlemon.com/tags/workflow/</guid>
+      <guid>/tags/workflow/</guid>
       <description></description>
     </item>
     

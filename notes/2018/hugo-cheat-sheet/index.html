@@ -56,7 +56,7 @@
                     </h1>
                     <h2 class="headline">
                     May 17, 2018 05:04
-                    · 35 words
+                    · 71 words
                     · 1 minute read
                       <span class="tags">
                       
@@ -75,33 +75,59 @@
                 <section id="post-body">
                     <p></p>
 
-<h1 id="content">Content</h1>
+<ul>
+<li>Content
 
-<h2 id="posting">Posting</h2>
+<ul>
+<li>Posting
 
-<p><code>hugo new blog/2018/my-first-post.md</code><br />
-<code>hugo new notes/2020/how-to.md</code></p>
+<ul>
+<li><code>hugo new blog/2018/my-first-post.md</code><br /></li>
+<li><code>hugo new notes/2020/how-to.md</code></li>
+</ul></li>
+<li>Font Awesome
 
-<h2 id="testing">Testing</h2>
+<ul>
+<li><code>&lt;i class=&quot;fas fa-lemon&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt;</code></li>
+</ul></li>
+</ul></li>
+<li>Testing
 
-<p><code>hugo server</code><br />
-<code>http://localhost:1313</code></p>
+<ul>
+<li><code>hugo server</code><br /></li>
+<li><code>http://localhost:1313</code></li>
+</ul></li>
 
-<h2 id="build">Build</h2>
+<li><p>Build</p>
 
-<p><code>hugo</code><br />
-Push public folder</p>
+<ol>
+<li>Remove old files<br />
+<code>rmdir /S /Q public</code></li>
+<li>Build site<br />
+<code>hugo -b https://www.tehlemon.com</code></li>
 
-<h1 id="theming">Theming</h1>
+<li><p>Push to production repo</p>
 
-<h2 id="adding-pages">Adding Pages</h2>
+<pre><code class="language-bash">cd public  
+set /p commitmsg=&quot;Enter a commit message: &quot;  
+git add --all .  
+git commit -m &quot;%commitmsg%&quot;  
+git push origin master  
+</code></pre></li>
+</ol></li>
+
+<li><p>Theming</p>
+
+<ul>
+<li>Adding Pages
 
 <ol>
 <li>Add to nav.html in <code>/layouts/partials/</code></li>
 <li>Add to config.toml</li>
 <li>Add folder to <code>/content/</code></li>
-<li>Add to BUILD.bat</li>
-</ol>
+</ol></li>
+</ul></li>
+</ul>
                 </section>
             </article>
 
@@ -126,6 +152,10 @@ Push public folder</p>
 
     
     
+    
+        <li>
+            <a href="../../../notes/2018/markdown-cheet-sheet/">Markdown Cheat Sheet<aside class="dates">May 19 2018</aside></a>
+        </li>
     
         <li>
             <a href="../../../blog/2018/hello-world/">Hello World!<aside class="dates">May 18 2018</aside></a>

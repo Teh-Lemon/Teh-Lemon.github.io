@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Programming on Teh Lemon</title>
-    <link>https://tehlemon.com/tags/programming/</link>
+    <link>https://www.tehlemon.com/tags/programming/</link>
     <description>Recent content in Programming on Teh Lemon</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Fri, 18 May 2018 00:17:02 +0100</lastBuildDate>
     
-	<atom:link href="https://tehlemon.com/tags/programming/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.tehlemon.com/tags/programming/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Git Cheat Sheet</title>
-      <link>https://tehlemon.com/notes/2018/git-cheat-sheet/</link>
+      <link>https://www.tehlemon.com/notes/2018/git-cheat-sheet/</link>
       <pubDate>Fri, 18 May 2018 00:17:02 +0100</pubDate>
       
-      <guid>https://tehlemon.com/notes/2018/git-cheat-sheet/</guid>
+      <guid>https://www.tehlemon.com/notes/2018/git-cheat-sheet/</guid>
       <description>&lt;p&gt;&lt;/p&gt;</description>
     </item>
     

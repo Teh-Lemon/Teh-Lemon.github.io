@@ -33,13 +33,13 @@
   </url>
   
   <url>
-    <loc>https://www.tehlemon.com/categories/blog/</loc>
+    <loc>https://www.tehlemon.com/tags/blog/</loc>
     <lastmod>2018-05-18T01:06:50+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://www.tehlemon.com/tags/blog/</loc>
+    <loc>https://www.tehlemon.com/categories/blog/</loc>
     <lastmod>2018-05-18T01:06:50+01:00</lastmod>
     <priority>0</priority>
   </url>
@@ -81,13 +81,13 @@
   </url>
   
   <url>
-    <loc>https://www.tehlemon.com/categories/programming/</loc>
+    <loc>https://www.tehlemon.com/tags/programming/</loc>
     <lastmod>2018-05-18T00:17:02+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://www.tehlemon.com/tags/programming/</loc>
+    <loc>https://www.tehlemon.com/categories/programming/</loc>
     <lastmod>2018-05-18T00:17:02+01:00</lastmod>
     <priority>0</priority>
   </url>

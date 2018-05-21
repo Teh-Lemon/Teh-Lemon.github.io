@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Blogs on Teh Lemon</title>
-    <link>https://www.tehlemon.com/blog/</link>
-    <description>Recent content in Blogs on Teh Lemon</description>
+    <title>Hong Kong on Teh Lemon</title>
+    <link>https://www.tehlemon.com/tags/hong-kong/</link>
+    <description>Recent content in Hong Kong on Teh Lemon</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Sun, 20 May 2018 04:58:51 +0100</lastBuildDate>
     
-	<atom:link href="https://www.tehlemon.com/blog/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.tehlemon.com/tags/hong-kong/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -21,17 +21,6 @@
 Starting from learning an entirely new photo editing workflow to building an entire website for it to searching for a new image host (and also the post-holiday procrastination phase but shh).
 It didn&amp;rsquo;t help that this day has a lot of photos and that they were really hard to edit lowlight shots.
 Just look at what I had to work with:</description>
-    </item>
-    
-    <item>
-      <title>Hello World!</title>
-      <link>https://www.tehlemon.com/blog/2018/hello-world/</link>
-      <pubDate>Fri, 18 May 2018 01:06:50 +0100</pubDate>
-      
-      <guid>https://www.tehlemon.com/blog/2018/hello-world/</guid>
-      <description>New website! From raw HTML with inlined CSS, to WordPress, to Jekyll and now to Hugo.
-I&amp;rsquo;m giving Hugo a try after reformatting my computer and realising how much crap I&amp;rsquo;d have to reinstall just to get Jekyll working again along with all its dependencies.
-Plus, my Jekyll sites are always so hacked together to achieve what I want that the original theme code no longer salvageable. I just want to start fresh.</description>
     </item>
     
   </channel>

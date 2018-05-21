@@ -1,0 +1,10 @@
+img {
+    width: auto;
+    max-width: 105%;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+
+#wrapper.post {
+    max-width: 725px;
+}

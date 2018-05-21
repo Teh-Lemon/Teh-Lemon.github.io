@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://www.tehlemon.com/blog/2018/hk-02/</loc>
+    <lastmod>2018-05-20T04:58:51+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.tehlemon.com/notes/2018/markdown-cheet-sheet/</loc>
     <lastmod>2018-05-19T04:07:28+01:00</lastmod>
   </url>
@@ -34,31 +39,37 @@
   
   <url>
     <loc>https://www.tehlemon.com/tags/blog/</loc>
-    <lastmod>2018-05-18T01:06:50+01:00</lastmod>
+    <lastmod>2018-05-20T04:58:51+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.tehlemon.com/categories/blog/</loc>
-    <lastmod>2018-05-18T01:06:50+01:00</lastmod>
+    <lastmod>2018-05-20T04:58:51+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.tehlemon.com/blog/</loc>
-    <lastmod>2018-05-18T01:06:50+01:00</lastmod>
+    <lastmod>2018-05-20T04:58:51+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.tehlemon.com/categories/</loc>
-    <lastmod>2018-05-18T01:06:50+01:00</lastmod>
+    <lastmod>2018-05-20T04:58:51+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.tehlemon.com/tags/git/</loc>
     <lastmod>2018-05-18T00:17:02+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.tehlemon.com/tags/hong-kong/</loc>
+    <lastmod>2018-05-20T04:58:51+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -81,6 +92,12 @@
   </url>
   
   <url>
+    <loc>https://www.tehlemon.com/tags/photography/</loc>
+    <lastmod>2018-05-20T04:58:51+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://www.tehlemon.com/tags/programming/</loc>
     <lastmod>2018-05-18T00:17:02+01:00</lastmod>
     <priority>0</priority>
@@ -94,13 +111,13 @@
   
   <url>
     <loc>https://www.tehlemon.com/tags/</loc>
-    <lastmod>2018-05-18T01:06:50+01:00</lastmod>
+    <lastmod>2018-05-20T04:58:51+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.tehlemon.com/</loc>
-    <lastmod>2018-05-19T04:07:28+01:00</lastmod>
+    <lastmod>2018-05-20T04:58:51+01:00</lastmod>
     <priority>0</priority>
   </url>
   

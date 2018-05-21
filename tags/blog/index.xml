@@ -6,10 +6,22 @@
     <description>Recent content in Blog on Teh Lemon</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 18 May 2018 01:06:50 +0100</lastBuildDate>
+    <lastBuildDate>Sun, 20 May 2018 04:58:51 +0100</lastBuildDate>
     
 	<atom:link href="https://www.tehlemon.com/tags/blog/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Hong Kong 2018 Day 2</title>
+      <link>https://www.tehlemon.com/blog/2018/hk-02/</link>
+      <pubDate>Sun, 20 May 2018 04:58:51 +0100</pubDate>
+      
+      <guid>https://www.tehlemon.com/blog/2018/hk-02/</guid>
+      <description>This has been the longest I&amp;rsquo;ve ever spent on a /blog.
+Starting from learning an entirely new photo editing workflow to building an entire website for it to searching for a new image host (and also the post-holiday procrastination phase but shh).
+It didn&amp;rsquo;t help that this day has a lot of photos and that they were really hard to edit lowlight shots.
+Just look at what I had to work with:</description>
+    </item>
     
     <item>
       <title>Hello World!</title>
@@ -17,9 +29,9 @@
       <pubDate>Fri, 18 May 2018 01:06:50 +0100</pubDate>
       
       <guid>https://www.tehlemon.com/blog/2018/hello-world/</guid>
-      <description>&lt;h1 id=&#34;again&#34;&gt;&amp;hellip;again&lt;/h1&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+      <description>New website! From raw HTML with inlined CSS, to WordPress, to Jekyll and now to Hugo.
+I&amp;rsquo;m giving Hugo a try after reformatting my computer and realising how much crap I&amp;rsquo;d have to reinstall just to get Jekyll working again along with all its dependencies.
+Plus, my Jekyll sites are always so hacked together to achieve what I want that the original theme code no longer salvageable. I just want to start fresh.</description>
     </item>
     
   </channel>

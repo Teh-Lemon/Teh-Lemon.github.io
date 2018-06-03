@@ -3,6 +3,11 @@ img {
     max-width: 105%;
     margin-left: 50%;
     transform: translateX(-50%);
+    transition: 0.1s;
+}
+
+img:hover {
+    max-width: 135%;
 }
 
 #wrapper.post {

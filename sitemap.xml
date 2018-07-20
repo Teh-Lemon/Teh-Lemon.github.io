@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://www.tehlemon.com/blog/2018/hk-04-2/</loc>
+    <lastmod>2018-07-20T20:55:37+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.tehlemon.com/blog/2018/mcm-18-05/</loc>
     <lastmod>2018-06-02T07:29:41+01:00</lastmod>
   </url>
@@ -20,6 +25,11 @@
   <url>
     <loc>https://www.tehlemon.com/blog/2018/hk-02/</loc>
     <lastmod>2018-05-20T04:58:51+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.tehlemon.com/notes/2018/ffmpeg-cheet-sheet/</loc>
+    <lastmod>2018-05-19T04:07:28+01:00</lastmod>
   </url>
   
   <url>
@@ -59,32 +69,50 @@
   </url>
   
   <url>
+    <loc>https://www.tehlemon.com/tags/audio/</loc>
+    <lastmod>2018-05-19T04:07:28+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.tehlemon.com/tags/batch/</loc>
+    <lastmod>2018-05-19T04:07:28+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://www.tehlemon.com/tags/blog/</loc>
-    <lastmod>2018-06-02T07:29:41+01:00</lastmod>
+    <lastmod>2018-07-20T20:55:37+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.tehlemon.com/categories/blog/</loc>
-    <lastmod>2018-06-02T07:29:41+01:00</lastmod>
+    <lastmod>2018-07-20T20:55:37+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.tehlemon.com/blog/</loc>
-    <lastmod>2018-06-02T07:29:41+01:00</lastmod>
+    <lastmod>2018-07-20T20:55:37+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.tehlemon.com/categories/</loc>
-    <lastmod>2018-06-02T07:29:41+01:00</lastmod>
+    <lastmod>2018-07-20T20:55:37+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.tehlemon.com/tags/events/</loc>
     <lastmod>2018-06-02T07:29:41+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.tehlemon.com/tags/ffmpeg/</loc>
+    <lastmod>2018-05-19T04:07:28+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -96,7 +124,7 @@
   
   <url>
     <loc>https://www.tehlemon.com/tags/hong-kong/</loc>
-    <lastmod>2018-05-24T06:09:25+01:00</lastmod>
+    <lastmod>2018-07-20T20:55:37+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -125,6 +153,18 @@
   </url>
   
   <url>
+    <loc>https://www.tehlemon.com/tags/media/</loc>
+    <lastmod>2018-05-19T04:07:28+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.tehlemon.com/categories/media/</loc>
+    <lastmod>2018-05-19T04:07:28+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://www.tehlemon.com/notes/</loc>
     <lastmod>2018-05-19T04:07:28+01:00</lastmod>
     <priority>0</priority>
@@ -132,7 +172,7 @@
   
   <url>
     <loc>https://www.tehlemon.com/tags/photography/</loc>
-    <lastmod>2018-06-02T07:29:41+01:00</lastmod>
+    <lastmod>2018-07-20T20:55:37+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -156,13 +196,19 @@
   
   <url>
     <loc>https://www.tehlemon.com/</loc>
-    <lastmod>2018-06-02T07:29:41+01:00</lastmod>
+    <lastmod>2018-07-20T20:55:37+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.tehlemon.com/tags/version-control/</loc>
     <lastmod>2018-05-18T00:17:02+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.tehlemon.com/tags/video/</loc>
+    <lastmod>2018-05-19T04:07:28+01:00</lastmod>
     <priority>0</priority>
   </url>
   

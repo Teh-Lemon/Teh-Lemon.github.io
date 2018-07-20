@@ -6,7 +6,7 @@
     <description>Recent content in Categories on Teh Lemon</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 02 Jun 2018 07:29:41 +0100</lastBuildDate>
+    <lastBuildDate>Fri, 20 Jul 2018 20:55:37 +0100</lastBuildDate>
     
 	<atom:link href="https://www.tehlemon.com/categories/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,9 +14,18 @@
     <item>
       <title>Blog</title>
       <link>https://www.tehlemon.com/categories/blog/</link>
-      <pubDate>Sat, 02 Jun 2018 07:29:41 +0100</pubDate>
+      <pubDate>Fri, 20 Jul 2018 20:55:37 +0100</pubDate>
       
       <guid>https://www.tehlemon.com/categories/blog/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Media</title>
+      <link>https://www.tehlemon.com/categories/media/</link>
+      <pubDate>Sat, 19 May 2018 04:07:28 +0100</pubDate>
+      
+      <guid>https://www.tehlemon.com/categories/media/</guid>
       <description></description>
     </item>
     

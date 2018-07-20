@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Video on Teh Lemon</title>
+    <link>https://www.tehlemon.com/tags/video/</link>
+    <description>Recent content in Video on Teh Lemon</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 19 May 2018 04:07:28 +0100</lastBuildDate>
+    
+	<atom:link href="https://www.tehlemon.com/tags/video/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>FFmpeg Cheat Sheet</title>
+      <link>https://www.tehlemon.com/notes/2018/ffmpeg-cheet-sheet/</link>
+      <pubDate>Sat, 19 May 2018 04:07:28 +0100</pubDate>
+      
+      <guid>https://www.tehlemon.com/notes/2018/ffmpeg-cheet-sheet/</guid>
+      <description>&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

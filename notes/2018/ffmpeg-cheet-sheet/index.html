@@ -8,7 +8,7 @@
 		<meta name="author" content="Teh Lemon">
 		<meta name="description" content="Teh Lemon&#39;s Blog">
 		<meta name="generator" content="Hugo 0.40.3" />
-		<title>Markdown Cheat Sheet &middot; Teh Lemon</title>
+		<title>FFmpeg Cheat Sheet &middot; Teh Lemon</title>
 		<link rel="shortcut icon" href="https://www.tehlemon.com/images/favicon.ico">
 		<link rel="stylesheet" href="https://www.tehlemon.com/css/style.css">
 		<link rel="stylesheet" href="https://www.tehlemon.com/css/highlight.css">
@@ -55,19 +55,25 @@
             <article>
                 <header>
                     <h1>
-                        Markdown Cheat Sheet
+                        FFmpeg Cheat Sheet
                     </h1>
                     <h2 class="headline">
                     May 19, 2018 04:07
-                    · 70 words
+                    · 90 words
                     · 1 minute read
                       <span class="tags">
                       
                       
                           
-                              <a href="https://www.tehlemon.com/tags/web-dev">Web Dev</a>
+                              <a href="https://www.tehlemon.com/tags/media">media</a>
                           
-                              <a href="https://www.tehlemon.com/tags/markdown">Markdown</a>
+                              <a href="https://www.tehlemon.com/tags/ffmpeg">ffmpeg</a>
+                          
+                              <a href="https://www.tehlemon.com/tags/video">video</a>
+                          
+                              <a href="https://www.tehlemon.com/tags/batch">batch</a>
+                          
+                              <a href="https://www.tehlemon.com/tags/audio">audio</a>
                           
                       
                       
@@ -78,78 +84,34 @@
                 <section id="post-body">
                     <p></p>
 
-<ul>
-<li>Images
+<h2 id="conversion">Conversion</h2>
 
-<ul>
-<li><code>![Alt Text](images/thing.jpg)</code></li>
-</ul></li>
-<li>Links
+<h3 id="batchtomp3-bat">BatchToMp3.bat</h3>
 
-<ul>
-<li><code>&lt;https://link.com&gt;</code></li>
-<li><code>[Text](https://link.com)</code></li>
-</ul></li>
-<li>Linked Images
+<p>Loop through every video in this directory and convert it to V2 .mp3.</p>
 
-<ul>
-<li><code>[![Alt Text](images/thing.jpg)](https://link.com)</code></li>
-</ul></li>
+<pre><code>for %%a in (&quot;*.mkv&quot; &quot;*.mp4&quot; &quot;*.webm&quot;) do ffmpeg -i &quot;%%a&quot; -codec:a libmp3lame -qscale:a 2 &quot;%%a.mp3&quot;
+</code></pre>
 
-<li><p>Styles</p>
+<h3 id="encode-vp8-webm">Encode VP8 Webm</h3>
 
-<ul>
-<li><code>_italics_</code></li>
-<li><code>**Bold**</code></li>
-<li><code>**_Bold and Italic_**</code></li>
-<li><code>~~Strike-through~~</code></li>
-<li>`code`</li>
+<pre><code>-c:v libvpx -pix_fmt yuv420p -lag-in-frames 16 -auto-alt-ref 1 -qmin 28 -crf 30 -qmax 32 -qcomp 1 -b:v 0
+</code></pre>
 
-<li><pre><code class="language-markdown">    * My List Item
+<h2 id="video-editing">Video Editing</h2>
 
-        ```csharp
-        int thing = 0;
-        float boop = 2.4;
-        ```
-</code></pre></li>
+<h3 id="hold-the-last-frame">Hold the last frame</h3>
 
-<li><p><code>&lt;sup&gt;Superscript&lt;/sup&gt;</code></p></li>
-</ul></li>
+<p><code>N</code> in <code>trim=0:N</code> changes the duration of the freeze.</p>
 
-<li><p>Hugo</p>
-
-<ul>
-<li><code>{{&lt; youtube w7Ft2ymGmfc &gt;}}</code></li>
-<li><code>{{&lt; tweet 877500564405444608 &gt;}}</code></li>
-<li><code>{{&lt; gist spf13 7896402 &gt;}}</code></li>
-<li><code>{{&lt; figure src=&quot;/media/spf13.jpg&quot; title=&quot;Steve Francia&quot; &gt;}}</code>
-
-<ul>
-<li>src</li>
-<li>link</li>
-<li>target
-
-<ul>
-<li>_blank = new tab</li>
-</ul></li>
-<li>title</li>
-<li>caption</li>
-<li>height</li>
-<li>width</li>
-</ul></li>
-<li><code>{{&lt; img-tl &quot;blog/2018/holiday/day-02/thing.jpg&quot; &gt;}}</code>
-
-<ul>
-<li>For images.tehlemon.com</li>
-</ul></li>
-</ul></li>
-</ul>
+<pre><code>ffmpeg -i in.webm -filter_complex &quot;[0]trim=0:N[hold];[0][hold]concat[extended];[extended][0]overlay&quot; -c:v libvpx -pix_fmt yuv420p -lag-in-frames 16 -auto-alt-ref 1 -qmin 28 -crf 30 -qmax 32 -qcomp 1 -b:v 0 out.webm
+</code></pre>
                 </section>
             </article>
 
             
                   
-<a class="twitter" href="https://twitter.com/intent/tweet?text=https%3a%2f%2fwww.tehlemon.com%2fnotes%2f2018%2fmarkdown-cheet-sheet%2f - Markdown%20Cheat%20Sheet by @tehlemon"><span class="fab fa-twitter-square"> tweet</span></a>
+<a class="twitter" href="https://twitter.com/intent/tweet?text=https%3a%2f%2fwww.tehlemon.com%2fnotes%2f2018%2fffmpeg-cheet-sheet%2f - FFmpeg%20Cheat%20Sheet by @tehlemon"><span class="fab fa-twitter-square"> tweet</span></a>
 
 <a class="facebook" href="#" onclick="
     window.open(
@@ -192,7 +154,7 @@
         </li>
     
         <li>
-            <a href="../../../notes/2018/ffmpeg-cheet-sheet/">FFmpeg Cheat Sheet<aside class="dates">May 19 2018</aside></a>
+            <a href="../../../notes/2018/markdown-cheet-sheet/">Markdown Cheat Sheet<aside class="dates">May 19 2018</aside></a>
         </li>
     
         <li>

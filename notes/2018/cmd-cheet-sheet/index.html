@@ -8,7 +8,7 @@
 		<meta name="author" content="Teh Lemon">
 		<meta name="description" content="Teh Lemon&#39;s Blog">
 		<meta name="generator" content="Hugo 0.40.3" />
-		<title>FFmpeg Cheat Sheet &middot; Teh Lemon</title>
+		<title>Command-Line Cheat Sheet &middot; Teh Lemon</title>
 		<link rel="shortcut icon" href="https://www.tehlemon.com/images/favicon.ico">
 		<link rel="stylesheet" href="https://www.tehlemon.com/css/style.css">
 		<link rel="stylesheet" href="https://www.tehlemon.com/css/highlight.css">
@@ -55,11 +55,11 @@
             <article>
                 <header>
                     <h1>
-                        FFmpeg Cheat Sheet
+                        Command-Line Cheat Sheet
                     </h1>
                     <h2 class="headline">
-                    May 19, 2018 04:07
-                    · 90 words
+                    Jul 21, 2018 03:58
+                    · 127 words
                     · 1 minute read
                       <span class="tags">
                       
@@ -75,6 +75,12 @@
                           
                               <a href="https://www.tehlemon.com/tags/audio">audio</a>
                           
+                              <a href="https://www.tehlemon.com/tags/cmd">cmd</a>
+                          
+                              <a href="https://www.tehlemon.com/tags/bash">bash</a>
+                          
+                              <a href="https://www.tehlemon.com/tags/imagemagick">imagemagick</a>
+                          
                       
                       
                       </span>
@@ -82,11 +88,12 @@
                 </header>
                 
                 <section id="post-body">
-                    <p></p>
+                    <p>How to use various command-line utilities including batch, bash, FFmpeg and ImageMagick.
+</p>
 
 <h2 id="conversion">Conversion</h2>
 
-<h3 id="batchtomp3-bat">BatchToMp3.bat</h3>
+<h3 id="batch-to-mp3-bat">Batch To Mp3.bat</h3>
 
 <p>Loop through every video in this directory and convert it to V2 .mp3.</p>
 
@@ -96,6 +103,14 @@
 <h3 id="encode-vp8-webm">Encode VP8 Webm</h3>
 
 <pre><code>-c:v libvpx -pix_fmt yuv420p -lag-in-frames 16 -auto-alt-ref 1 -qmin 28 -crf 30 -qmax 32 -qcomp 1 -b:v 0
+</code></pre>
+
+<h3 id="convert-to-jpeg">Convert to JPEG</h3>
+
+<p>Convert all BMP files in directory to JPEG then delete them.</p>
+
+<pre><code>magick mogrify -format jpg -quality 80 *.bmp
+del *.bmp
 </code></pre>
 
 <h2 id="video-editing">Video Editing</h2>
@@ -111,7 +126,7 @@
 
             
                   
-<a class="twitter" href="https://twitter.com/intent/tweet?text=https%3a%2f%2fwww.tehlemon.com%2fnotes%2f2018%2fffmpeg-cheet-sheet%2f - FFmpeg%20Cheat%20Sheet by @tehlemon"><span class="fab fa-twitter-square"> tweet</span></a>
+<a class="twitter" href="https://twitter.com/intent/tweet?text=https%3a%2f%2fwww.tehlemon.com%2fnotes%2f2018%2fcmd-cheet-sheet%2f - Command-Line%20Cheat%20Sheet by @tehlemon"><span class="fab fa-twitter-square"> tweet</span></a>
 
 <a class="facebook" href="#" onclick="
     window.open(

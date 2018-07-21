@@ -6,18 +6,19 @@
     <description>Recent content in Media on Teh Lemon</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 19 May 2018 04:07:28 +0100</lastBuildDate>
+    <lastBuildDate>Sat, 21 Jul 2018 03:58:05 +0100</lastBuildDate>
     
 	<atom:link href="https://www.tehlemon.com/tags/media/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>FFmpeg Cheat Sheet</title>
-      <link>https://www.tehlemon.com/notes/2018/ffmpeg-cheet-sheet/</link>
-      <pubDate>Sat, 19 May 2018 04:07:28 +0100</pubDate>
+      <title>Command-Line Cheat Sheet</title>
+      <link>https://www.tehlemon.com/notes/2018/cmd-cheet-sheet/</link>
+      <pubDate>Sat, 21 Jul 2018 03:58:05 +0100</pubDate>
       
-      <guid>https://www.tehlemon.com/notes/2018/ffmpeg-cheet-sheet/</guid>
-      <description>&lt;p&gt;&lt;/p&gt;</description>
+      <guid>https://www.tehlemon.com/notes/2018/cmd-cheet-sheet/</guid>
+      <description>&lt;p&gt;How to use various command-line utilities including batch, bash, FFmpeg and ImageMagick.
+&lt;/p&gt;</description>
     </item>
     
   </channel>

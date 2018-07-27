@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://www.tehlemon.com/blog/2018/ltmuseum/</loc>
+    <lastmod>2018-07-27T04:07:26+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.tehlemon.com/notes/2018/cmd-cheet-sheet/</loc>
     <lastmod>2018-07-21T03:58:05+01:00</lastmod>
   </url>
@@ -88,25 +93,25 @@
   
   <url>
     <loc>https://www.tehlemon.com/tags/blog/</loc>
-    <lastmod>2018-07-20T20:55:37+01:00</lastmod>
+    <lastmod>2018-07-27T04:07:26+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.tehlemon.com/categories/blog/</loc>
-    <lastmod>2018-07-20T20:55:37+01:00</lastmod>
+    <lastmod>2018-07-27T04:07:26+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.tehlemon.com/blog/</loc>
-    <lastmod>2018-07-20T20:55:37+01:00</lastmod>
+    <lastmod>2018-07-27T04:07:26+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.tehlemon.com/categories/</loc>
-    <lastmod>2018-07-20T20:55:37+01:00</lastmod>
+    <lastmod>2018-07-27T04:07:26+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -160,7 +165,7 @@
   
   <url>
     <loc>https://www.tehlemon.com/tags/london/</loc>
-    <lastmod>2018-06-02T07:29:41+01:00</lastmod>
+    <lastmod>2018-07-27T04:07:26+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -183,6 +188,12 @@
   </url>
   
   <url>
+    <loc>https://www.tehlemon.com/tags/museums/</loc>
+    <lastmod>2018-07-27T04:07:26+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://www.tehlemon.com/notes/</loc>
     <lastmod>2018-07-21T03:58:05+01:00</lastmod>
     <priority>0</priority>
@@ -190,7 +201,7 @@
   
   <url>
     <loc>https://www.tehlemon.com/tags/photography/</loc>
-    <lastmod>2018-07-20T20:55:37+01:00</lastmod>
+    <lastmod>2018-07-27T04:07:26+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -214,7 +225,7 @@
   
   <url>
     <loc>https://www.tehlemon.com/</loc>
-    <lastmod>2018-07-21T03:58:05+01:00</lastmod>
+    <lastmod>2018-07-27T04:07:26+01:00</lastmod>
     <priority>0</priority>
   </url>
   

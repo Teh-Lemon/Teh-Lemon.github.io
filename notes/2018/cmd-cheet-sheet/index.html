@@ -59,7 +59,7 @@
                     </h1>
                     <h2 class="headline">
                     Jul 21, 2018 03:58
-                    · 127 words
+                    · 151 words
                     · 1 minute read
                       <span class="tags">
                       
@@ -113,6 +113,19 @@
 del *.bmp
 </code></pre>
 
+<h2 id="image-editing">Image Editing</h2>
+
+<ul>
+<li><code>convert</code> creates a new file<br /></li>
+<li><code>mogrify</code> overwrites the original file</li>
+</ul>
+
+<h3 id="resize">Resize</h3>
+
+<pre><code>magick convert &quot;thing.jpg&quot; -resize 50% &quot;thing-small.jpg&quot;
+magick mogrify &quot;thing.jpg&quot; -resize 50%
+</code></pre>
+
 <h2 id="video-editing">Video Editing</h2>
 
 <h3 id="hold-the-last-frame">Hold the last frame</h3>
@@ -147,6 +160,10 @@ del *.bmp
 
     
     
+    
+        <li>
+            <a href="../../../blog/2018/ltmuseum/">London Trip to the Transport Museum<aside class="dates">Jul 27 2018</aside></a>
+        </li>
     
         <li>
             <a href="../../../blog/2018/hk-04-2/">Hong Kong 2018 Day 4 Part 2<aside class="dates">Jul 20 2018</aside></a>

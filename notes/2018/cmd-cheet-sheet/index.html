@@ -59,7 +59,7 @@
                     </h1>
                     <h2 class="headline">
                     Jul 21, 2018 03:58
-                    · 222 words
+                    · 234 words
                     · 2 minute read
                       <span class="tags">
                       
@@ -128,6 +128,12 @@ del *.bmp
 
 <pre><code>magick convert &quot;thing.jpg&quot; -resize 50% &quot;thing-small.jpg&quot;
 magick mogrify &quot;thing.jpg&quot; -resize 50%
+</code></pre>
+
+<h3 id="rotation">Rotation</h3>
+
+<pre><code>magick convert -rotate &quot;90&quot; in.jpg out.jpg
+magick mogrify -rotate &quot;-45&quot; foo.jpg
 </code></pre>
 
 <h3 id="arrays">Arrays</h3>

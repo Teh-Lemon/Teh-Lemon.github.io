@@ -59,7 +59,7 @@
                     </h1>
                     <h2 class="headline">
                     Jul 21, 2018 03:58
-                    · 234 words
+                    · 279 words
                     · 2 minute read
                       <span class="tags">
                       
@@ -136,7 +136,7 @@ magick mogrify &quot;thing.jpg&quot; -resize 50%
 magick mogrify -rotate &quot;-45&quot; foo.jpg
 </code></pre>
 
-<h3 id="arrays">Arrays</h3>
+<h3 id="tiling">Tiling</h3>
 
 <p><a href="https://www.imagemagick.org/Usage/montage/#settings">https://www.imagemagick.org/Usage/montage/#settings</a><br />
 Create a spritesheet from the files with a maximum size of 256x128, with a spacing of 0 pixels in between and 1 pixel on the top and bottom, with 2 columns and 1 row.<br />
@@ -153,6 +153,24 @@ Tiling optional, montage will distribute it evenly by default.<br />
 <p><code>N</code> in <code>trim=0:N</code> changes the duration of the freeze.</p>
 
 <pre><code>ffmpeg -i in.webm -filter_complex &quot;[0]trim=0:N[hold];[0][hold]concat[extended];[extended][0]overlay&quot; -c:v libvpx -pix_fmt yuv420p -lag-in-frames 16 -auto-alt-ref 1 -qmin 28 -crf 30 -qmax 32 -qcomp 1 -b:v 0 out.webm
+</code></pre>
+
+<h3 id="tiling-1">Tiling</h3>
+
+<pre><code>ffmpeg
+    -i 1.avi -i 2.avi -i 3.avi -i 4.avi
+    -filter_complex &quot;
+        nullsrc=size=640x480 [base];
+        [0:v] setpts=PTS-STARTPTS, scale=320x240 [upperleft];
+        [1:v] setpts=PTS-STARTPTS, scale=320x240 [upperright];
+        [2:v] setpts=PTS-STARTPTS, scale=320x240 [lowerleft];
+        [3:v] setpts=PTS-STARTPTS, scale=320x240 [lowerright];
+        [base][upperleft] overlay=shortest=1 [tmp1];
+        [tmp1][upperright] overlay=shortest=1:x=320 [tmp2];
+        [tmp2][lowerleft] overlay=shortest=1:y=240 [tmp3];
+        [tmp3][lowerright] overlay=shortest=1:x=320:y=240
+    &quot;
+    -c:v libx264 output.mkv
 </code></pre>
                 </section>
             </article>

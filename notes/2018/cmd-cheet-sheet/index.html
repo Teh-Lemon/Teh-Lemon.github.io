@@ -59,7 +59,7 @@
                     </h1>
                     <h2 class="headline">
                     Jul 21, 2018 03:58
-                    · 279 words
+                    · 287 words
                     · 2 minute read
                       <span class="tags">
                       
@@ -144,6 +144,9 @@ Tiling optional, montage will distribute it evenly by default.<br />
 256x128 optional, montage will leave things at their original size.</p>
 
 <pre><code>magick montage &quot;file1.jpg&quot; &quot;file2.jpg&quot; &quot;file3.jpg&quot; -geometry 256x128+0+1 -tile 2x1 montage.jpg
+</code></pre>
+
+<pre><code>magick montage *.jpg -geometry +0 -tile 1 foo.jpg
 </code></pre>
 
 <h2 id="video-editing">Video Editing</h2>

@@ -59,7 +59,7 @@
                     </h1>
                     <h2 class="headline">
                     Jul 21, 2018 03:58
-                    · 287 words
+                    · 317 words
                     · 2 minute read
                       <span class="tags">
                       
@@ -93,16 +93,25 @@
 
 <h2 id="conversion">Conversion</h2>
 
-<h3 id="batch-to-mp3-bat">Batch To Mp3.bat</h3>
+<h3 id="batch-to-mp3">Batch To Mp3</h3>
 
 <p>Loop through every video in this directory and convert it to V2 .mp3.</p>
 
 <pre><code>for %%a in (&quot;*.mkv&quot; &quot;*.mp4&quot; &quot;*.webm&quot;) do ffmpeg -i &quot;%%a&quot; -codec:a libmp3lame -qscale:a 2 &quot;%%a.mp3&quot;
 </code></pre>
 
+<h3 id="batch-to-opus">Batch to Opus</h3>
+
+<p>Renames to .ogg for compatibility reasons.
+Defaults to 96K bitrate.</p>
+
+<pre><code>for %%a in (&quot;*.mkv&quot; &quot;*.mp4&quot; &quot;*.webm&quot;) do ffmpeg -i &quot;%%a&quot; -acodec libopus &quot;%%a.opus&quot;
+ren *.opus *.ogg
+</code></pre>
+
 <h3 id="encode-vp8-webm">Encode VP8 Webm</h3>
 
-<pre><code>-c:v libvpx -pix_fmt yuv420p -lag-in-frames 16 -auto-alt-ref 1 -qmin 28 -crf 30 -qmax 32 -qcomp 1 -b:v 0
+<pre><code>-c:v libvpx -pix_fmt yuv420p -lag-in-frames 16 -auto-alt-ref 1 -qmin 28 -crf 30 -qmax 32 -qcomp 1 -b:v 0 out.webm
 </code></pre>
 
 <h3 id="convert-to-jpeg">Convert to JPEG</h3>

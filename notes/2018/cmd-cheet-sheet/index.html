@@ -59,7 +59,7 @@
                     </h1>
                     <h2 class="headline">
                     Jul 21, 2018 03:58
-                    · 317 words
+                    · 327 words
                     · 2 minute read
                       <span class="tags">
                       
@@ -183,6 +183,11 @@ Tiling optional, montage will distribute it evenly by default.<br />
         [tmp3][lowerright] overlay=shortest=1:x=320:y=240
     &quot;
     -c:v libx264 output.mkv
+</code></pre>
+
+<h3 id="time-range">Time Range</h3>
+
+<pre><code>ffmpeg -i input.mp4 -ss 00:00:00.00 -to 00:04:15.00 [output]
 </code></pre>
                 </section>
             </article>

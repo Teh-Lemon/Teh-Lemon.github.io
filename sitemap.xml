@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://www.tehlemon.com/blog/2018/fag-ao-koto/</loc>
+    <lastmod>2018-11-04T18:29:58+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.tehlemon.com/blog/2018/mcm-18-10/</loc>
     <lastmod>2018-10-27T17:18:20+01:00</lastmod>
   </url>
@@ -79,7 +84,7 @@
   
   <url>
     <loc>https://www.tehlemon.com/tags/anime/</loc>
-    <lastmod>2018-10-27T17:18:20+01:00</lastmod>
+    <lastmod>2018-11-04T18:29:58+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -115,7 +120,7 @@
   
   <url>
     <loc>https://www.tehlemon.com/blog/</loc>
-    <lastmod>2018-10-27T17:18:20+01:00</lastmod>
+    <lastmod>2018-11-04T18:29:58+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -140,6 +145,24 @@
   <url>
     <loc>https://www.tehlemon.com/tags/ffmpeg/</loc>
     <lastmod>2018-07-21T03:58:05+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.tehlemon.com/tags/figures/</loc>
+    <lastmod>2018-11-04T18:29:58+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.tehlemon.com/categories/figures/</loc>
+    <lastmod>2018-11-04T18:29:58+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.tehlemon.com/tags/frame-arms-girl/</loc>
+    <lastmod>2018-11-04T18:29:58+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -211,7 +234,7 @@
   
   <url>
     <loc>https://www.tehlemon.com/tags/photography/</loc>
-    <lastmod>2018-10-27T17:18:20+01:00</lastmod>
+    <lastmod>2018-11-04T18:29:58+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -229,13 +252,13 @@
   
   <url>
     <loc>https://www.tehlemon.com/tags/</loc>
-    <lastmod>2018-10-27T17:18:20+01:00</lastmod>
+    <lastmod>2018-11-04T18:29:58+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.tehlemon.com/</loc>
-    <lastmod>2018-10-27T17:18:20+01:00</lastmod>
+    <lastmod>2018-11-04T18:29:58+00:00</lastmod>
     <priority>0</priority>
   </url>
   

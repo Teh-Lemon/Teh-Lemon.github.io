@@ -1,13 +1,14 @@
+/*
 img {
     width: auto;
-    max-width: 105%;
+    max-width: 107.5%;
     margin-left: 50%;
     transform: translateX(-50%);
     transition: 0.1s;
 }
 
 img:hover {
-    max-width: 135%;
+    max-width: 107.5%;
 }
 
 #wrapper.post {
@@ -56,3 +57,9 @@ h3 {
 margin-top: 1em;
 font-size: 1.3em;
 }
+
+b, strong {
+    font-weight: 550;
+    color: #1E2025;
+}
+*/

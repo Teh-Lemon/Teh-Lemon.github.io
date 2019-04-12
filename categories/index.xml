@@ -1,19 +1,28 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categories on Teh Lemon</title>
+    <title>Teh Lemon</title>
     <link>https://www.tehlemon.com/categories/</link>
-    <description>Recent content in Categories on Teh Lemon</description>
+    <description>Recent content on Teh Lemon</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 12 Jan 2019 02:23:03 +0000</lastBuildDate>
+    <copyright>Teh Lemon</copyright>
+    <lastBuildDate>Wed, 10 Apr 2019 16:01:50 +0100</lastBuildDate>
     
 	<atom:link href="https://www.tehlemon.com/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Blog</title>
-      <link>https://www.tehlemon.com/categories/blog/</link>
+      <title>2019 04 09 2019JP00</title>
+      <link>https://www.tehlemon.com/blog/2019/2019-04-09-2019jp00/</link>
+      <pubDate>Wed, 10 Apr 2019 16:01:50 +0100</pubDate>
+      
+      <guid>https://www.tehlemon.com/blog/2019/2019-04-09-2019jp00/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>>https://www.tehlemon.com/categories/blog/</link>
       <pubDate>Sat, 12 Jan 2019 02:23:03 +0000</pubDate>
       
       <guid>https://www.tehlemon.com/categories/blog/</guid>

@@ -127,7 +127,12 @@ ren *.opus *.ogg
 
 <h3 id="encode-vp8-webm">Encode VP8 Webm</h3>
 
-<pre><code>-c:v libvpx -pix_fmt yuv420p -lag-in-frames 16 -auto-alt-ref 1 -qmin 28 -crf 30 -qmax 32 -qcomp 1 -b:v 0 out.webm
+<pre><code>ffmpeg -c:v libvpx -pix_fmt yuv420p -lag-in-frames 16 -auto-alt-ref 1 -qmin 28 -crf 30 -qmax 32 -qcomp 1 -b:v 0 out.webm
+</code></pre>
+
+<h3 id="encode-to-twitter-mp4">Encode to Twitter MP4</h3>
+
+<pre><code>ffmpeg -i INPUT_FILENAME -c:v libx264 -strict -2 OUTPUT_FILENAME.mp4
 </code></pre>
 
 <h3 id="convert-to-jpeg">Convert to JPEG</h3>
@@ -320,6 +325,8 @@ Tiling optional, montage will distribute it evenly by default.<br />
 			<a class="mt-1 mb-1" href="../../../tags/photography">photography</a>
 			
 			<a class="mt-1 mb-1" href="../../../tags/programming">programming</a>
+			
+			<a class="mt-1 mb-1" href="../../../tags/travel">travel</a>
 			
 			<a class="mt-1 mb-1" href="../../../tags/version-control">version-control</a>
 			

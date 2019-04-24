@@ -34,3 +34,13 @@
         padding-left: 0px !important;
     }
 }
+
+.nav-link {
+    color: rgba(0,0,0,0.75);
+}
+.nav-link:hover {
+    color: rgba(0,0,0,1);
+    text-decoration: underline;
+}
+
+

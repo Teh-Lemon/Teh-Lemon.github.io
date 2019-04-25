@@ -21,13 +21,13 @@
   </url>
   
   <url>
-    <loc>https://www.tehlemon.com/tags/hk2018/</loc>
+    <loc>https://www.tehlemon.com/tags/china/</loc>
     <lastmod>2019-04-24T23:37:38+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://www.tehlemon.com/tags/hong-kong/</loc>
+    <loc>https://www.tehlemon.com/tags/hk2018/</loc>
     <lastmod>2019-04-24T23:37:38+01:00</lastmod>
     <priority>0</priority>
   </url>
@@ -58,6 +58,12 @@
   <url>
     <loc>https://www.tehlemon.com/tags/blog/</loc>
     <lastmod>2019-04-24T23:37:38+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.tehlemon.com/tags/hong-kong/</loc>
+    <lastmod>2019-01-12T02:23:03+00:00</lastmod>
     <priority>0</priority>
   </url>
   

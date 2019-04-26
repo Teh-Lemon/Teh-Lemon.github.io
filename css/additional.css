@@ -43,4 +43,8 @@
     text-decoration: underline;
 }
 
+.container {
+    max-width: 2048;
+}
+
 

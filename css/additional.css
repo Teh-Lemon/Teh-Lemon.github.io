@@ -35,6 +35,8 @@
     }
 }
 
+/* Lemonish */
+
 .nav-link {
     color: rgba(0,0,0,0.75);
 }
@@ -44,7 +46,11 @@
 }
 
 .container {
-    max-width: 2048;
+    max-width: 2048px;
+}
+
+.col-md-2 {
+    max-width: 15%;
 }
 
 

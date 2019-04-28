@@ -4,19 +4,72 @@
   
   <url>
     <loc>https://www.tehlemon.com/categories/blog/</loc>
-    <lastmod>2019-04-24T23:37:38+01:00</lastmod>
+    <lastmod>2019-04-25T04:30:57+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.tehlemon.com/tags/blog/</loc>
+    <lastmod>2019-04-25T04:30:57+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.tehlemon.com/blog/</loc>
-    <lastmod>2019-04-24T23:37:38+01:00</lastmod>
+    <lastmod>2019-04-25T04:30:57+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.tehlemon.com/categories/</loc>
-    <lastmod>2019-04-24T23:37:38+01:00</lastmod>
+    <lastmod>2019-04-25T04:30:57+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.tehlemon.com/tags/flying/</loc>
+    <lastmod>2019-04-25T04:30:57+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.tehlemon.com/tags/jp2019/</loc>
+    <lastmod>2019-04-25T04:30:57+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.tehlemon.com/tags/japan/</loc>
+    <lastmod>2019-04-25T04:30:57+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.tehlemon.com/blog/2019/jp19-00/</loc>
+    <lastmod>2019-04-25T04:30:57+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.tehlemon.com/tags/photography/</loc>
+    <lastmod>2019-04-25T04:30:57+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.tehlemon.com/tags/</loc>
+    <lastmod>2019-04-25T04:30:57+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.tehlemon.com/</loc>
+    <lastmod>2019-04-25T04:30:57+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.tehlemon.com/tags/travel/</loc>
+    <lastmod>2019-04-25T04:30:57+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -38,30 +91,6 @@
   </url>
   
   <url>
-    <loc>https://www.tehlemon.com/tags/</loc>
-    <lastmod>2019-04-24T23:37:38+01:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.tehlemon.com/</loc>
-    <lastmod>2019-04-24T23:37:38+01:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.tehlemon.com/tags/travel/</loc>
-    <lastmod>2019-04-24T23:37:38+01:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.tehlemon.com/tags/blog/</loc>
-    <lastmod>2019-04-24T23:37:38+01:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://www.tehlemon.com/tags/hong-kong/</loc>
     <lastmod>2019-01-12T02:23:03+00:00</lastmod>
     <priority>0</priority>
@@ -75,12 +104,6 @@
   <url>
     <loc>https://www.tehlemon.com/blog/2018/hyperjp-18-win/</loc>
     <lastmod>2018-11-18T23:02:43+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.tehlemon.com/tags/japan/</loc>
-    <lastmod>2018-11-18T23:02:43+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -122,12 +145,6 @@
   <url>
     <loc>https://www.tehlemon.com/blog/2018/ll-rin-alter/</loc>
     <lastmod>2018-11-05T23:10:21+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.tehlemon.com/tags/photography/</loc>
-    <lastmod>2018-11-05T23:10:21+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>

@@ -37,6 +37,7 @@
 
 /* Lemonish */
 
+/* Nav bar links */
 .nav-link {
     color: rgba(0,0,0,0.75);
 }
@@ -45,12 +46,16 @@
     text-decoration: underline;
 }
 
+/* Article block */
 .container {
     max-width: 2048px;
 }
 
+/* Column left of article block */
 .col-md-2 {
     max-width: 15%;
 }
 
-
+code {
+    color: #00ab6b;
+}

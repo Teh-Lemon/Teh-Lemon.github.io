@@ -3,26 +3,73 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://www.tehlemon.com/categories/blog/</loc>
-    <lastmod>2019-04-25T04:30:57+01:00</lastmod>
+    <loc>https://www.tehlemon.com/tags/anime/</loc>
+    <lastmod>2019-05-09T22:25:25+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://www.tehlemon.com/tags/blog/</loc>
-    <lastmod>2019-04-25T04:30:57+01:00</lastmod>
+    <loc>https://www.tehlemon.com/categories/blog/</loc>
+    <lastmod>2019-05-09T22:25:25+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.tehlemon.com/blog/</loc>
-    <lastmod>2019-04-25T04:30:57+01:00</lastmod>
+    <lastmod>2019-05-09T22:25:25+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.tehlemon.com/categories/</loc>
-    <lastmod>2019-04-25T04:30:57+01:00</lastmod>
+    <lastmod>2019-05-09T22:25:25+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.tehlemon.com/tags/jp2019/</loc>
+    <lastmod>2019-05-09T22:25:25+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.tehlemon.com/tags/japan/</loc>
+    <lastmod>2019-05-09T22:25:25+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.tehlemon.com/blog/2019/jp19-01/</loc>
+    <lastmod>2019-05-09T22:25:25+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.tehlemon.com/tags/</loc>
+    <lastmod>2019-05-09T22:25:25+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.tehlemon.com/</loc>
+    <lastmod>2019-05-09T22:25:25+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.tehlemon.com/tags/tokyo/</loc>
+    <lastmod>2019-05-09T22:25:25+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.tehlemon.com/tags/travel/</loc>
+    <lastmod>2019-05-09T22:25:25+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.tehlemon.com/tags/blog/</loc>
+    <lastmod>2019-05-09T22:25:25+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -33,44 +80,8 @@
   </url>
   
   <url>
-    <loc>https://www.tehlemon.com/tags/jp2019/</loc>
-    <lastmod>2019-04-25T04:30:57+01:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.tehlemon.com/tags/japan/</loc>
-    <lastmod>2019-04-25T04:30:57+01:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://www.tehlemon.com/blog/2019/jp19-00/</loc>
     <lastmod>2019-04-25T04:30:57+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.tehlemon.com/tags/photography/</loc>
-    <lastmod>2019-04-25T04:30:57+01:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.tehlemon.com/tags/</loc>
-    <lastmod>2019-04-25T04:30:57+01:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.tehlemon.com/</loc>
-    <lastmod>2019-04-25T04:30:57+01:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.tehlemon.com/tags/travel/</loc>
-    <lastmod>2019-04-25T04:30:57+01:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -102,24 +113,18 @@
   </url>
   
   <url>
+    <loc>https://www.tehlemon.com/tags/events/</loc>
+    <lastmod>2018-11-18T23:02:43+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://www.tehlemon.com/blog/2018/hyperjp-18-win/</loc>
     <lastmod>2018-11-18T23:02:43+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://www.tehlemon.com/tags/london/</loc>
-    <lastmod>2018-11-18T23:02:43+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.tehlemon.com/tags/anime/</loc>
-    <lastmod>2018-11-18T23:02:43+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.tehlemon.com/tags/events/</loc>
     <lastmod>2018-11-18T23:02:43+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -145,6 +150,12 @@
   <url>
     <loc>https://www.tehlemon.com/blog/2018/ll-rin-alter/</loc>
     <lastmod>2018-11-05T23:10:21+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.tehlemon.com/tags/photography/</loc>
+    <lastmod>2018-11-05T23:10:21+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>

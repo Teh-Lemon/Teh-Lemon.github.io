@@ -9,12 +9,6 @@
   </url>
   
   <url>
-    <loc>https://www.tehlemon.com/tags/blog/</loc>
-    <lastmod>2019-05-21T00:41:05+01:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://www.tehlemon.com/blog/</loc>
     <lastmod>2019-05-21T00:41:05+01:00</lastmod>
     <priority>0</priority>
@@ -69,6 +63,12 @@
   
   <url>
     <loc>https://www.tehlemon.com/tags/ume-blossom/</loc>
+    <lastmod>2019-05-21T00:41:05+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.tehlemon.com/tags/blog/</loc>
     <lastmod>2019-05-21T00:41:05+01:00</lastmod>
     <priority>0</priority>
   </url>

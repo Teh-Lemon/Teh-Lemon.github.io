@@ -22,15 +22,6 @@
     </item>
     
     <item>
-      <title>Events</title>
-      <link>https://www.tehlemon.com/tags/events/</link>
-      <pubDate>Wed, 29 May 2019 03:59:35 +0100</pubDate>
-      
-      <guid>https://www.tehlemon.com/tags/events/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Japan</title>
       <link>https://www.tehlemon.com/tags/japan/</link>
       <pubDate>Wed, 29 May 2019 03:59:35 +0100</pubDate>
@@ -63,6 +54,15 @@
       <pubDate>Wed, 29 May 2019 03:59:35 +0100</pubDate>
       
       <guid>https://www.tehlemon.com/tags/blog/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>events</title>
+      <link>https://www.tehlemon.com/tags/events/</link>
+      <pubDate>Wed, 29 May 2019 03:59:35 +0100</pubDate>
+      
+      <guid>https://www.tehlemon.com/tags/events/</guid>
       <description></description>
     </item>
     

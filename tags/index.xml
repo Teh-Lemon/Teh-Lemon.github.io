@@ -7,10 +7,73 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Teh Lemon</copyright>
-    <lastBuildDate>Tue, 21 May 2019 00:41:05 +0100</lastBuildDate>
+    <lastBuildDate>Wed, 29 May 2019 03:59:35 +0100</lastBuildDate>
     
 	<atom:link href="https://www.tehlemon.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Anime</title>
+      <link>https://www.tehlemon.com/tags/anime/</link>
+      <pubDate>Wed, 29 May 2019 03:59:35 +0100</pubDate>
+      
+      <guid>https://www.tehlemon.com/tags/anime/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Events</title>
+      <link>https://www.tehlemon.com/tags/events/</link>
+      <pubDate>Wed, 29 May 2019 03:59:35 +0100</pubDate>
+      
+      <guid>https://www.tehlemon.com/tags/events/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Japan</title>
+      <link>https://www.tehlemon.com/tags/japan/</link>
+      <pubDate>Wed, 29 May 2019 03:59:35 +0100</pubDate>
+      
+      <guid>https://www.tehlemon.com/tags/japan/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>London</title>
+      <link>https://www.tehlemon.com/tags/london/</link>
+      <pubDate>Wed, 29 May 2019 03:59:35 +0100</pubDate>
+      
+      <guid>https://www.tehlemon.com/tags/london/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>MCMComicCon</title>
+      <link>https://www.tehlemon.com/tags/mcmcomiccon/</link>
+      <pubDate>Wed, 29 May 2019 03:59:35 +0100</pubDate>
+      
+      <guid>https://www.tehlemon.com/tags/mcmcomiccon/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>blog</title>
+      <link>https://www.tehlemon.com/tags/blog/</link>
+      <pubDate>Wed, 29 May 2019 03:59:35 +0100</pubDate>
+      
+      <guid>https://www.tehlemon.com/tags/blog/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>video games</title>
+      <link>https://www.tehlemon.com/tags/video-games/</link>
+      <pubDate>Wed, 29 May 2019 03:59:35 +0100</pubDate>
+      
+      <guid>https://www.tehlemon.com/tags/video-games/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>JP2019</title>
@@ -18,15 +81,6 @@
       <pubDate>Tue, 21 May 2019 00:41:05 +0100</pubDate>
       
       <guid>https://www.tehlemon.com/tags/jp2019/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Japan</title>
-      <link>https://www.tehlemon.com/tags/japan/</link>
-      <pubDate>Tue, 21 May 2019 00:41:05 +0100</pubDate>
-      
-      <guid>https://www.tehlemon.com/tags/japan/</guid>
       <description></description>
     </item>
     
@@ -58,15 +112,6 @@
     </item>
     
     <item>
-      <title>blog</title>
-      <link>https://www.tehlemon.com/tags/blog/</link>
-      <pubDate>Tue, 21 May 2019 00:41:05 +0100</pubDate>
-      
-      <guid>https://www.tehlemon.com/tags/blog/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Akihabara</title>
       <link>https://www.tehlemon.com/tags/akihabara/</link>
       <pubDate>Thu, 09 May 2019 22:25:25 +0100</pubDate>
@@ -81,15 +126,6 @@
       <pubDate>Thu, 09 May 2019 22:25:25 +0100</pubDate>
       
       <guid>https://www.tehlemon.com/tags/tokyo/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>anime</title>
-      <link>https://www.tehlemon.com/tags/anime/</link>
-      <pubDate>Thu, 09 May 2019 22:25:25 +0100</pubDate>
-      
-      <guid>https://www.tehlemon.com/tags/anime/</guid>
       <description></description>
     </item>
     
@@ -130,24 +166,6 @@
     </item>
     
     <item>
-      <title>London</title>
-      <link>https://www.tehlemon.com/tags/london/</link>
-      <pubDate>Sun, 18 Nov 2018 23:02:43 +0000</pubDate>
-      
-      <guid>https://www.tehlemon.com/tags/london/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>events</title>
-      <link>https://www.tehlemon.com/tags/events/</link>
-      <pubDate>Sun, 18 Nov 2018 23:02:43 +0000</pubDate>
-      
-      <guid>https://www.tehlemon.com/tags/events/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Figures</title>
       <link>https://www.tehlemon.com/tags/figures/</link>
       <pubDate>Mon, 05 Nov 2018 23:10:21 +0000</pubDate>
@@ -180,15 +198,6 @@
       <pubDate>Sun, 04 Nov 2018 18:29:58 +0000</pubDate>
       
       <guid>https://www.tehlemon.com/tags/frame-arms-girl/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>video games</title>
-      <link>https://www.tehlemon.com/tags/video-games/</link>
-      <pubDate>Sat, 27 Oct 2018 17:18:20 +0100</pubDate>
-      
-      <guid>https://www.tehlemon.com/tags/video-games/</guid>
       <description></description>
     </item>
     

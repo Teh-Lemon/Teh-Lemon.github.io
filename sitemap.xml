@@ -3,31 +3,84 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://www.tehlemon.com/tags/anime/</loc>
+    <lastmod>2019-05-29T03:59:35+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://www.tehlemon.com/categories/blog/</loc>
-    <lastmod>2019-05-21T00:41:05+01:00</lastmod>
+    <lastmod>2019-05-29T03:59:35+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.tehlemon.com/blog/</loc>
-    <lastmod>2019-05-21T00:41:05+01:00</lastmod>
+    <lastmod>2019-05-29T03:59:35+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.tehlemon.com/categories/</loc>
-    <lastmod>2019-05-21T00:41:05+01:00</lastmod>
+    <lastmod>2019-05-29T03:59:35+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://www.tehlemon.com/tags/jp2019/</loc>
-    <lastmod>2019-05-21T00:41:05+01:00</lastmod>
+    <loc>https://www.tehlemon.com/tags/events/</loc>
+    <lastmod>2019-05-29T03:59:35+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.tehlemon.com/tags/japan/</loc>
+    <lastmod>2019-05-29T03:59:35+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.tehlemon.com/tags/london/</loc>
+    <lastmod>2019-05-29T03:59:35+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.tehlemon.com/blog/2019/mcm-19-05/</loc>
+    <lastmod>2019-05-29T03:59:35+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.tehlemon.com/tags/mcmcomiccon/</loc>
+    <lastmod>2019-05-29T03:59:35+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.tehlemon.com/tags/</loc>
+    <lastmod>2019-05-29T03:59:35+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.tehlemon.com/</loc>
+    <lastmod>2019-05-29T03:59:35+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.tehlemon.com/tags/blog/</loc>
+    <lastmod>2019-05-29T03:59:35+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.tehlemon.com/tags/video-games/</loc>
+    <lastmod>2019-05-29T03:59:35+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.tehlemon.com/tags/jp2019/</loc>
     <lastmod>2019-05-21T00:41:05+01:00</lastmod>
     <priority>0</priority>
   </url>
@@ -39,18 +92,6 @@
   
   <url>
     <loc>https://www.tehlemon.com/tags/kyoto/</loc>
-    <lastmod>2019-05-21T00:41:05+01:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.tehlemon.com/tags/</loc>
-    <lastmod>2019-05-21T00:41:05+01:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.tehlemon.com/</loc>
     <lastmod>2019-05-21T00:41:05+01:00</lastmod>
     <priority>0</priority>
   </url>
@@ -68,12 +109,6 @@
   </url>
   
   <url>
-    <loc>https://www.tehlemon.com/tags/blog/</loc>
-    <lastmod>2019-05-21T00:41:05+01:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://www.tehlemon.com/tags/akihabara/</loc>
     <lastmod>2019-05-09T22:25:25+01:00</lastmod>
     <priority>0</priority>
@@ -86,12 +121,6 @@
   
   <url>
     <loc>https://www.tehlemon.com/tags/tokyo/</loc>
-    <lastmod>2019-05-09T22:25:25+01:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.tehlemon.com/tags/anime/</loc>
     <lastmod>2019-05-09T22:25:25+01:00</lastmod>
     <priority>0</priority>
   </url>
@@ -141,18 +170,6 @@
   </url>
   
   <url>
-    <loc>https://www.tehlemon.com/tags/london/</loc>
-    <lastmod>2018-11-18T23:02:43+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.tehlemon.com/tags/events/</loc>
-    <lastmod>2018-11-18T23:02:43+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://www.tehlemon.com/categories/figures/</loc>
     <lastmod>2018-11-05T23:10:21+00:00</lastmod>
     <priority>0</priority>
@@ -195,12 +212,6 @@
   <url>
     <loc>https://www.tehlemon.com/blog/2018/mcm-18-10/</loc>
     <lastmod>2018-10-27T17:18:20+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.tehlemon.com/tags/video-games/</loc>
-    <lastmod>2018-10-27T17:18:20+01:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>

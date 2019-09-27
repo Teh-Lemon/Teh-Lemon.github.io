@@ -7,15 +7,24 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Teh Lemon</copyright>
-    <lastBuildDate>Wed, 26 Jun 2019 04:36:51 +0100</lastBuildDate>
+    <lastBuildDate>Mon, 29 Jul 2019 04:15:14 +0100</lastBuildDate>
     
 	<atom:link href="https://www.tehlemon.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>Hiking</title>
+      <link>https://www.tehlemon.com/tags/hiking/</link>
+      <pubDate>Mon, 29 Jul 2019 04:15:14 +0100</pubDate>
+      
+      <guid>https://www.tehlemon.com/tags/hiking/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Hiroshima</title>
       <link>https://www.tehlemon.com/tags/hiroshima/</link>
-      <pubDate>Wed, 26 Jun 2019 04:36:51 +0100</pubDate>
+      <pubDate>Mon, 29 Jul 2019 04:15:14 +0100</pubDate>
       
       <guid>https://www.tehlemon.com/tags/hiroshima/</guid>
       <description></description>
@@ -24,7 +33,7 @@
     <item>
       <title>JP2019</title>
       <link>https://www.tehlemon.com/tags/jp2019/</link>
-      <pubDate>Wed, 26 Jun 2019 04:36:51 +0100</pubDate>
+      <pubDate>Mon, 29 Jul 2019 04:15:14 +0100</pubDate>
       
       <guid>https://www.tehlemon.com/tags/jp2019/</guid>
       <description></description>
@@ -33,25 +42,52 @@
     <item>
       <title>Japan</title>
       <link>https://www.tehlemon.com/tags/japan/</link>
-      <pubDate>Wed, 26 Jun 2019 04:36:51 +0100</pubDate>
+      <pubDate>Mon, 29 Jul 2019 04:15:14 +0100</pubDate>
       
       <guid>https://www.tehlemon.com/tags/japan/</guid>
       <description></description>
     </item>
     
     <item>
+      <title>Miyajima</title>
+      <link>https://www.tehlemon.com/tags/miyajima/</link>
+      <pubDate>Mon, 29 Jul 2019 04:15:14 +0100</pubDate>
+      
+      <guid>https://www.tehlemon.com/tags/miyajima/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Nature</title>
+      <link>https://www.tehlemon.com/tags/nature/</link>
+      <pubDate>Mon, 29 Jul 2019 04:15:14 +0100</pubDate>
+      
+      <guid>https://www.tehlemon.com/tags/nature/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Travel</title>
       <link>https://www.tehlemon.com/tags/travel/</link>
-      <pubDate>Wed, 26 Jun 2019 04:36:51 +0100</pubDate>
+      <pubDate>Mon, 29 Jul 2019 04:15:14 +0100</pubDate>
       
       <guid>https://www.tehlemon.com/tags/travel/</guid>
       <description></description>
     </item>
     
     <item>
+      <title>Ume Blossom</title>
+      <link>https://www.tehlemon.com/tags/ume-blossom/</link>
+      <pubDate>Mon, 29 Jul 2019 04:15:14 +0100</pubDate>
+      
+      <guid>https://www.tehlemon.com/tags/ume-blossom/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>blog</title>
       <link>https://www.tehlemon.com/tags/blog/</link>
-      <pubDate>Wed, 26 Jun 2019 04:36:51 +0100</pubDate>
+      <pubDate>Mon, 29 Jul 2019 04:15:14 +0100</pubDate>
       
       <guid>https://www.tehlemon.com/tags/blog/</guid>
       <description></description>
@@ -67,29 +103,11 @@
     </item>
     
     <item>
-      <title>hiking</title>
-      <link>https://www.tehlemon.com/tags/hiking/</link>
-      <pubDate>Wed, 12 Jun 2019 02:27:28 +0100</pubDate>
-      
-      <guid>https://www.tehlemon.com/tags/hiking/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Anime</title>
       <link>https://www.tehlemon.com/tags/anime/</link>
       <pubDate>Wed, 29 May 2019 03:59:35 +0100</pubDate>
       
       <guid>https://www.tehlemon.com/tags/anime/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Events</title>
-      <link>https://www.tehlemon.com/tags/events/</link>
-      <pubDate>Wed, 29 May 2019 03:59:35 +0100</pubDate>
-      
-      <guid>https://www.tehlemon.com/tags/events/</guid>
       <description></description>
     </item>
     
@@ -112,20 +130,20 @@
     </item>
     
     <item>
+      <title>events</title>
+      <link>https://www.tehlemon.com/tags/events/</link>
+      <pubDate>Wed, 29 May 2019 03:59:35 +0100</pubDate>
+      
+      <guid>https://www.tehlemon.com/tags/events/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>video games</title>
       <link>https://www.tehlemon.com/tags/video-games/</link>
       <pubDate>Wed, 29 May 2019 03:59:35 +0100</pubDate>
       
       <guid>https://www.tehlemon.com/tags/video-games/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Ume Blossom</title>
-      <link>https://www.tehlemon.com/tags/ume-blossom/</link>
-      <pubDate>Tue, 21 May 2019 00:41:05 +0100</pubDate>
-      
-      <guid>https://www.tehlemon.com/tags/ume-blossom/</guid>
       <description></description>
     </item>
     

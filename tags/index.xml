@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Teh Lemon</title>
@@ -7,26 +7,107 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Teh Lemon</copyright>
-    <lastBuildDate>Tue, 29 Oct 2019 00:26:19 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 07 Nov 2019 01:02:57 +0000</lastBuildDate>
     
 	<atom:link href="https://www.tehlemon.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>Animals</title>
+      <link>https://www.tehlemon.com/tags/animals/</link>
+      <pubDate>Thu, 07 Nov 2019 01:02:57 +0000</pubDate>
+      
+      <guid>https://www.tehlemon.com/tags/animals/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Anime</title>
       <link>https://www.tehlemon.com/tags/anime/</link>
-      <pubDate>Tue, 29 Oct 2019 00:26:19 +0000</pubDate>
+      <pubDate>Thu, 07 Nov 2019 01:02:57 +0000</pubDate>
       
       <guid>https://www.tehlemon.com/tags/anime/</guid>
       <description></description>
     </item>
     
     <item>
+      <title>Blog</title>
+      <link>https://www.tehlemon.com/tags/blog/</link>
+      <pubDate>Thu, 07 Nov 2019 01:02:57 +0000</pubDate>
+      
+      <guid>https://www.tehlemon.com/tags/blog/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Japan</title>
       <link>https://www.tehlemon.com/tags/japan/</link>
-      <pubDate>Tue, 29 Oct 2019 00:26:19 +0000</pubDate>
+      <pubDate>Thu, 07 Nov 2019 01:02:57 +0000</pubDate>
       
       <guid>https://www.tehlemon.com/tags/japan/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>JP2019</title>
+      <link>https://www.tehlemon.com/tags/jp2019/</link>
+      <pubDate>Thu, 07 Nov 2019 01:02:57 +0000</pubDate>
+      
+      <guid>https://www.tehlemon.com/tags/jp2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Nature</title>
+      <link>https://www.tehlemon.com/tags/nature/</link>
+      <pubDate>Thu, 07 Nov 2019 01:02:57 +0000</pubDate>
+      
+      <guid>https://www.tehlemon.com/tags/nature/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Pilgrimage</title>
+      <link>https://www.tehlemon.com/tags/pilgrimage/</link>
+      <pubDate>Thu, 07 Nov 2019 01:02:57 +0000</pubDate>
+      
+      <guid>https://www.tehlemon.com/tags/pilgrimage/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Rabbit Island</title>
+      <link>https://www.tehlemon.com/tags/rabbit-island/</link>
+      <pubDate>Thu, 07 Nov 2019 01:02:57 +0000</pubDate>
+      
+      <guid>https://www.tehlemon.com/tags/rabbit-island/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Takehara</title>
+      <link>https://www.tehlemon.com/tags/takehara/</link>
+      <pubDate>Thu, 07 Nov 2019 01:02:57 +0000</pubDate>
+      
+      <guid>https://www.tehlemon.com/tags/takehara/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Travel</title>
+      <link>https://www.tehlemon.com/tags/travel/</link>
+      <pubDate>Thu, 07 Nov 2019 01:02:57 +0000</pubDate>
+      
+      <guid>https://www.tehlemon.com/tags/travel/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>events</title>
+      <link>https://www.tehlemon.com/tags/events/</link>
+      <pubDate>Tue, 29 Oct 2019 00:26:19 +0000</pubDate>
+      
+      <guid>https://www.tehlemon.com/tags/events/</guid>
       <description></description>
     </item>
     
@@ -45,24 +126,6 @@
       <pubDate>Tue, 29 Oct 2019 00:26:19 +0000</pubDate>
       
       <guid>https://www.tehlemon.com/tags/mcmcomiccon/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>blog</title>
-      <link>https://www.tehlemon.com/tags/blog/</link>
-      <pubDate>Tue, 29 Oct 2019 00:26:19 +0000</pubDate>
-      
-      <guid>https://www.tehlemon.com/tags/blog/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>events</title>
-      <link>https://www.tehlemon.com/tags/events/</link>
-      <pubDate>Tue, 29 Oct 2019 00:26:19 +0000</pubDate>
-      
-      <guid>https://www.tehlemon.com/tags/events/</guid>
       <description></description>
     </item>
     
@@ -94,38 +157,11 @@
     </item>
     
     <item>
-      <title>JP2019</title>
-      <link>https://www.tehlemon.com/tags/jp2019/</link>
-      <pubDate>Mon, 29 Jul 2019 04:15:14 +0100</pubDate>
-      
-      <guid>https://www.tehlemon.com/tags/jp2019/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Miyajima</title>
       <link>https://www.tehlemon.com/tags/miyajima/</link>
       <pubDate>Mon, 29 Jul 2019 04:15:14 +0100</pubDate>
       
       <guid>https://www.tehlemon.com/tags/miyajima/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Nature</title>
-      <link>https://www.tehlemon.com/tags/nature/</link>
-      <pubDate>Mon, 29 Jul 2019 04:15:14 +0100</pubDate>
-      
-      <guid>https://www.tehlemon.com/tags/nature/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Travel</title>
-      <link>https://www.tehlemon.com/tags/travel/</link>
-      <pubDate>Mon, 29 Jul 2019 04:15:14 +0100</pubDate>
-      
-      <guid>https://www.tehlemon.com/tags/travel/</guid>
       <description></description>
     </item>
     

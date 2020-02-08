@@ -224,6 +224,22 @@ Tiling optional, montage will distribute it evenly by default.<br />
 
 <pre><code>ffmpeg -i input.mp4 -ss 00:00:00.00 -to 00:04:15.00 [output]
 </code></pre>
+
+<h3 id="concatenation">Concatenation</h3>
+
+<p><a href="https://trac.ffmpeg.org/wiki/Concatenate">https://trac.ffmpeg.org/wiki/Concatenate</a></p>
+
+<p>Only works for videos of the same codec.<br />
+<code>list.txt</code></p>
+
+<pre><code>file '/path/to/file1.webm'  
+file '/path/to/file2.webm'  
+file '/path/to/file3.webm'  
+</code></pre>
+
+<p><code>ffmpeg -f concat -i list.txt -c copy outputFile.webm</code></p>
+
+<p>More methods: <a href="https://stackoverflow.com/a/11175851">https://stackoverflow.com/a/11175851</a></p>
                     </div>
                     
                     
@@ -356,6 +372,8 @@ Tiling optional, montage will distribute it evenly by default.<br />
 			
 			<a class="mt-1 mb-1" href="../../../tags/museums">museums</a>
 			
+			<a class="mt-1 mb-1" href="../../../tags/nara">nara</a>
+			
 			<a class="mt-1 mb-1" href="../../../tags/nature">nature</a>
 			
 			<a class="mt-1 mb-1" href="../../../tags/photography">photography</a>
@@ -367,6 +385,8 @@ Tiling optional, montage will distribute it evenly by default.<br />
 			<a class="mt-1 mb-1" href="../../../tags/rabbit-island">rabbit-island</a>
 			
 			<a class="mt-1 mb-1" href="../../../tags/takehara">takehara</a>
+			
+			<a class="mt-1 mb-1" href="../../../tags/temples">temples</a>
 			
 			<a class="mt-1 mb-1" href="../../../tags/tokyo">tokyo</a>
 			
@@ -392,7 +412,7 @@ Tiling optional, montage will distribute it evenly by default.<br />
     <div class="container">
         <div class="row">
             <div class="col-md-12 col-sm-6 text-center text-lg-center">
-                &copy; Copyright 2019 <i class="fas fa-lemon" aria-hidden="true"></i> Teh Lemon
+                &copy; Copyright 2020 <i class="fas fa-lemon" aria-hidden="true"></i> Teh Lemon
             </div>
             
         </div>

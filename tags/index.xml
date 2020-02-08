@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Teh Lemon</copyright>
-    <lastBuildDate>Thu, 07 Nov 2019 01:02:57 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 01 Feb 2020 02:51:00 +0000</lastBuildDate>
     
 	<atom:link href="https://www.tehlemon.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
@@ -15,25 +15,16 @@
     <item>
       <title>Animals</title>
       <link>https://www.tehlemon.com/tags/animals/</link>
-      <pubDate>Thu, 07 Nov 2019 01:02:57 +0000</pubDate>
+      <pubDate>Sat, 01 Feb 2020 02:51:00 +0000</pubDate>
       
       <guid>https://www.tehlemon.com/tags/animals/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>anime</title>
-      <link>https://www.tehlemon.com/tags/anime/</link>
-      <pubDate>Thu, 07 Nov 2019 01:02:57 +0000</pubDate>
-      
-      <guid>https://www.tehlemon.com/tags/anime/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>blog</title>
       <link>https://www.tehlemon.com/tags/blog/</link>
-      <pubDate>Thu, 07 Nov 2019 01:02:57 +0000</pubDate>
+      <pubDate>Sat, 01 Feb 2020 02:51:00 +0000</pubDate>
       
       <guid>https://www.tehlemon.com/tags/blog/</guid>
       <description></description>
@@ -42,7 +33,7 @@
     <item>
       <title>Japan</title>
       <link>https://www.tehlemon.com/tags/japan/</link>
-      <pubDate>Thu, 07 Nov 2019 01:02:57 +0000</pubDate>
+      <pubDate>Sat, 01 Feb 2020 02:51:00 +0000</pubDate>
       
       <guid>https://www.tehlemon.com/tags/japan/</guid>
       <description></description>
@@ -51,18 +42,54 @@
     <item>
       <title>JP2019</title>
       <link>https://www.tehlemon.com/tags/jp2019/</link>
-      <pubDate>Thu, 07 Nov 2019 01:02:57 +0000</pubDate>
+      <pubDate>Sat, 01 Feb 2020 02:51:00 +0000</pubDate>
       
       <guid>https://www.tehlemon.com/tags/jp2019/</guid>
       <description></description>
     </item>
     
     <item>
+      <title>Nara</title>
+      <link>https://www.tehlemon.com/tags/nara/</link>
+      <pubDate>Sat, 01 Feb 2020 02:51:00 +0000</pubDate>
+      
+      <guid>https://www.tehlemon.com/tags/nara/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Nature</title>
       <link>https://www.tehlemon.com/tags/nature/</link>
-      <pubDate>Thu, 07 Nov 2019 01:02:57 +0000</pubDate>
+      <pubDate>Sat, 01 Feb 2020 02:51:00 +0000</pubDate>
       
       <guid>https://www.tehlemon.com/tags/nature/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Temples</title>
+      <link>https://www.tehlemon.com/tags/temples/</link>
+      <pubDate>Sat, 01 Feb 2020 02:51:00 +0000</pubDate>
+      
+      <guid>https://www.tehlemon.com/tags/temples/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Travel</title>
+      <link>https://www.tehlemon.com/tags/travel/</link>
+      <pubDate>Sat, 01 Feb 2020 02:51:00 +0000</pubDate>
+      
+      <guid>https://www.tehlemon.com/tags/travel/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Anime</title>
+      <link>https://www.tehlemon.com/tags/anime/</link>
+      <pubDate>Thu, 07 Nov 2019 01:02:57 +0000</pubDate>
+      
+      <guid>https://www.tehlemon.com/tags/anime/</guid>
       <description></description>
     </item>
     
@@ -90,15 +117,6 @@
       <pubDate>Thu, 07 Nov 2019 01:02:57 +0000</pubDate>
       
       <guid>https://www.tehlemon.com/tags/takehara/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Travel</title>
-      <link>https://www.tehlemon.com/tags/travel/</link>
-      <pubDate>Thu, 07 Nov 2019 01:02:57 +0000</pubDate>
-      
-      <guid>https://www.tehlemon.com/tags/travel/</guid>
       <description></description>
     </item>
     

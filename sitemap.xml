@@ -28,6 +28,16 @@
   </url>
   
   <url>
+    <loc>https://www.tehlemon.com/tags/dotonbori/</loc>
+    <lastmod>2020-02-01T02:51:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.tehlemon.com/tags/festivals/</loc>
+    <lastmod>2020-02-01T02:51:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.tehlemon.com/tags/japan/</loc>
     <lastmod>2020-02-01T02:51:00+00:00</lastmod>
   </url>
@@ -53,17 +63,17 @@
   </url>
   
   <url>
+    <loc>https://www.tehlemon.com/tags/osaka/</loc>
+    <lastmod>2020-02-01T02:51:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.tehlemon.com/tags/</loc>
     <lastmod>2020-02-01T02:51:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://www.tehlemon.com/</loc>
-    <lastmod>2020-02-01T02:51:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.tehlemon.com/tags/temples/</loc>
     <lastmod>2020-02-01T02:51:00+00:00</lastmod>
   </url>
   
@@ -228,12 +238,12 @@
   </url>
   
   <url>
-    <loc>https://www.tehlemon.com/categories/figures/</loc>
+    <loc>https://www.tehlemon.com/tags/figures/</loc>
     <lastmod>2018-11-05T23:10:21+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.tehlemon.com/tags/figures/</loc>
+    <loc>https://www.tehlemon.com/categories/figures/</loc>
     <lastmod>2018-11-05T23:10:21+00:00</lastmod>
   </url>
   
@@ -398,12 +408,12 @@
   </url>
   
   <url>
-    <loc>https://www.tehlemon.com/tags/programming/</loc>
+    <loc>https://www.tehlemon.com/categories/programming/</loc>
     <lastmod>2018-05-18T00:17:02+01:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.tehlemon.com/categories/programming/</loc>
+    <loc>https://www.tehlemon.com/tags/programming/</loc>
     <lastmod>2018-05-18T00:17:02+01:00</lastmod>
   </url>
   

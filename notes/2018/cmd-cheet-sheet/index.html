@@ -157,6 +157,11 @@ ren *.opus *.ogg
 del *.bmp
 </code></pre>
 
+<h3 id="output-frames-of-video">Output Frames of Video</h3>
+
+<pre><code>ffmpeg -i inputvideo.mp4 -filter:v fps=fps=12 frames/frame%05d.jpg
+</code></pre>
+
 <h2 id="file-editing">File Editing</h2>
 
 <h3 id="renaming">Renaming</h3>

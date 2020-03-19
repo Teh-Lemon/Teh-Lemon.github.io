@@ -7,10 +7,109 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Teh Lemon</copyright>
-    <lastBuildDate>Sat, 01 Feb 2020 02:51:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 10 Mar 2020 05:40:00 +0000</lastBuildDate>
     
 	<atom:link href="https://www.tehlemon.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Anime</title>
+      <link>https://www.tehlemon.com/tags/anime/</link>
+      <pubDate>Tue, 10 Mar 2020 05:40:00 +0000</pubDate>
+      
+      <guid>https://www.tehlemon.com/tags/anime/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>blog</title>
+      <link>https://www.tehlemon.com/tags/blog/</link>
+      <pubDate>Tue, 10 Mar 2020 05:40:00 +0000</pubDate>
+      
+      <guid>https://www.tehlemon.com/tags/blog/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Culture</title>
+      <link>https://www.tehlemon.com/tags/culture/</link>
+      <pubDate>Tue, 10 Mar 2020 05:40:00 +0000</pubDate>
+      
+      <guid>https://www.tehlemon.com/tags/culture/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Den Den Town</title>
+      <link>https://www.tehlemon.com/tags/den-den-town/</link>
+      <pubDate>Tue, 10 Mar 2020 05:40:00 +0000</pubDate>
+      
+      <guid>https://www.tehlemon.com/tags/den-den-town/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Himeji</title>
+      <link>https://www.tehlemon.com/tags/himeji/</link>
+      <pubDate>Tue, 10 Mar 2020 05:40:00 +0000</pubDate>
+      
+      <guid>https://www.tehlemon.com/tags/himeji/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Japan</title>
+      <link>https://www.tehlemon.com/tags/japan/</link>
+      <pubDate>Tue, 10 Mar 2020 05:40:00 +0000</pubDate>
+      
+      <guid>https://www.tehlemon.com/tags/japan/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>JP2019</title>
+      <link>https://www.tehlemon.com/tags/jp2019/</link>
+      <pubDate>Tue, 10 Mar 2020 05:40:00 +0000</pubDate>
+      
+      <guid>https://www.tehlemon.com/tags/jp2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Nipponbashi</title>
+      <link>https://www.tehlemon.com/tags/nipponbashi/</link>
+      <pubDate>Tue, 10 Mar 2020 05:40:00 +0000</pubDate>
+      
+      <guid>https://www.tehlemon.com/tags/nipponbashi/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Osaka</title>
+      <link>https://www.tehlemon.com/tags/osaka/</link>
+      <pubDate>Tue, 10 Mar 2020 05:40:00 +0000</pubDate>
+      
+      <guid>https://www.tehlemon.com/tags/osaka/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>R18</title>
+      <link>https://www.tehlemon.com/tags/r18/</link>
+      <pubDate>Tue, 10 Mar 2020 05:40:00 +0000</pubDate>
+      
+      <guid>https://www.tehlemon.com/tags/r18/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Travel</title>
+      <link>https://www.tehlemon.com/tags/travel/</link>
+      <pubDate>Tue, 10 Mar 2020 05:40:00 +0000</pubDate>
+      
+      <guid>https://www.tehlemon.com/tags/travel/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Animals</title>
@@ -18,15 +117,6 @@
       <pubDate>Sat, 01 Feb 2020 02:51:00 +0000</pubDate>
       
       <guid>https://www.tehlemon.com/tags/animals/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>blog</title>
-      <link>https://www.tehlemon.com/tags/blog/</link>
-      <pubDate>Sat, 01 Feb 2020 02:51:00 +0000</pubDate>
-      
-      <guid>https://www.tehlemon.com/tags/blog/</guid>
       <description></description>
     </item>
     
@@ -49,24 +139,6 @@
     </item>
     
     <item>
-      <title>Japan</title>
-      <link>https://www.tehlemon.com/tags/japan/</link>
-      <pubDate>Sat, 01 Feb 2020 02:51:00 +0000</pubDate>
-      
-      <guid>https://www.tehlemon.com/tags/japan/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>JP2019</title>
-      <link>https://www.tehlemon.com/tags/jp2019/</link>
-      <pubDate>Sat, 01 Feb 2020 02:51:00 +0000</pubDate>
-      
-      <guid>https://www.tehlemon.com/tags/jp2019/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Nara</title>
       <link>https://www.tehlemon.com/tags/nara/</link>
       <pubDate>Sat, 01 Feb 2020 02:51:00 +0000</pubDate>
@@ -81,33 +153,6 @@
       <pubDate>Sat, 01 Feb 2020 02:51:00 +0000</pubDate>
       
       <guid>https://www.tehlemon.com/tags/nature/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Osaka</title>
-      <link>https://www.tehlemon.com/tags/osaka/</link>
-      <pubDate>Sat, 01 Feb 2020 02:51:00 +0000</pubDate>
-      
-      <guid>https://www.tehlemon.com/tags/osaka/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Travel</title>
-      <link>https://www.tehlemon.com/tags/travel/</link>
-      <pubDate>Sat, 01 Feb 2020 02:51:00 +0000</pubDate>
-      
-      <guid>https://www.tehlemon.com/tags/travel/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>anime</title>
-      <link>https://www.tehlemon.com/tags/anime/</link>
-      <pubDate>Thu, 07 Nov 2019 01:02:57 +0000</pubDate>
-      
-      <guid>https://www.tehlemon.com/tags/anime/</guid>
       <description></description>
     </item>
     
@@ -207,6 +252,15 @@
       <pubDate>Mon, 29 Jul 2019 04:15:14 +0100</pubDate>
       
       <guid>https://www.tehlemon.com/tags/ume-blossom/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>History</title>
+      <link>https://www.tehlemon.com/tags/history/</link>
+      <pubDate>Wed, 26 Jun 2019 04:36:51 +0100</pubDate>
+      
+      <guid>https://www.tehlemon.com/tags/history/</guid>
       <description></description>
     </item>
     

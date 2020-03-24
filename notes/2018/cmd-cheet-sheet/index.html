@@ -163,6 +163,14 @@ del *.bmp
 ffmpeg -ss 00:19:20 -i inputvideo.mkv -t 5 frames/frame%05d.bmp
 </code></pre>
 
+<h3 id="youtube-dl">Youtube-DL</h3>
+
+<p>Download Youtube video with subtitles.</p>
+
+<pre><code>youtube-dl --write-auto-sub https://www.youtube.com/watch?v=
+youtube-dl --write-srt --sub-lang en https://www.youtube.com/watch?v=
+</code></pre>
+
 <h2 id="file-editing">File Editing</h2>
 
 <h3 id="renaming">Renaming</h3>

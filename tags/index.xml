@@ -7,10 +7,118 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Teh Lemon</copyright>
-    <lastBuildDate>Tue, 10 Mar 2020 05:40:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 28 Mar 2020 00:08:25 +0000</lastBuildDate>
     
 	<atom:link href="https://www.tehlemon.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Airports</title>
+      <link>https://www.tehlemon.com/tags/airports/</link>
+      <pubDate>Sat, 28 Mar 2020 00:08:25 +0000</pubDate>
+      
+      <guid>https://www.tehlemon.com/tags/airports/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Don Quijote</title>
+      <link>https://www.tehlemon.com/tags/don-quijote/</link>
+      <pubDate>Sat, 28 Mar 2020 00:08:25 +0000</pubDate>
+      
+      <guid>https://www.tehlemon.com/tags/don-quijote/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>hotels</title>
+      <link>https://www.tehlemon.com/tags/hotels/</link>
+      <pubDate>Sat, 28 Mar 2020 00:08:25 +0000</pubDate>
+      
+      <guid>https://www.tehlemon.com/tags/hotels/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>izakaya</title>
+      <link>https://www.tehlemon.com/tags/izakaya/</link>
+      <pubDate>Sat, 28 Mar 2020 00:08:25 +0000</pubDate>
+      
+      <guid>https://www.tehlemon.com/tags/izakaya/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Japan</title>
+      <link>https://www.tehlemon.com/tags/japan/</link>
+      <pubDate>Sat, 28 Mar 2020 00:08:25 +0000</pubDate>
+      
+      <guid>https://www.tehlemon.com/tags/japan/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>JP2019</title>
+      <link>https://www.tehlemon.com/tags/jp2019/</link>
+      <pubDate>Sat, 28 Mar 2020 00:08:25 +0000</pubDate>
+      
+      <guid>https://www.tehlemon.com/tags/jp2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Kabukicho</title>
+      <link>https://www.tehlemon.com/tags/kabukicho/</link>
+      <pubDate>Sat, 28 Mar 2020 00:08:25 +0000</pubDate>
+      
+      <guid>https://www.tehlemon.com/tags/kabukicho/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Osaka</title>
+      <link>https://www.tehlemon.com/tags/osaka/</link>
+      <pubDate>Sat, 28 Mar 2020 00:08:25 +0000</pubDate>
+      
+      <guid>https://www.tehlemon.com/tags/osaka/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Shinjuku</title>
+      <link>https://www.tehlemon.com/tags/shinjuku/</link>
+      <pubDate>Sat, 28 Mar 2020 00:08:25 +0000</pubDate>
+      
+      <guid>https://www.tehlemon.com/tags/shinjuku/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Shinkansen</title>
+      <link>https://www.tehlemon.com/tags/shinkansen/</link>
+      <pubDate>Sat, 28 Mar 2020 00:08:25 +0000</pubDate>
+      
+      <guid>https://www.tehlemon.com/tags/shinkansen/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tokyo</title>
+      <link>https://www.tehlemon.com/tags/tokyo/</link>
+      <pubDate>Sat, 28 Mar 2020 00:08:25 +0000</pubDate>
+      
+      <guid>https://www.tehlemon.com/tags/tokyo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Travel</title>
+      <link>https://www.tehlemon.com/tags/travel/</link>
+      <pubDate>Sat, 28 Mar 2020 00:08:25 +0000</pubDate>
+      
+      <guid>https://www.tehlemon.com/tags/travel/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Anime</title>
@@ -22,7 +130,7 @@
     </item>
     
     <item>
-      <title>blog</title>
+      <title>Blog</title>
       <link>https://www.tehlemon.com/tags/blog/</link>
       <pubDate>Tue, 10 Mar 2020 05:40:00 +0000</pubDate>
       
@@ -58,24 +166,6 @@
     </item>
     
     <item>
-      <title>Japan</title>
-      <link>https://www.tehlemon.com/tags/japan/</link>
-      <pubDate>Tue, 10 Mar 2020 05:40:00 +0000</pubDate>
-      
-      <guid>https://www.tehlemon.com/tags/japan/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>JP2019</title>
-      <link>https://www.tehlemon.com/tags/jp2019/</link>
-      <pubDate>Tue, 10 Mar 2020 05:40:00 +0000</pubDate>
-      
-      <guid>https://www.tehlemon.com/tags/jp2019/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Nipponbashi</title>
       <link>https://www.tehlemon.com/tags/nipponbashi/</link>
       <pubDate>Tue, 10 Mar 2020 05:40:00 +0000</pubDate>
@@ -85,29 +175,11 @@
     </item>
     
     <item>
-      <title>Osaka</title>
-      <link>https://www.tehlemon.com/tags/osaka/</link>
-      <pubDate>Tue, 10 Mar 2020 05:40:00 +0000</pubDate>
-      
-      <guid>https://www.tehlemon.com/tags/osaka/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>R18</title>
       <link>https://www.tehlemon.com/tags/r18/</link>
       <pubDate>Tue, 10 Mar 2020 05:40:00 +0000</pubDate>
       
       <guid>https://www.tehlemon.com/tags/r18/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Travel</title>
-      <link>https://www.tehlemon.com/tags/travel/</link>
-      <pubDate>Tue, 10 Mar 2020 05:40:00 +0000</pubDate>
-      
-      <guid>https://www.tehlemon.com/tags/travel/</guid>
       <description></description>
     </item>
     
@@ -279,15 +351,6 @@
       <pubDate>Thu, 09 May 2019 22:25:25 +0100</pubDate>
       
       <guid>https://www.tehlemon.com/tags/akihabara/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Tokyo</title>
-      <link>https://www.tehlemon.com/tags/tokyo/</link>
-      <pubDate>Thu, 09 May 2019 22:25:25 +0100</pubDate>
-      
-      <guid>https://www.tehlemon.com/tags/tokyo/</guid>
       <description></description>
     </item>
     

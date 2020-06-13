@@ -109,7 +109,7 @@
                         <i class="far fa-star"></i> 
                         Jul 21, 2018                        
                         <i class="far fa-clock clock"></i>
-                        2 min read
+                        3 min read
                     </div>
 
                     
@@ -168,7 +168,15 @@ ffmpeg -ss 00:19:20 -i inputvideo.mkv -t 5 frames/frame%05d.bmp
 <p>Download Youtube video with subtitles.</p>
 
 <pre><code>youtube-dl --write-auto-sub https://www.youtube.com/watch?v=
-youtube-dl --write-srt --sub-lang en https://www.youtube.com/watch?v=
+youtube-dl --write-sub --sub-lang en --convert-subs srt --embed-subs https://www.youtube.com/watch?v=
+</code></pre>
+
+<p>Download snippet only.<br />
+First -ss set before the start to allow key frames to populate.<br />
+2nd -ss actual start.</p>
+
+<pre><code>youtube-dl -g [URL]  
+ffmpeg -ss 00:59:30 -i &quot;vidlink&quot; -ss 00:59:30 -i &quot;audlink&quot; -map 0:v -map 1:a -ss 30 -t 60 out.mp4
 </code></pre>
 
 <h2 id="file-editing">File Editing</h2>

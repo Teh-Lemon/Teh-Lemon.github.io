@@ -262,6 +262,14 @@ file '/path/to/file3.webm'
 <p><code>ffmpeg -f concat -i list.txt -c copy outputFile.webm</code></p>
 
 <p>More methods: <a href="https://stackoverflow.com/a/11175851">https://stackoverflow.com/a/11175851</a></p>
+
+<h3 id="ping-pong">Ping Pong</h3>
+
+<p>Videos with audio:<br />
+<code>ffmpeg -i input.mp4 -filter_complex &quot;[0:v]reverse,fifo[r];[0:v][0:a][r] [0:a]concat=n=2:v=1:a=1 [v] [a]&quot; -map &quot;[v]&quot; -map &quot;[a]&quot; output.mp4</code></p>
+
+<p>videos without audio:<br />
+<code>ffmpeg -i input.mp4 -filter_complex &quot;[0:v]reverse,fifo[r];[0:v][r] concat=n=2:v=1 [v]&quot; -map &quot;[v]&quot; output.mp4</code></p>
                     </div>
                     
                     

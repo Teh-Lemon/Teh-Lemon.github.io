@@ -109,7 +109,7 @@
                         <i class="far fa-star"></i> 
                         Jul 21, 2018                        
                         <i class="far fa-clock clock"></i>
-                        3 min read
+                        2 min read
                     </div>
 
                     
@@ -123,146 +123,148 @@
 
 <h2 id="conversion">Conversion</h2>
 
-<h3 id="batch-to-mp3">Batch To Mp3</h3>
+<pre><code>
+### Batch to Opus
 
-<p>Loop through every video in this directory and convert it to V2 .mp3.</p>
-
-<pre><code>for %%a in (&quot;*.mkv&quot; &quot;*.mp4&quot; &quot;*.webm&quot;) do ffmpeg -i &quot;%%a&quot; -codec:a libmp3lame -qscale:a 2 &quot;%%a.mp3&quot;
+Defaults to 96K bitrate.
 </code></pre>
 
-<h3 id="batch-to-opus">Batch to Opus</h3>
+<p>for %%a in (&rdquo;<em>.mkv&rdquo; &ldquo;</em>.mp4&rdquo; &ldquo;*.webm&rdquo;) do ffmpeg -i &ldquo;%%a&rdquo; -acodec libopus &ldquo;%%a.opus&rdquo;</p>
 
-<p>Renames to .ogg for compatibility reasons.
-Defaults to 96K bitrate.</p>
+<pre><code>
+### Encode VP8 Webm
 
-<pre><code>for %%a in (&quot;*.mkv&quot; &quot;*.mp4&quot; &quot;*.webm&quot;) do ffmpeg -i &quot;%%a&quot; -acodec libopus &quot;%%a.opus&quot;
-ren *.opus *.ogg
 </code></pre>
 
-<h3 id="encode-vp8-webm">Encode VP8 Webm</h3>
+<p>ffmpeg -i INPUT_FILENAME -c:v libvpx -pix_fmt yuv420p -lag-in-frames 16 -auto-alt-ref 1 -qmin 28 -crf 30 -qmax 32 -qcomp 1 -b:v 0 out.webm</p>
 
-<pre><code>ffmpeg -i INPUT_FILENAME -c:v libvpx -pix_fmt yuv420p -lag-in-frames 16 -auto-alt-ref 1 -qmin 28 -crf 30 -qmax 32 -qcomp 1 -b:v 0 out.webm
+<pre><code>
+### Encode to Twitter MP4
+
 </code></pre>
 
-<h3 id="encode-to-twitter-mp4">Encode to Twitter MP4</h3>
+<p>ffmpeg -i INPUT_FILENAME -c:v libx264 -strict -2 OUTPUT_FILENAME.mp4</p>
 
-<pre><code>ffmpeg -i INPUT_FILENAME -c:v libx264 -strict -2 OUTPUT_FILENAME.mp4
+<pre><code>
+### Convert to JPEG
+
+Convert all BMP files in directory to JPEG then delete them.
 </code></pre>
 
-<h3 id="convert-to-jpeg">Convert to JPEG</h3>
+<p>magick mogrify -format jpg -quality 80 *.bmp
+del *.bmp</p>
 
-<p>Convert all BMP files in directory to JPEG then delete them.</p>
+<pre><code>
+### Output Frames of Video
 
-<pre><code>magick mogrify -format jpg -quality 80 *.bmp
-del *.bmp
 </code></pre>
 
-<h3 id="output-frames-of-video">Output Frames of Video</h3>
+<p>ffmpeg -i inputvideo.mp4 frames/frame%05d.bmp<br />
+ffmpeg -ss 00:19:20 -i inputvideo.mkv -t 5 frames/frame%05d.bmp</p>
 
-<pre><code>ffmpeg -i inputvideo.mp4 frames/frame%05d.bmp  
-ffmpeg -ss 00:19:20 -i inputvideo.mkv -t 5 frames/frame%05d.bmp
+<pre><code>
+### Youtube-DL
+
+Download Youtube video with subtitles.
+
 </code></pre>
 
-<h3 id="youtube-dl">Youtube-DL</h3>
+<p>youtube-dl &ndash;write-auto-sub <a href="https://www.youtube.com/watch?v=">https://www.youtube.com/watch?v=</a>
+youtube-dl &ndash;write-sub &ndash;sub-lang en &ndash;embed-subs <a href="https://www.youtube.com/watch?v=">https://www.youtube.com/watch?v=</a></p>
 
-<p>Download Youtube video with subtitles.</p>
+<pre><code>
+Archival
 
-<pre><code>youtube-dl --write-auto-sub https://www.youtube.com/watch?v=
-youtube-dl --write-sub --sub-lang en --embed-subs https://www.youtube.com/watch?v=
 </code></pre>
 
-<p>Archival</p>
+<p>youtube-dl &ndash;write-thumbnail &ndash;add-metadata &ndash;ignore-errors &ndash;embed-thumbnail</p>
 
-<pre><code>youtube-dl --write-thumbnail --add-metadata --ignore-errors --embed-thumbnail
+<pre><code>
+Download snippet only.  
+
 </code></pre>
 
-<p>Download snippet only.<br />
-First -ss set before the start to allow key frames to populate.<br />
-2nd -ss actual start.</p>
+<p>youtube-dl -v &ldquo;<a href="https://www.twitch.tv/videos/xxx&quot;">https://www.twitch.tv/videos/xxx&quot;</a> &ndash;hls-prefer-ffmpeg &ndash;external-downloader-args &ldquo;-ss 00:30:00 -to 00:40:00&rdquo;</p>
 
-<pre><code>youtube-dl -g [URL]  
-ffmpeg -ss 00:59:30 -i &quot;vidlink&quot; -ss 00:59:30 -i &quot;audlink&quot; -map 0:v -map 1:a -ss 30 -t 60 out.mp4
+<pre><code>
+Alt method:  
+First -ss set before the start to allow key frames to populate.  
+2nd -ss actual start.
+
 </code></pre>
 
-<h2 id="file-editing">File Editing</h2>
+<p>youtube-dl -g [URL]<br />
+ffmpeg -ss 00:59:30 -i &ldquo;vidlink&rdquo; -ss 00:59:30 -i &ldquo;audlink&rdquo; -map 0:v -map 1:a -ss 30 -t 60 out.mp4</p>
 
-<h3 id="renaming">Renaming</h3>
+<pre><code>
+## Image Editing
 
-<p><code>ren *.jpg *@TehLemon.jpg</code></p>
+### Tiling
 
-<h2 id="image-editing">Image Editing</h2>
+&lt;https://www.imagemagick.org/Usage/montage/#settings&gt;  
+Create a spritesheet from the files with a maximum size of 256x128, with a spacing of 0 pixels in between and 1 pixel on the top and bottom, with 2 columns and 1 row.  
+Tiling optional, montage will distribute it evenly by default.  
+256x128 optional, montage will leave things at their original size.  
 
-<p><code>convert</code> creates a new file<br />
-<code>mogrify</code> overwrites the original file</p>
-
-<h3 id="resize">Resize</h3>
-
-<pre><code>magick convert &quot;thing.jpg&quot; -resize 50% &quot;thing-small.jpg&quot;
-magick mogrify -resize 50% &quot;thing.jpg&quot; 
 </code></pre>
 
-<h3 id="rotation">Rotation</h3>
+<p>magick montage &ldquo;file1.jpg&rdquo; &ldquo;file2.jpg&rdquo; &ldquo;file3.jpg&rdquo; -geometry 256x128+0+1 -tile 2x1 montage.jpg</p>
 
-<pre><code>magick convert -rotate &quot;90&quot; in.jpg out.jpg
-magick mogrify -rotate &quot;-45&quot; foo.jpg
+<pre><code>
 </code></pre>
 
-<h3 id="tiling">Tiling</h3>
+<p>magick montage *.jpg -geometry +0 -tile 1 foo.jpg</p>
 
-<p><a href="https://www.imagemagick.org/Usage/montage/#settings">https://www.imagemagick.org/Usage/montage/#settings</a><br />
-Create a spritesheet from the files with a maximum size of 256x128, with a spacing of 0 pixels in between and 1 pixel on the top and bottom, with 2 columns and 1 row.<br />
-Tiling optional, montage will distribute it evenly by default.<br />
-256x128 optional, montage will leave things at their original size.</p>
+<pre><code>
+## Video Editing
 
-<pre><code>magick montage &quot;file1.jpg&quot; &quot;file2.jpg&quot; &quot;file3.jpg&quot; -geometry 256x128+0+1 -tile 2x1 montage.jpg
+### Hold the last frame
+
+`N` in `trim=0:N` changes the duration of the freeze.
 </code></pre>
 
-<pre><code>magick montage *.jpg -geometry +0 -tile 1 foo.jpg
+<p>ffmpeg -i in.webm -filter_complex &ldquo;[0]trim=0:N[hold];[0][hold]concat[extended];[extended][0]overlay&rdquo; -c:v libvpx -pix_fmt yuv420p -lag-in-frames 16 -auto-alt-ref 1 -qmin 28 -crf 30 -qmax 32 -qcomp 1 -b:v 0 out.webm</p>
+
+<pre><code>
+### Tiling
+
 </code></pre>
 
-<h2 id="video-editing">Video Editing</h2>
+<p>ffmpeg
+    -i 1.avi -i 2.avi -i 3.avi -i 4.avi
+    -filter_complex &ldquo;
+        nullsrc=size=640x480 [base];
+        [0:v] setpts=PTS-STARTPTS, scale=320x240 [upperleft];
+        [1:v] setpts=PTS-STARTPTS, scale=320x240 [upperright];
+        [2:v] setpts=PTS-STARTPTS, scale=320x240 [lowerleft];
+        [3:v] setpts=PTS-STARTPTS, scale=320x240 [lowerright];
+        [base][upperleft] overlay=shortest=1 [tmp1];
+        [tmp1][upperright] overlay=shortest=1:x=320 [tmp2];
+        [tmp2][lowerleft] overlay=shortest=1:y=240 [tmp3];
+        [tmp3][lowerright] overlay=shortest=1:x=320:y=240
+    &ldquo;
+    -c:v libx264 output.mkv</p>
 
-<h3 id="hold-the-last-frame">Hold the last frame</h3>
+<pre><code>
+### Time Range
 
-<p><code>N</code> in <code>trim=0:N</code> changes the duration of the freeze.</p>
-
-<pre><code>ffmpeg -i in.webm -filter_complex &quot;[0]trim=0:N[hold];[0][hold]concat[extended];[extended][0]overlay&quot; -c:v libvpx -pix_fmt yuv420p -lag-in-frames 16 -auto-alt-ref 1 -qmin 28 -crf 30 -qmax 32 -qcomp 1 -b:v 0 out.webm
 </code></pre>
 
-<h3 id="tiling-1">Tiling</h3>
+<p>ffmpeg -i input.mp4 -ss 00:00:00.00 -to 00:04:15.00 [output]</p>
 
-<pre><code>ffmpeg
-	-i 1.avi -i 2.avi -i 3.avi -i 4.avi
-	-filter_complex &quot;
-		nullsrc=size=640x480 [base];
-		[0:v] setpts=PTS-STARTPTS, scale=320x240 [upperleft];
-		[1:v] setpts=PTS-STARTPTS, scale=320x240 [upperright];
-		[2:v] setpts=PTS-STARTPTS, scale=320x240 [lowerleft];
-		[3:v] setpts=PTS-STARTPTS, scale=320x240 [lowerright];
-		[base][upperleft] overlay=shortest=1 [tmp1];
-		[tmp1][upperright] overlay=shortest=1:x=320 [tmp2];
-		[tmp2][lowerleft] overlay=shortest=1:y=240 [tmp3];
-		[tmp3][lowerright] overlay=shortest=1:x=320:y=240
-	&quot;
-	-c:v libx264 output.mkv
+<pre><code>
+### Concatenation
+
+&lt;https://trac.ffmpeg.org/wiki/Concatenate&gt;  
+
+Only works for videos of the same codec.  
+`list.txt`
 </code></pre>
 
-<h3 id="time-range">Time Range</h3>
-
-<pre><code>ffmpeg -i input.mp4 -ss 00:00:00.00 -to 00:04:15.00 [output]
-</code></pre>
-
-<h3 id="concatenation">Concatenation</h3>
-
-<p><a href="https://trac.ffmpeg.org/wiki/Concatenate">https://trac.ffmpeg.org/wiki/Concatenate</a></p>
-
-<p>Only works for videos of the same codec.<br />
-<code>list.txt</code></p>
-
-<pre><code>file '/path/to/file1.webm'  
-file '/path/to/file2.webm'  
-file '/path/to/file3.webm'  
-</code></pre>
+<p>file &lsquo;/path/to/file1.webm&rsquo;<br />
+file &lsquo;/path/to/file2.webm&rsquo;<br />
+file &lsquo;/path/to/file3.webm&rsquo;<br />
+```</p>
 
 <p><code>ffmpeg -f concat -i list.txt -c copy outputFile.webm</code></p>
 

@@ -169,11 +169,7 @@ youtube-dl --write-sub --sub-lang en --embed-subs https://www.youtube.com/watch?
 
 <p>Download snippet only.</p>
 
-<pre><code>youtube-dl -v &quot;https://www.twitch.tv/videos/xxx&quot; --hls-prefer-ffmpeg --external-downloader-args &quot;-ss 00:30:00 -to 00:40:00&quot;  
-</code></pre>
-
-<p>Alt method:<br />
-First -ss set before the start to allow key frames to populate.<br />
+<p>1st -ss set before the start to allow key frames to populate.<br />
 2nd -ss actual start.</p>
 
 <pre><code>youtube-dl -g [URL]  

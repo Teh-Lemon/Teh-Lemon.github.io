@@ -3,6 +3,51 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://www.tehlemon.com/articles/</loc>
+    <lastmod>2022-07-11T06:11:56+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.tehlemon.com/tags/backblaze/</loc>
+    <lastmod>2022-07-11T06:11:56+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.tehlemon.com/categories/</loc>
+    <lastmod>2022-07-11T06:11:56+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.tehlemon.com/tags/cloudflare/</loc>
+    <lastmod>2022-07-11T06:11:56+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.tehlemon.com/tags/</loc>
+    <lastmod>2022-07-11T06:11:56+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.tehlemon.com/</loc>
+    <lastmod>2022-07-11T06:11:56+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.tehlemon.com/categories/web/</loc>
+    <lastmod>2022-07-11T06:11:56+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.tehlemon.com/tags/website/</loc>
+    <lastmod>2022-07-11T06:11:56+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.tehlemon.com/articles/2022/2022-website-update/</loc>
+    <lastmod>2022-07-11T06:11:56+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.tehlemon.com/tags/airports/</loc>
     <lastmod>2020-03-28T00:08:25+00:00</lastmod>
   </url>
@@ -14,11 +59,6 @@
   
   <url>
     <loc>https://www.tehlemon.com/blog/</loc>
-    <lastmod>2020-03-28T00:08:25+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.tehlemon.com/categories/</loc>
     <lastmod>2020-03-28T00:08:25+00:00</lastmod>
   </url>
   
@@ -69,16 +109,6 @@
   
   <url>
     <loc>https://www.tehlemon.com/tags/shinkansen/</loc>
-    <lastmod>2020-03-28T00:08:25+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.tehlemon.com/tags/</loc>
-    <lastmod>2020-03-28T00:08:25+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.tehlemon.com/</loc>
     <lastmod>2020-03-28T00:08:25+00:00</lastmod>
   </url>
   
@@ -454,11 +484,6 @@
   
   <url>
     <loc>https://www.tehlemon.com/notes/2018/markdown-cheet-sheet/</loc>
-    <lastmod>2018-05-19T04:07:28+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.tehlemon.com/categories/web/</loc>
     <lastmod>2018-05-19T04:07:28+01:00</lastmod>
   </url>
   

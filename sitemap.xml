@@ -3,6 +3,76 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://www.tehlemon.com/categories/blog/</loc>
+    <lastmod>2022-08-03T06:00:10+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.tehlemon.com/blog/</loc>
+    <lastmod>2022-08-03T06:00:10+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.tehlemon.com/categories/</loc>
+    <lastmod>2022-08-03T06:00:10+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.tehlemon.com/tags/culture/</loc>
+    <lastmod>2022-08-03T06:00:10+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.tehlemon.com/tags/food/</loc>
+    <lastmod>2022-08-03T06:00:10+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.tehlemon.com/tags/harajuku/</loc>
+    <lastmod>2022-08-03T06:00:10+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.tehlemon.com/tags/japan/</loc>
+    <lastmod>2022-08-03T06:00:10+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.tehlemon.com/blog/2022/jp19-08/</loc>
+    <lastmod>2022-08-03T06:00:10+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.tehlemon.com/tags/jp2019/</loc>
+    <lastmod>2022-08-03T06:00:10+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.tehlemon.com/tags/shinjuku/</loc>
+    <lastmod>2022-08-03T06:00:10+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.tehlemon.com/tags/</loc>
+    <lastmod>2022-08-03T06:00:10+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.tehlemon.com/</loc>
+    <lastmod>2022-08-03T06:00:10+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.tehlemon.com/tags/tokyo/</loc>
+    <lastmod>2022-08-03T06:00:10+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.tehlemon.com/tags/travel/</loc>
+    <lastmod>2022-08-03T06:00:10+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.tehlemon.com/articles/</loc>
     <lastmod>2022-07-11T06:11:56+01:00</lastmod>
   </url>
@@ -13,22 +83,7 @@
   </url>
   
   <url>
-    <loc>https://www.tehlemon.com/categories/</loc>
-    <lastmod>2022-07-11T06:11:56+01:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://www.tehlemon.com/tags/cloudflare/</loc>
-    <lastmod>2022-07-11T06:11:56+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.tehlemon.com/tags/</loc>
-    <lastmod>2022-07-11T06:11:56+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.tehlemon.com/</loc>
     <lastmod>2022-07-11T06:11:56+01:00</lastmod>
   </url>
   
@@ -53,16 +108,6 @@
   </url>
   
   <url>
-    <loc>https://www.tehlemon.com/categories/blog/</loc>
-    <lastmod>2020-03-28T00:08:25+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.tehlemon.com/blog/</loc>
-    <lastmod>2020-03-28T00:08:25+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://www.tehlemon.com/tags/don-quijote/</loc>
     <lastmod>2020-03-28T00:08:25+00:00</lastmod>
   </url>
@@ -78,17 +123,7 @@
   </url>
   
   <url>
-    <loc>https://www.tehlemon.com/tags/japan/</loc>
-    <lastmod>2020-03-28T00:08:25+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://www.tehlemon.com/blog/2020/jp19-08/</loc>
-    <lastmod>2020-03-28T00:08:25+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.tehlemon.com/tags/jp2019/</loc>
     <lastmod>2020-03-28T00:08:25+00:00</lastmod>
   </url>
   
@@ -103,22 +138,7 @@
   </url>
   
   <url>
-    <loc>https://www.tehlemon.com/tags/shinjuku/</loc>
-    <lastmod>2020-03-28T00:08:25+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://www.tehlemon.com/tags/shinkansen/</loc>
-    <lastmod>2020-03-28T00:08:25+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.tehlemon.com/tags/tokyo/</loc>
-    <lastmod>2020-03-28T00:08:25+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.tehlemon.com/tags/travel/</loc>
     <lastmod>2020-03-28T00:08:25+00:00</lastmod>
   </url>
   
@@ -129,11 +149,6 @@
   
   <url>
     <loc>https://www.tehlemon.com/tags/blog/</loc>
-    <lastmod>2020-03-10T05:40:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.tehlemon.com/tags/culture/</loc>
     <lastmod>2020-03-10T05:40:00+00:00</lastmod>
   </url>
   
@@ -343,12 +358,12 @@
   </url>
   
   <url>
-    <loc>https://www.tehlemon.com/categories/figures/</loc>
+    <loc>https://www.tehlemon.com/tags/figures/</loc>
     <lastmod>2018-11-05T23:10:21+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.tehlemon.com/tags/figures/</loc>
+    <loc>https://www.tehlemon.com/categories/figures/</loc>
     <lastmod>2018-11-05T23:10:21+00:00</lastmod>
   </url>
   
@@ -508,12 +523,12 @@
   </url>
   
   <url>
-    <loc>https://www.tehlemon.com/categories/programming/</loc>
+    <loc>https://www.tehlemon.com/tags/programming/</loc>
     <lastmod>2018-05-18T00:17:02+01:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.tehlemon.com/tags/programming/</loc>
+    <loc>https://www.tehlemon.com/categories/programming/</loc>
     <lastmod>2018-05-18T00:17:02+01:00</lastmod>
   </url>
   

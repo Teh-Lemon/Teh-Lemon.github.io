@@ -7,82 +7,10 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Teh Lemon</copyright>
-    <lastBuildDate>Sat, 20 Aug 2022 06:51:27 +0100</lastBuildDate>
+    <lastBuildDate>Wed, 03 Aug 2022 06:00:10 +0100</lastBuildDate>
     
 	<atom:link href="https://www.tehlemon.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Art</title>
-      <link>https://www.tehlemon.com/tags/art/</link>
-      <pubDate>Sat, 20 Aug 2022 06:51:27 +0100</pubDate>
-      
-      <guid>https://www.tehlemon.com/tags/art/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Food</title>
-      <link>https://www.tehlemon.com/tags/food/</link>
-      <pubDate>Sat, 20 Aug 2022 06:51:27 +0100</pubDate>
-      
-      <guid>https://www.tehlemon.com/tags/food/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Japan</title>
-      <link>https://www.tehlemon.com/tags/japan/</link>
-      <pubDate>Sat, 20 Aug 2022 06:51:27 +0100</pubDate>
-      
-      <guid>https://www.tehlemon.com/tags/japan/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>JP2019</title>
-      <link>https://www.tehlemon.com/tags/jp2019/</link>
-      <pubDate>Sat, 20 Aug 2022 06:51:27 +0100</pubDate>
-      
-      <guid>https://www.tehlemon.com/tags/jp2019/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Odaiba</title>
-      <link>https://www.tehlemon.com/tags/odaiba/</link>
-      <pubDate>Sat, 20 Aug 2022 06:51:27 +0100</pubDate>
-      
-      <guid>https://www.tehlemon.com/tags/odaiba/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Shinjuku</title>
-      <link>https://www.tehlemon.com/tags/shinjuku/</link>
-      <pubDate>Sat, 20 Aug 2022 06:51:27 +0100</pubDate>
-      
-      <guid>https://www.tehlemon.com/tags/shinjuku/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Tokyo</title>
-      <link>https://www.tehlemon.com/tags/tokyo/</link>
-      <pubDate>Sat, 20 Aug 2022 06:51:27 +0100</pubDate>
-      
-      <guid>https://www.tehlemon.com/tags/tokyo/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Travel</title>
-      <link>https://www.tehlemon.com/tags/travel/</link>
-      <pubDate>Sat, 20 Aug 2022 06:51:27 +0100</pubDate>
-      
-      <guid>https://www.tehlemon.com/tags/travel/</guid>
-      <description></description>
-    </item>
     
     <item>
       <title>Culture</title>
@@ -94,11 +22,65 @@
     </item>
     
     <item>
+      <title>Food</title>
+      <link>https://www.tehlemon.com/tags/food/</link>
+      <pubDate>Wed, 03 Aug 2022 06:00:10 +0100</pubDate>
+      
+      <guid>https://www.tehlemon.com/tags/food/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Harajuku</title>
       <link>https://www.tehlemon.com/tags/harajuku/</link>
       <pubDate>Wed, 03 Aug 2022 06:00:10 +0100</pubDate>
       
       <guid>https://www.tehlemon.com/tags/harajuku/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Japan</title>
+      <link>https://www.tehlemon.com/tags/japan/</link>
+      <pubDate>Wed, 03 Aug 2022 06:00:10 +0100</pubDate>
+      
+      <guid>https://www.tehlemon.com/tags/japan/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>JP2019</title>
+      <link>https://www.tehlemon.com/tags/jp2019/</link>
+      <pubDate>Wed, 03 Aug 2022 06:00:10 +0100</pubDate>
+      
+      <guid>https://www.tehlemon.com/tags/jp2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Shinjuku</title>
+      <link>https://www.tehlemon.com/tags/shinjuku/</link>
+      <pubDate>Wed, 03 Aug 2022 06:00:10 +0100</pubDate>
+      
+      <guid>https://www.tehlemon.com/tags/shinjuku/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tokyo</title>
+      <link>https://www.tehlemon.com/tags/tokyo/</link>
+      <pubDate>Wed, 03 Aug 2022 06:00:10 +0100</pubDate>
+      
+      <guid>https://www.tehlemon.com/tags/tokyo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Travel</title>
+      <link>https://www.tehlemon.com/tags/travel/</link>
+      <pubDate>Wed, 03 Aug 2022 06:00:10 +0100</pubDate>
+      
+      <guid>https://www.tehlemon.com/tags/travel/</guid>
       <description></description>
     </item>
     
@@ -193,7 +175,7 @@
     </item>
     
     <item>
-      <title>Anime</title>
+      <title>anime</title>
       <link>https://www.tehlemon.com/tags/anime/</link>
       <pubDate>Tue, 10 Mar 2020 05:40:00 +0000</pubDate>
       

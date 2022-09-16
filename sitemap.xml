@@ -8,6 +8,11 @@
   </url>
   
   <url>
+    <loc>https://www.tehlemon.com/tags/asakusa/</loc>
+    <lastmod>2022-09-03T08:27:20+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.tehlemon.com/categories/blog/</loc>
     <lastmod>2022-09-03T08:27:20+01:00</lastmod>
   </url>
@@ -24,6 +29,11 @@
   
   <url>
     <loc>https://www.tehlemon.com/tags/culture/</loc>
+    <lastmod>2022-09-03T08:27:20+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.tehlemon.com/tags/family/</loc>
     <lastmod>2022-09-03T08:27:20+01:00</lastmod>
   </url>
   
@@ -558,12 +568,12 @@
   </url>
   
   <url>
-    <loc>https://www.tehlemon.com/categories/programming/</loc>
+    <loc>https://www.tehlemon.com/tags/programming/</loc>
     <lastmod>2018-05-18T00:17:02+01:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.tehlemon.com/tags/programming/</loc>
+    <loc>https://www.tehlemon.com/categories/programming/</loc>
     <lastmod>2018-05-18T00:17:02+01:00</lastmod>
   </url>
   

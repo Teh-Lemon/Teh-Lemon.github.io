@@ -7,24 +7,24 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Teh Lemon</copyright>
-    <lastBuildDate>Sat, 03 Sep 2022 08:27:20 +0100</lastBuildDate>
+    <lastBuildDate>Fri, 16 Sep 2022 05:11:44 +0100</lastBuildDate>
     
 	<atom:link href="https://www.tehlemon.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Animals</title>
-      <link>https://www.tehlemon.com/tags/animals/</link>
-      <pubDate>Sat, 03 Sep 2022 08:27:20 +0100</pubDate>
+      <title>Akiba</title>
+      <link>https://www.tehlemon.com/tags/akiba/</link>
+      <pubDate>Fri, 16 Sep 2022 05:11:44 +0100</pubDate>
       
-      <guid>https://www.tehlemon.com/tags/animals/</guid>
+      <guid>https://www.tehlemon.com/tags/akiba/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Asakusa</title>
       <link>https://www.tehlemon.com/tags/asakusa/</link>
-      <pubDate>Sat, 03 Sep 2022 08:27:20 +0100</pubDate>
+      <pubDate>Fri, 16 Sep 2022 05:11:44 +0100</pubDate>
       
       <guid>https://www.tehlemon.com/tags/asakusa/</guid>
       <description></description>
@@ -33,7 +33,7 @@
     <item>
       <title>Culture</title>
       <link>https://www.tehlemon.com/tags/culture/</link>
-      <pubDate>Sat, 03 Sep 2022 08:27:20 +0100</pubDate>
+      <pubDate>Fri, 16 Sep 2022 05:11:44 +0100</pubDate>
       
       <guid>https://www.tehlemon.com/tags/culture/</guid>
       <description></description>
@@ -42,7 +42,7 @@
     <item>
       <title>Family</title>
       <link>https://www.tehlemon.com/tags/family/</link>
-      <pubDate>Sat, 03 Sep 2022 08:27:20 +0100</pubDate>
+      <pubDate>Fri, 16 Sep 2022 05:11:44 +0100</pubDate>
       
       <guid>https://www.tehlemon.com/tags/family/</guid>
       <description></description>
@@ -51,16 +51,25 @@
     <item>
       <title>Food</title>
       <link>https://www.tehlemon.com/tags/food/</link>
-      <pubDate>Sat, 03 Sep 2022 08:27:20 +0100</pubDate>
+      <pubDate>Fri, 16 Sep 2022 05:11:44 +0100</pubDate>
       
       <guid>https://www.tehlemon.com/tags/food/</guid>
       <description></description>
     </item>
     
     <item>
+      <title>Ginza</title>
+      <link>https://www.tehlemon.com/tags/ginza/</link>
+      <pubDate>Fri, 16 Sep 2022 05:11:44 +0100</pubDate>
+      
+      <guid>https://www.tehlemon.com/tags/ginza/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Japan</title>
       <link>https://www.tehlemon.com/tags/japan/</link>
-      <pubDate>Sat, 03 Sep 2022 08:27:20 +0100</pubDate>
+      <pubDate>Fri, 16 Sep 2022 05:11:44 +0100</pubDate>
       
       <guid>https://www.tehlemon.com/tags/japan/</guid>
       <description></description>
@@ -69,16 +78,25 @@
     <item>
       <title>JP2019</title>
       <link>https://www.tehlemon.com/tags/jp2019/</link>
-      <pubDate>Sat, 03 Sep 2022 08:27:20 +0100</pubDate>
+      <pubDate>Fri, 16 Sep 2022 05:11:44 +0100</pubDate>
       
       <guid>https://www.tehlemon.com/tags/jp2019/</guid>
       <description></description>
     </item>
     
     <item>
+      <title>Skytree</title>
+      <link>https://www.tehlemon.com/tags/skytree/</link>
+      <pubDate>Fri, 16 Sep 2022 05:11:44 +0100</pubDate>
+      
+      <guid>https://www.tehlemon.com/tags/skytree/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Tokyo</title>
       <link>https://www.tehlemon.com/tags/tokyo/</link>
-      <pubDate>Sat, 03 Sep 2022 08:27:20 +0100</pubDate>
+      <pubDate>Fri, 16 Sep 2022 05:11:44 +0100</pubDate>
       
       <guid>https://www.tehlemon.com/tags/tokyo/</guid>
       <description></description>
@@ -87,9 +105,18 @@
     <item>
       <title>Travel</title>
       <link>https://www.tehlemon.com/tags/travel/</link>
-      <pubDate>Sat, 03 Sep 2022 08:27:20 +0100</pubDate>
+      <pubDate>Fri, 16 Sep 2022 05:11:44 +0100</pubDate>
       
       <guid>https://www.tehlemon.com/tags/travel/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Animals</title>
+      <link>https://www.tehlemon.com/tags/animals/</link>
+      <pubDate>Sat, 03 Sep 2022 08:27:20 +0100</pubDate>
+      
+      <guid>https://www.tehlemon.com/tags/animals/</guid>
       <description></description>
     </item>
     
@@ -247,7 +274,7 @@
     </item>
     
     <item>
-      <title>anime</title>
+      <title>Anime</title>
       <link>https://www.tehlemon.com/tags/anime/</link>
       <pubDate>Tue, 10 Mar 2020 05:40:00 +0000</pubDate>
       

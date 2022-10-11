@@ -170,6 +170,8 @@ I followed this tutorial for setting things up: <a href="https://www.backblaze.c
 <p>One problem I encountered with the tutorial is that the URL re-direct transform rule was re-directing ALL my urls, not just the images. I needed a second expression to make it work so the final result looks like:<br />
 <code>(not starts_with(http.request.uri.path, &quot;/file/img-tehlemon-com&quot;) and http.request.full_uri contains &quot;https://i.tehlemon.com&quot;)</code></p>
 
+<p>The website-based UI is somewhat clunky. It logs me out a lot and I need to manually navigate all the way back every time, it&rsquo;s not bookmark-able. So I&rsquo;m using the Windows desktop app, Cyberduck.</p>
+
 <h3 id="updating-the-website-theme">Updating the website theme</h3>
 
 <p>Merged in the latest updates to the parent theme, Mediumish.<br />

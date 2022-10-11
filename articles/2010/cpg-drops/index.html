@@ -179,7 +179,7 @@ Once they were done, the object pool would then store them to be reused later. T
 <p>The second problem took a bit of experimentation.<br />
 If Unity wouldn&rsquo;t let me use 2 separate trigger colliders, <strong>what if I used 1 trigger sphere collider and 1 solid (not-trigger) cube collider?</strong> Unfortunately, there was a noticeable delay between the solid collider touching the player&rsquo;s body and the code being activated so this was a no go.</p>
 
-<p>If Unity wouldn&rsquo;t let me use 2 separate trigger colliders on 1 GameObject, <strong>what if I had 2 GameObjects instead?</strong> In fact, it was a group of 3 GameObjects. This was before I made the above Object Pool so I had 2 for the colliders and 1 for the audio/particle effects.<br />
+<p>If Unity wouldn&rsquo;t let me use 2 separate trigger colliders on 1 GameObject, <strong>what if I had 2 GameObjects instead?</strong> In fact, I had a group of 3 GameObjects. This was before I made the above Object Pool so I had 2 for the colliders and 1 for the audio/particle effects.<br />
 I dropped this approach since it required the team to set up all the objects and scripts in a specific way which was prone to user error.<br />
 It also made it a pain to reference scripts from another object because I needed to get the components from all the children and sort through them etc.</p>
 
@@ -236,8 +236,10 @@ This ended up being much easier to implement than I thought. Though I did use a 
 
 <p>The 2nd spawner type spews GameObjects out like a fountain.<br />
 These were used for dynamically spawned Drops, like when an enemy is defeated or when the Player breaks open a crate.<br />
-This involved figuring out how to math random points on a sphere within a given angle/cone to get the spawning directions, but in hindsight maybe just a random.x + random.z would&rsquo;ve been good enough.<br />
-You can see this in action in the video at the top of the page.</p>
+This involved figuring out how to math random points on a sphere within a given angle/cone to get the spawning directions, but in hindsight maybe just a random.x + random.z would&rsquo;ve been good enough.</p>
+
+<video src="
+https://i.tehlemon.com//articles/game/cuteplatformer/drops/drops_fountain_spawner.webm" autoplay loop height="480"></video>  
 
 <h3 id="audio">Audio</h3>
 
@@ -245,7 +247,7 @@ You can see this in action in the video at the top of the page.</p>
 
 <p>Warning: Loud<br />
 <video src="
-https://i.tehlemon.com//articles/game/cuteplatformer/drops/drops_sound_jar.webm" controls width="600"></video></p>
+https://i.tehlemon.com//articles/game/cuteplatformer/drops/drops_sound_jar.webm" controls height="360"></video></p>
 
 <p>2 problems. First, kinda annoying. Second, getting a bunch of Drops at once either causes the sounds to stack/resonate/SCREECH or it breaks Unity and no sound is played at all.</p>
 
@@ -260,7 +262,7 @@ I eventually settled on an inoffensive sparkly effect in the end.</p>
 This helped reduced the ear-piercing a lot since they were no longer resonating with each other when the player picked up a large group at once. Plus it added a little variation.</p>
 
 <p><strong>Cull sound clips that played too close to each other and add a delay between each Drop spawn.</strong><br />
-This had the unintended side effect of making it look like the drops were streaming out the spawn point which I totally love.</p>
+This had the unintended side effect of making it look like the drops were streaming out the spawn point like a fountain which I totally love.</p>
 
 <p><strong>Increase the pitch after consecutive pick ups.</strong><br />
 I tried this with the hand-placed Drops. This is the same technique used in the Mario games. As you pick up coins quickly the pitch rises like a nice musical combo.<br />
@@ -292,7 +294,7 @@ https://i.tehlemon.com//articles/game/cuteplatformer/drops/drops_final.webm" con
 <a href="https://i.tehlemon.com/articles/game/cuteplatformer/drops/pre-boss_supplies.jpg" target="_blank"><img src="https://i.tehlemon.com/articles/game/cuteplatformer/drops/pre-boss_supplies.jpg" alt=""></a>
 
 <blockquote>
-<p>The 2nd model I had made in Blender.</p>
+<p>The 2nd model I had ever made in Blender.</p>
 </blockquote>
                     </div>
                     

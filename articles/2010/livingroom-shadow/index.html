@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="generator" content="Hugo 0.59.1" />
+	
+	<link rel="icon" href="../../../images/lemon.png">
+	
+	<title>Custom Ambient Shadows for the Living Room scene in Unity | Teh Lemon</title>
+	
+	
+
+	<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Custom Ambient Shadows for the Living Room scene in Unity"/>
+<meta name="twitter:description" content="How I over-engineered the wheel."/>
+
+	<meta property="og:title" content="Custom Ambient Shadows for the Living Room scene in Unity" />
+<meta property="og:description" content="How I over-engineered the wheel." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://www.tehlemon.com/articles/2010/livingroom-shadow/" />
+<meta property="article:published_time" content="2017-10-30T06:54:34+01:00" />
+<meta property="article:modified_time" content="2017-10-30T06:54:34+01:00" />
+
+
+	<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Righteous%7CMerriweather:300,300i,400,400i,700,700i" rel="stylesheet">
+
+	
+	<link rel="stylesheet" href="https://www.tehlemon.com/css/medium.13f243419de35454204d7f99a0b2c1d8aaaa1fa3c07c9cce344ec0f064b65a2b.css" integrity="">
+
+	
+	<link rel="stylesheet" href="https://www.tehlemon.com/css/additional.4ea711d5cd24f8a02f19d352ba2a70bb9a6407179681581281706af2af3386e0.css" integrity="">
+
+	
+	
+	<link rel="stylesheet" href="../../../css/tweaks.css" integrity="" crossorigin="anonymous" media="screen">
+</head><body>
+<nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top mediumnavigation nav-down">
+    <div class="container pr-0">
+        
+        <a class="navbar-brand" href="https://www.tehlemon.com/">
+
+            
+            <img src="../../../images/lemon.png" alt="logo">
+            
+        </a>
+        
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMediumish" aria-controls="navbarSupportedContent"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        
+        <div class="collapse navbar-collapse" id="navbarMediumish">
+            
+            <ul class="navbar-nav ml-auto">
+                 
+                <li class="nav-item ">
+                    <a class="nav-link" href="../../../">About</a>
+                </li>
+                 
+                <li class="nav-item ">
+                    <a class="nav-link" href="../../../articles">Articles</a>
+                </li>
+                 
+                <li class="nav-item ">
+                    <a class="nav-link" href="../../../blog">Blog</a>
+                </li>
+                 
+                <li class="nav-item ">
+                    <a class="nav-link" href="../../../notes">Notes</a>
+                </li>
+                 
+                <li class="nav-item ">
+                    <a class="nav-link" href="../../../static/projects">Projects</a>
+                </li>
+                 
+                <li class="nav-item ">
+                    <a class="nav-link" href="../../../index.xml">RSS</a>
+                </li>
+                
+            </ul>
+        </div>
+        
+    </div>
+</nav>
+
+
+        <div class="site-content">   
+            <div class="container">
+<div class="mainheading">
+    <h1 class="sitetitle">Teh Lemon</h1>
+    <p class="lead">
+         Teh Lemon&#39;s blog
+    </p>
+</div><div class="main-content">
+        
+        <div class="container">
+            <div class="row">
+                
+                <div class="col-md-2 pl-0">      
+                    
+                </div>
+                                
+                <div class="col-md-9 flex-first flex-md-unordered">
+                    <div class="mainheading">
+                        	
+                        
+                        
+                        
+                        		
+                        	
+                        
+                                                
+                        
+                        <h1 class="posttitle">Custom Ambient Shadows for the Living Room scene in Unity</h1>
+                        <i class="far fa-star"></i> 
+                        Oct 30, 2017                        
+                        <i class="far fa-clock clock"></i>
+                        4 min read
+                    </div>
+
+                    
+                    
+                    
+                    
+
+                    
+                    <div class="article-post">
+                        <a href="https://i.tehlemon.com/articles/game/livingroom/lr_shadow_problem.jpg" target="_blank"><img src="https://i.tehlemon.com/articles/game/livingroom/lr_shadow_problem.jpg" alt=""></a>
+
+<p>My solution for real-time ambient shadows for dynamic characters for my living room scene.</p>
+
+<hr />
+
+<p>My living room scene was lit with a directional light and an area light. The directional light only directly shined on a small part of the room while Unity&rsquo;s area lights (in 2017) were baked only (not real-time).<br />
+The lack of shadow meant my character never truly felt grounded in the world.</p>
+
+
+<a href="https://i.tehlemon.com/articles/game/livingroom/lr_shadow_yakuza.jpg" target="_blank"><img src="https://i.tehlemon.com/articles/game/livingroom/lr_shadow_yakuza.jpg" alt=""></a>
+
+<blockquote>
+<p>The goal (Yakuza 6 for reference)</p>
+</blockquote>
+
+
+<a href="https://i.tehlemon.com/articles/game/livingroom/lr_shadow_final.jpg" target="_blank"><img src="https://i.tehlemon.com/articles/game/livingroom/lr_shadow_final.jpg" alt=""></a>
+
+<blockquote>
+<p>The final result</p>
+</blockquote>
+
+<h2 id="progression-blog">Progression Blog</h2>
+
+<p>Unreal already had a solution for ambient shadows, their capsule shadows, but Unity was not planning to address this until at least their future graphics rewrite has launched (which ended up being the Scriptable Render Pipelines and it&rsquo;s finally on the <a href="https://portal.productboard.com/unity/1-unity-platform-rendering-visual-effects/c/1265-capsule-shadows-experimental" title="Capsule Shadows \(Experimental\) - Unity Platform - Rendering &amp; Visual Effects | Product Roadmap">roadmap in 2022</a>).</p>
+
+<p>My first thought was to add a 2nd light that ignores the room&rsquo;s walls so there would always be a shadow casting light on the Player. This would look pretty unnatural though if the Player was twice as bright as everything else.</p>
+
+<p>Next I tried to see if the Asset Store had any free plugins for this. I did find one that looked promising but it did not work the way I needed to.</p>
+
+
+<a href="https://i.tehlemon.com/articles/game/livingroom/lr_shadow_blobtest.jpg" target="_blank"><img src="https://i.tehlemon.com/articles/game/livingroom/lr_shadow_blobtest.jpg" alt=""></a>
+
+<blockquote>
+<p>Shadow blob test</p>
+</blockquote>
+
+<p>What used to be common in older games was a shadow blob. A circular shadow decal projected below the Player. This was progress but a plain ol&rsquo; circle is kinda cheap looking. I can do better.</p>
+
+
+<a href="https://i.tehlemon.com/articles/game/livingroom/lr_shadow_aoex.jpg" target="_blank"><img src="https://i.tehlemon.com/articles/game/livingroom/lr_shadow_aoex.jpg" alt=""></a>
+
+<blockquote>
+<p>Standard Shader ambient occlusion texture example</p>
+</blockquote>
+
+<p>There&rsquo;s still also the problem of how do I &ldquo;switch it off&rdquo; in direct light.<br />
+The ambient occlusion works this way in Unity&rsquo;s standard shader but you can&rsquo;t have a transparent object with <em>just</em> an AO texture on it. I also couldn&rsquo;t figure out how to replicate this behaviour in my own custom shader instead. I&rsquo;ll put this off till later.</p>
+
+
+<a href="https://i.tehlemon.com/articles/game/livingroom/lr_shadow_projectortest.jpg" target="_blank"><img src="https://i.tehlemon.com/articles/game/livingroom/lr_shadow_projectortest.jpg" alt=""></a>
+
+<blockquote>
+<p>The shadow decal getting clamped to the edge of the floor object</p>
+</blockquote>
+
+<p>Back to the blob shadow. I&rsquo;m using Unity&rsquo;s Projector component for this.<br />
+To get a more humanoid shadow, I&rsquo;m using a second camera that follows the Player around. The camera is set to only render tagged dynamic objects onto a white background. The camera renders to a texture that I plug into the Projector in multiply mode (so the white background is transparent).</p>
+
+<p>The Projector component is surprisingly finicky. Shadows that hit the Projector bounds end up getting stretched to the end of the floor object.<br />
+It works by redrawing the floor a 2nd time with the shadow on top, which might end up being pretty computationally expensive with how complex modern shaders are. It was originally created for a different era after all.<br />
+If performance ever became a problem I would&rsquo;ve switched to a deferred-shading based decal projector. Though, at the time Unity did not have one of these built-in and I would&rsquo;ve had to buy one off the Asset Store.</p>
+
+
+<a href="https://i.tehlemon.com/articles/game/livingroom/lr_shadow_orthoproj.jpg" target="_blank"><img src="https://i.tehlemon.com/articles/game/livingroom/lr_shadow_orthoproj.jpg" alt=""></a>
+
+<blockquote>
+<p>Using the Projector in orthographic projection mode had its own set of bounds problems.</p>
+</blockquote>
+
+
+<a href="https://i.tehlemon.com/articles/game/livingroom/lr_shadow_brokenprojector.jpg" target="_blank"><img src="https://i.tehlemon.com/articles/game/livingroom/lr_shadow_brokenprojector.jpg" alt=""></a>
+
+<p>Using the Projector in perspective projection mode instead was tricky to calibrate.<br />
+Move the camera/projector too close to the Player and the shadow clips the bounds of the projection. Too far and it projects onto things in front of the Player, also most of the render texture would be empty space.<br />
+Plus having to calibrate the bound sizing, camera angle and position, camera fov etc.<br />
+Took a while to get something just right.</p>
+
+
+<a href="https://i.tehlemon.com/articles/game/livingroom/lr_shadow_sharedcamera.jpg" target="_blank"><img src="https://i.tehlemon.com/articles/game/livingroom/lr_shadow_sharedcamera.jpg" alt=""></a>
+
+<p>As I added more dynamic objects to test I ran into a new problem.<br />
+Each object&rsquo;s shadow camera can see the other objects too, since they&rsquo;re all tagged the same thing.</p>
+
+
+<a href="https://i.tehlemon.com/articles/game/livingroom/lr_shadow_2ndlighttest.jpg" target="_blank"><img src="https://i.tehlemon.com/articles/game/livingroom/lr_shadow_2ndlighttest.jpg" alt=""></a>
+
+<p>Taking inspiration from Unreal&rsquo;s capsule shadows, I gave dynamic objects their own shadow models that the camera&rsquo;s exclusively render. These tagged occluders are only seen by the shadow cameras, this way I can solve the multiple camera problem by only enabling the occluders during their camera&rsquo;s render phase and disable them again after.</p>
+
+
+<a href="https://i.tehlemon.com/articles/game/livingroom/lr_shadow_capsules.jpg" target="_blank"><img src="https://i.tehlemon.com/articles/game/livingroom/lr_shadow_capsules.jpg" alt=""></a>
+
+<blockquote>
+<p>2B&hellip;</p>
+</blockquote>
+
+<p>Capsules and spheres are enough to approximate the humanoid shape since the shadow is going to be blurred anyway.</p>
+
+
+<a href="https://i.tehlemon.com/articles/game/livingroom/lr_shadow_capsuletest.jpg" target="_blank"><img src="https://i.tehlemon.com/articles/game/livingroom/lr_shadow_capsuletest.jpg" alt=""></a>
+
+<blockquote>
+<p>It works!</p>
+</blockquote>
+
+<p>After some testing, a render texture of 64<sup>2</sup> is good enough even after blurring it.</p>
+
+
+<a href="https://i.tehlemon.com/articles/game/livingroom/lr_shadow_dirtest.jpg" target="_blank"><img src="https://i.tehlemon.com/articles/game/livingroom/lr_shadow_dirtest.jpg" alt=""></a>
+
+<blockquote>
+<p>Shadow direction test</p>
+</blockquote>
+
+<p>For directionality, the camera/projector aligns itself with the patio door. This also has the effect of elongating the shadow the further the object is from the door.<br />
+I use a volume system, similar to the Post-Processing Stack&rsquo;s, to detect when an object is near the window sill or on the computer desk. When they are, the camera will use the window position instead of the door.<br />
+It&rsquo;s a pretty convincing effect but this does mean this shadow system might not work well as a generic solution in other scenes.</p>
+
+
+<a href="https://i.tehlemon.com/articles/game/livingroom/lr_shadow_direction.jpg" target="_blank"><img src="https://i.tehlemon.com/articles/game/livingroom/lr_shadow_direction.jpg" alt=""></a>
+
+<p>As for my earlier problem of trying to figure out how disable it in direct light&hellip;<br />
+It ended up not being a problem in practice. The extra soft shadow on top of the direct hard shadow is barely noticeable.</p>
+
+
+<a href="https://i.tehlemon.com/articles/game/livingroom/lr_shadow_final.jpg" target="_blank"><img src="https://i.tehlemon.com/articles/game/livingroom/lr_shadow_final.jpg" alt=""></a>
+
+<p>Maybe it&rsquo;s over-engineered and there&rsquo;s an actual real proper solution to this but the final result came out looking pretty good.</p>
+                    </div>
+                    
+                    
+                    <div class="after-post-tags">
+                        <ul class="tags">
+                        
+                        <li>
+                        <a href="../../../tags/game-dev">Game Dev</a>
+                        </li>
+                        
+                        <li>
+                        <a href="../../../tags/unity">Unity</a>
+                        </li>
+                        
+                        <li>
+                        <a href="../../../tags/living-room-project">Living Room Project</a>
+                        </li>
+                        
+                        <li>
+                        <a href="../../../tags/3d">3D</a>
+                        </li>
+                        
+                        <li>
+                        <a href="../../../tags/vfx">VFX</a>
+                        </li>
+                        
+                        </ul>
+                    </div>
+                    
+                    
+                    
+                    <div class="row PageNavigation d-flex justify-content-between font-weight-bold">
+                    
+                        <a class="d-block col-md-6" href="https://www.tehlemon.com/articles/2010/livingroom-vfx/"> &laquo; VFX Collection for the Living Room scene in Unity</a>
+                    
+                    
+                        <a class="d-block col-md-6 text-lg-right" href="https://www.tehlemon.com/articles/2010/livingroom/">Living Room scene in Unity &raquo;</a>
+                    
+                    <div class="clearfix"></div>
+                    </div>
+                    
+                </div>
+                
+            </div>
+        </div>
+        
+        
+    </div>
+
+
+            </div>
+<div class="jumbotron fortags">
+	<div class="d-md-flex h-100">
+		<div class="col-md-4 transpdark align-self-center text-center h-100">
+			<div class="d-md-flex align-items-center justify-content-center h-100">
+				<h2 class="d-md-block d-none align-self-center py-1 font-weight-light">Explore <span class="d-none d-md-inline">→</span></h2>
+			</div>
+		</div>
+		<div class="col-md-8 p-5 align-self-center text-center">
+			
+			<a class="mt-1 mb-1" href="../../../tags/3d">3d</a>
+			
+			<a class="mt-1 mb-1" href="../../../tags/airports">airports</a>
+			
+			<a class="mt-1 mb-1" href="../../../tags/akiba">akiba</a>
+			
+			<a class="mt-1 mb-1" href="../../../tags/akihabara">akihabara</a>
+			
+			<a class="mt-1 mb-1" href="../../../tags/animals">animals</a>
+			
+			<a class="mt-1 mb-1" href="../../../tags/anime">anime</a>
+			
+			<a class="mt-1 mb-1" href="../../../tags/art">art</a>
+			
+			<a class="mt-1 mb-1" href="../../../tags/asakusa">asakusa</a>
+			
+			<a class="mt-1 mb-1" href="../../../tags/audio">audio</a>
+			
+			<a class="mt-1 mb-1" href="../../../tags/backblaze">backblaze</a>
+			
+			<a class="mt-1 mb-1" href="../../../tags/bash">bash</a>
+			
+			<a class="mt-1 mb-1" href="../../../tags/batch">batch</a>
+			
+			<a class="mt-1 mb-1" href="../../../tags/blender">blender</a>
+			
+			<a class="mt-1 mb-1" href="../../../tags/blog">blog</a>
+			
+			<a class="mt-1 mb-1" href="../../../tags/china">china</a>
+			
+			<a class="mt-1 mb-1" href="../../../tags/cloudflare">cloudflare</a>
+			
+			<a class="mt-1 mb-1" href="../../../tags/cmd">cmd</a>
+			
+			<a class="mt-1 mb-1" href="../../../tags/culture">culture</a>
+			
+			<a class="mt-1 mb-1" href="../../../tags/cute-platformer-game">cute-platformer-game</a>
+			
+			<a class="mt-1 mb-1" href="../../../tags/den-den-town">den-den-town</a>
+			
+			<a class="mt-1 mb-1" href="../../../tags/don-quijote">don-quijote</a>
+			
+			<a class="mt-1 mb-1" href="../../../tags/dotonbori">dotonbori</a>
+			
+			<a class="mt-1 mb-1" href="../../../tags/events">events</a>
+			
+			<a class="mt-1 mb-1" href="../../../tags/family">family</a>
+			
+			<a class="mt-1 mb-1" href="../../../tags/festivals">festivals</a>
+			
+			<a class="mt-1 mb-1" href="../../../tags/ffmpeg">ffmpeg</a>
+			
+			<a class="mt-1 mb-1" href="../../../tags/figures">figures</a>
+			
+			<a class="mt-1 mb-1" href="../../../tags/flying">flying</a>
+			
+			<a class="mt-1 mb-1" href="../../../tags/food">food</a>
+			
+			<a class="mt-1 mb-1" href="../../../tags/frame-arms-girl">frame-arms-girl</a>
+			
+			<a class="mt-1 mb-1" href="../../../tags/game-dev">game-dev</a>
+			
+			<a class="mt-1 mb-1" href="../../../tags/ginza">ginza</a>
+			
+			<a class="mt-1 mb-1" href="../../../tags/git">git</a>
+			
+			<a class="mt-1 mb-1" href="../../../tags/harajuku">harajuku</a>
+			
+			<a class="mt-1 mb-1" href="../../../tags/hiking">hiking</a>
+			
+			<a class="mt-1 mb-1" href="../../../tags/himeji">himeji</a>
+			
+			<a class="mt-1 mb-1" href="../../../tags/hiroshima">hiroshima</a>
+			
+			<a class="mt-1 mb-1" href="../../../tags/history">history</a>
+			
+			<a class="mt-1 mb-1" href="../../../tags/hk2018">hk2018</a>
+			
+			<a class="mt-1 mb-1" href="../../../tags/hong-kong">hong-kong</a>
+			
+			<a class="mt-1 mb-1" href="../../../tags/hotels">hotels</a>
+			
+			<a class="mt-1 mb-1" href="../../../tags/hugo">hugo</a>
+			
+			<a class="mt-1 mb-1" href="../../../tags/imagemagick">imagemagick</a>
+			
+			<a class="mt-1 mb-1" href="../../../tags/izakaya">izakaya</a>
+			
+			<a class="mt-1 mb-1" href="../../../tags/japan">japan</a>
+			
+			<a class="mt-1 mb-1" href="../../../tags/jp2019">jp2019</a>
+			
+			<a class="mt-1 mb-1" href="../../../tags/kabukicho">kabukicho</a>
+			
+			<a class="mt-1 mb-1" href="../../../tags/kyoto">kyoto</a>
+			
+			<a class="mt-1 mb-1" href="../../../tags/living-room-project">living-room-project</a>
+			
+			<a class="mt-1 mb-1" href="../../../tags/london">london</a>
+			
+			<a class="mt-1 mb-1" href="../../../tags/love-live">love-live</a>
+			
+			<a class="mt-1 mb-1" href="../../../tags/markdown">markdown</a>
+			
+			<a class="mt-1 mb-1" href="../../../tags/mcmcomiccon">mcmcomiccon</a>
+			
+			<a class="mt-1 mb-1" href="../../../tags/media">media</a>
+			
+			<a class="mt-1 mb-1" href="../../../tags/miyajima">miyajima</a>
+			
+			<a class="mt-1 mb-1" href="../../../tags/museums">museums</a>
+			
+			<a class="mt-1 mb-1" href="../../../tags/nara">nara</a>
+			
+			<a class="mt-1 mb-1" href="../../../tags/nature">nature</a>
+			
+			<a class="mt-1 mb-1" href="../../../tags/nipponbashi">nipponbashi</a>
+			
+			<a class="mt-1 mb-1" href="../../../tags/odaiba">odaiba</a>
+			
+			<a class="mt-1 mb-1" href="../../../tags/osaka">osaka</a>
+			
+			<a class="mt-1 mb-1" href="../../../tags/photography">photography</a>
+			
+			<a class="mt-1 mb-1" href="../../../tags/pilgrimage">pilgrimage</a>
+			
+			<a class="mt-1 mb-1" href="../../../tags/programming">programming</a>
+			
+			<a class="mt-1 mb-1" href="../../../tags/r18">r18</a>
+			
+			<a class="mt-1 mb-1" href="../../../tags/rabbit-island">rabbit-island</a>
+			
+			<a class="mt-1 mb-1" href="../../../tags/shinjuku">shinjuku</a>
+			
+			<a class="mt-1 mb-1" href="../../../tags/shinkansen">shinkansen</a>
+			
+			<a class="mt-1 mb-1" href="../../../tags/skytree">skytree</a>
+			
+			<a class="mt-1 mb-1" href="../../../tags/takehara">takehara</a>
+			
+			<a class="mt-1 mb-1" href="../../../tags/teamlab">teamlab</a>
+			
+			<a class="mt-1 mb-1" href="../../../tags/tokyo">tokyo</a>
+			
+			<a class="mt-1 mb-1" href="../../../tags/travel">travel</a>
+			
+			<a class="mt-1 mb-1" href="../../../tags/tsukiji">tsukiji</a>
+			
+			<a class="mt-1 mb-1" href="../../../tags/ueno">ueno</a>
+			
+			<a class="mt-1 mb-1" href="../../../tags/ume-blossom">ume-blossom</a>
+			
+			<a class="mt-1 mb-1" href="../../../tags/unity">unity</a>
+			
+			<a class="mt-1 mb-1" href="../../../tags/version-control">version-control</a>
+			
+			<a class="mt-1 mb-1" href="../../../tags/vfx">vfx</a>
+			
+			<a class="mt-1 mb-1" href="../../../tags/video">video</a>
+			
+			<a class="mt-1 mb-1" href="../../../tags/video-games">video-games</a>
+			
+			<a class="mt-1 mb-1" href="../../../tags/web-dev">web-dev</a>
+			
+			<a class="mt-1 mb-1" href="../../../tags/website">website</a>
+			
+			<a class="mt-1 mb-1" href="../../../tags/workflow">workflow</a>
+			
+		</div>
+	</div>
+</div>
+
+<footer class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 col-sm-6 text-center text-lg-center">
+                &copy; Copyright 2022 <i class="fas fa-lemon" aria-hidden="true"></i> Teh Lemon
+            </div>
+            
+        </div>
+    </div>
+</footer>
+
+
+        </div>
+
+
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+
+<script src="https://www.tehlemon.com/js/mediumish.e4b90c58dfa15ac82caf2edfa01e5fd047e17bc15e6babe5c0e442a4407d0b25.js" integrity=""></script>
+    </body>
+</html>

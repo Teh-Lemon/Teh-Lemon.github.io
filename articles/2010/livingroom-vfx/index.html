@@ -6,20 +6,20 @@
 	
 	<link rel="icon" href="../../../images/lemon.png">
 	
-	<title>Tags | Teh Lemon</title>
+	<title>VFX Collection for the Living Room scene in Unity | Teh Lemon</title>
 	
 	
 
 	<meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Tags"/>
-<meta name="twitter:description" content="Teh Lemon&#39;s blog"/>
+<meta name="twitter:title" content="VFX Collection for the Living Room scene in Unity"/>
+<meta name="twitter:description" content=""/>
 
-	<meta property="og:title" content="Tags" />
-<meta property="og:description" content="Teh Lemon&#39;s blog" />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="https://www.tehlemon.com/tags/" />
-
-<meta property="og:updated_time" content="2022-09-16T05:11:44+01:00" />
+	<meta property="og:title" content="VFX Collection for the Living Room scene in Unity" />
+<meta property="og:description" content="" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://www.tehlemon.com/articles/2010/livingroom-vfx/" />
+<meta property="article:published_time" content="2017-10-31T06:54:34+01:00" />
+<meta property="article:modified_time" content="2017-10-31T06:54:34+01:00" />
 
 
 	<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -97,210 +97,162 @@
     </p>
 </div><div class="main-content">
         
-        <section class="recent-posts">            
-            <div class="section-title">                
-                <h2><span>All Posts</span></h2>                
-            </div>            
-            <div class="row listrecent">
+        <div class="container">
+            <div class="row">
                 
-                
-<div class="col-lg-4 col-md-6 mb-30px card-group">
-    <div class="card h-100">
-        <div class="maxthumb">
-            <a href="https://www.tehlemon.com/tags/web-dev/">
-                
+                <div class="col-md-2 pl-0">      
+                    
+                </div>
                                 
-            </a>
-        </div>
-        <div class="card-body">
-            <h2 class="card-title"><a class="text-dark" href="https://www.tehlemon.com/tags/web-dev/">Web Dev</a></h2>
-            <p class="card-text"></p>
-            <h4 class="card-text"></h4>            
-        </div>
-        <div class="card-footer bg-white">
-            <div class="wrapfooter">
+                <div class="col-md-9 flex-first flex-md-unordered">
+                    <div class="mainheading">
+                        	
+                        
+                        
+                        
+                        		
+                        	
+                        
+                                                
+                        
+                        <h1 class="posttitle">VFX Collection for the Living Room scene in Unity</h1>
+                        <i class="far fa-star"></i> 
+                        Oct 31, 2017                        
+                        <i class="far fa-clock clock"></i>
+                        2 min read
+                    </div>
+
+                    
+                    
+                    
+                    
+
+                    
+                    <div class="article-post">
+                        <a href="https://i.tehlemon.com/articles/game/livingroom/lr_vfx_gaben.jpg" target="_blank"><img src="https://i.tehlemon.com/articles/game/livingroom/lr_vfx_gaben.jpg" alt=""></a>
+
+<hr />
+
+<h2 id="color-masking">Color Masking</h2>
+
+<video src="
+https://i.tehlemon.com/articles/game/livingroom/lr_vfx_colormask.webm" style="max-width:100%;height:auto;" autoplay loop></video>  
+
+<p>I started learning to put together my own shaders because not all the assets I downloaded were compatible with Unity&rsquo;s Standard Shader, which requires certain textures in certain color channels</p>
+
+
+<a href="https://i.tehlemon.com/articles/game/livingroom/lr_vfx_colormask.jpg" target="_blank"><img src="https://i.tehlemon.com/articles/game/livingroom/lr_vfx_colormask.jpg" alt=""></a>
+
+<p>Adding customizable colors to my character&rsquo;s shader, using a mask texture to specify which parts of the model gets colored, was the first thing I learnt.<br />
+I used <a href="https://assetstore.unity.com/packages/tools/visual-scripting/amplify-shader-editor-68570" title="Amplify Shader Editor | Visual Scripting | Unity Asset Store">Amplify&rsquo;s Shader Editor</a> since it seemed less daunting to learn and I got it cheap during their pre-order beta sale. Unity&rsquo;s own shader graph editor did not exist yet at this time.</p>
+
+<h2 id="subsurface-scattering">Subsurface Scattering</h2>
+
+
+<a href="https://i.tehlemon.com/articles/game/livingroom/lr_vhx_sss.jpg" target="_blank"><img src="https://i.tehlemon.com/articles/game/livingroom/lr_vhx_sss.jpg" alt=""></a>
+
+<blockquote>
+<p>Subsurface Scattering effect: Note the ears</p>
+</blockquote>
+
+<p>I followed <a href="https://www.alanzucconi.com/">Alan Zucconi&rsquo;s</a> shader tutorials for a few of my effects, but implemented with Amplify&rsquo;s Shader Editor instead.</p>
+
+<p>The Subsurface Scattering effect (SSS) is when a translucent material lets some light in, where the light will then bounce about inside the material, before coming back out. Giving the material an almost sort of glow. It can be see in common materials like skin, wax, jade etc. Though in this case Hoihoi-san&rsquo;s robot skin is made of silicone.</p>
+
+<p>Usually this effect requires a Thickness texture map. I didn&rsquo;t have a way to generate one of these so I used a hacky method where you reuse the Ambient Occlusion texture map but inverted, which works out pretty well.</p>
+
+
+<a href="https://i.tehlemon.com/articles/game/livingroom/lr_vfx_transmission.jpg" target="_blank"><img src="https://i.tehlemon.com/articles/game/livingroom/lr_vfx_transmission.jpg" alt=""></a>
+
+<blockquote>
+<p>Simplified SSS: Off, On</p>
+</blockquote>
+
+<p>I used a simplified, more performant version of the SSS shader for the thin materials in the scene such as these flower petals and the curtains.</p>
+
+<h2 id="iridescence">Iridescence</h2>
+
+
+<a href="https://i.tehlemon.com/articles/game/livingroom/lr_vfx_dvd.jpg" target="_blank"><img src="https://i.tehlemon.com/articles/game/livingroom/lr_vfx_dvd.jpg" alt=""></a>
+
+<video src="
+https://i.tehlemon.com/articles/game/livingroom/lr_vfx_dvd.webm" style="max-width:100%;height:auto;" autoplay loop></video>  
+
+<p>This Iridescent shader is just a 1:1 from the tutorials but it looks cool.</p>
+
+<h2 id="lcd-screen">LCD Screen</h2>
+
+
+<a href="https://i.tehlemon.com/articles/game/livingroom/lr_vfx_lcd.jpg" target="_blank"><img src="https://i.tehlemon.com/articles/game/livingroom/lr_vfx_lcd.jpg" alt=""></a>
+
+<p>This is a shader that shows the subpixels of a LCD screen when the camera gets close enough.<br />
+With each of the RGB subpixels showing the appropriate amount of brightness to represent its pixel.</p>
+
+<video src="
+https://i.tehlemon.com/articles/game/livingroom/lr_vfx_lcdzoom.webm" style="max-width:100%;height:auto;" autoplay loop></video>  
+
+<p>I found that you can get a smoother zoom out transition than Alan&rsquo;s tutorial by using mipmaps.</p>
+
+<video src="
+https://i.tehlemon.com/articles/game/livingroom/lr_vfx_lcdactivate.webm" style="max-width:100%;height:auto;" autoplay loop></video>  
+
+<p>I layered the shader so there&rsquo;s also a glossy glass material on top of the LCD pixels which you can see when the screen is off.<br />
+I used Unity&rsquo;s new Timeline feature, which is for setting up sequences of events, to fade the screen on/off when the Player bumps into the computer mouse.</p>
+
+<h2 id="cables">Cables</h2>
+
+
+<a href="https://i.tehlemon.com/articles/game/livingroom/lr_vfx_cables.jpg" target="_blank"><img src="https://i.tehlemon.com/articles/game/livingroom/lr_vfx_cables.jpg" alt=""></a>
+
+<p>I picked up a plugin called <a href="https://assetstore.unity.com/packages/tools/modeling/mesh-deformer-41155" title="Mesh Deformer | Modeling | Unity Asset Store">Mesh Deformer</a> in an Asset Store sale which let me create cables in the Unity Editor to match my scene. I modelled the plug ends in Blender.</p>
+                    </div>
+                    
+                    
+                    <div class="after-post-tags">
+                        <ul class="tags">
+                        
+                        <li>
+                        <a href="../../../tags/game-dev">Game Dev</a>
+                        </li>
+                        
+                        <li>
+                        <a href="../../../tags/unity">Unity</a>
+                        </li>
+                        
+                        <li>
+                        <a href="../../../tags/living-room-project">Living Room Project</a>
+                        </li>
+                        
+                        <li>
+                        <a href="../../../tags/3d">3D</a>
+                        </li>
+                        
+                        <li>
+                        <a href="../../../tags/vfx">VFX</a>
+                        </li>
+                        
+                        </ul>
+                    </div>
+                    
+                    
+                    
+                    <div class="row PageNavigation d-flex justify-content-between font-weight-bold">
+                    
+                        <a class="d-block col-md-6" href="https://www.tehlemon.com/articles/2018/hello-world/"> &laquo; Hello World!</a>
+                    
+                    
+                        <a class="d-block col-md-6 text-lg-right" href="https://www.tehlemon.com/articles/2010/livingroom-shadow/">Custom Ambient Shadows for the Living Room scene in Unity &raquo;</a>
+                    
+                    <div class="clearfix"></div>
+                    </div>
+                    
+                </div>
                 
-                
-                
-                <span class="post-date">Jan 1, 0001 - 0 min read </span>
-                </span>
-                <span class="post-read-more"><a href="https://www.tehlemon.com/tags/web-dev/" title="Read Story"><svg class="svgIcon-use" width="25" height="25" viewbox="0 0 25 25"><path d="M19 6c0-1.1-.9-2-2-2H8c-1.1 0-2 .9-2 2v14.66h.012c.01.103.045.204.12.285a.5.5 0 0 0 .706.03L12.5 16.85l5.662 4.126a.508.508 0 0 0 .708-.03.5.5 0 0 0 .118-.285H19V6zm-6.838 9.97L7 19.636V6c0-.55.45-1 1-1h9c.55 0 1 .45 1 1v13.637l-5.162-3.668a.49.49 0 0 0-.676 0z" fill-rule="evenodd"></path></svg></a></span>
-                <div class="clearfix"></div>
             </div>
         </div>
+        
+        
     </div>
-</div>
-
-
-<div class="col-lg-4 col-md-6 mb-30px card-group">
-    <div class="card h-100">
-        <div class="maxthumb">
-            <a href="https://www.tehlemon.com/tags/git/">
-                
-                                
-            </a>
-        </div>
-        <div class="card-body">
-            <h2 class="card-title"><a class="text-dark" href="https://www.tehlemon.com/tags/git/">Git</a></h2>
-            <p class="card-text"></p>
-            <h4 class="card-text"></h4>            
-        </div>
-        <div class="card-footer bg-white">
-            <div class="wrapfooter">
-                
-                
-                
-                <span class="post-date">Jan 1, 0001 - 0 min read </span>
-                </span>
-                <span class="post-read-more"><a href="https://www.tehlemon.com/tags/git/" title="Read Story"><svg class="svgIcon-use" width="25" height="25" viewbox="0 0 25 25"><path d="M19 6c0-1.1-.9-2-2-2H8c-1.1 0-2 .9-2 2v14.66h.012c.01.103.045.204.12.285a.5.5 0 0 0 .706.03L12.5 16.85l5.662 4.126a.508.508 0 0 0 .708-.03.5.5 0 0 0 .118-.285H19V6zm-6.838 9.97L7 19.636V6c0-.55.45-1 1-1h9c.55 0 1 .45 1 1v13.637l-5.162-3.668a.49.49 0 0 0-.676 0z" fill-rule="evenodd"></path></svg></a></span>
-                <div class="clearfix"></div>
-            </div>
-        </div>
-    </div>
-</div>
-
-
-<div class="col-lg-4 col-md-6 mb-30px card-group">
-    <div class="card h-100">
-        <div class="maxthumb">
-            <a href="https://www.tehlemon.com/tags/programming/">
-                
-                                
-            </a>
-        </div>
-        <div class="card-body">
-            <h2 class="card-title"><a class="text-dark" href="https://www.tehlemon.com/tags/programming/">Programming</a></h2>
-            <p class="card-text"></p>
-            <h4 class="card-text"></h4>            
-        </div>
-        <div class="card-footer bg-white">
-            <div class="wrapfooter">
-                
-                
-                
-                <span class="post-date">Jan 1, 0001 - 0 min read </span>
-                </span>
-                <span class="post-read-more"><a href="https://www.tehlemon.com/tags/programming/" title="Read Story"><svg class="svgIcon-use" width="25" height="25" viewbox="0 0 25 25"><path d="M19 6c0-1.1-.9-2-2-2H8c-1.1 0-2 .9-2 2v14.66h.012c.01.103.045.204.12.285a.5.5 0 0 0 .706.03L12.5 16.85l5.662 4.126a.508.508 0 0 0 .708-.03.5.5 0 0 0 .118-.285H19V6zm-6.838 9.97L7 19.636V6c0-.55.45-1 1-1h9c.55 0 1 .45 1 1v13.637l-5.162-3.668a.49.49 0 0 0-.676 0z" fill-rule="evenodd"></path></svg></a></span>
-                <div class="clearfix"></div>
-            </div>
-        </div>
-    </div>
-</div>
-
-
-<div class="col-lg-4 col-md-6 mb-30px card-group">
-    <div class="card h-100">
-        <div class="maxthumb">
-            <a href="https://www.tehlemon.com/tags/version-control/">
-                
-                                
-            </a>
-        </div>
-        <div class="card-body">
-            <h2 class="card-title"><a class="text-dark" href="https://www.tehlemon.com/tags/version-control/">Version Control</a></h2>
-            <p class="card-text"></p>
-            <h4 class="card-text"></h4>            
-        </div>
-        <div class="card-footer bg-white">
-            <div class="wrapfooter">
-                
-                
-                
-                <span class="post-date">Jan 1, 0001 - 0 min read </span>
-                </span>
-                <span class="post-read-more"><a href="https://www.tehlemon.com/tags/version-control/" title="Read Story"><svg class="svgIcon-use" width="25" height="25" viewbox="0 0 25 25"><path d="M19 6c0-1.1-.9-2-2-2H8c-1.1 0-2 .9-2 2v14.66h.012c.01.103.045.204.12.285a.5.5 0 0 0 .706.03L12.5 16.85l5.662 4.126a.508.508 0 0 0 .708-.03.5.5 0 0 0 .118-.285H19V6zm-6.838 9.97L7 19.636V6c0-.55.45-1 1-1h9c.55 0 1 .45 1 1v13.637l-5.162-3.668a.49.49 0 0 0-.676 0z" fill-rule="evenodd"></path></svg></a></span>
-                <div class="clearfix"></div>
-            </div>
-        </div>
-    </div>
-</div>
-
-
-<div class="col-lg-4 col-md-6 mb-30px card-group">
-    <div class="card h-100">
-        <div class="maxthumb">
-            <a href="https://www.tehlemon.com/tags/workflow/">
-                
-                                
-            </a>
-        </div>
-        <div class="card-body">
-            <h2 class="card-title"><a class="text-dark" href="https://www.tehlemon.com/tags/workflow/">Workflow</a></h2>
-            <p class="card-text"></p>
-            <h4 class="card-text"></h4>            
-        </div>
-        <div class="card-footer bg-white">
-            <div class="wrapfooter">
-                
-                
-                
-                <span class="post-date">Jan 1, 0001 - 0 min read </span>
-                </span>
-                <span class="post-read-more"><a href="https://www.tehlemon.com/tags/workflow/" title="Read Story"><svg class="svgIcon-use" width="25" height="25" viewbox="0 0 25 25"><path d="M19 6c0-1.1-.9-2-2-2H8c-1.1 0-2 .9-2 2v14.66h.012c.01.103.045.204.12.285a.5.5 0 0 0 .706.03L12.5 16.85l5.662 4.126a.508.508 0 0 0 .708-.03.5.5 0 0 0 .118-.285H19V6zm-6.838 9.97L7 19.636V6c0-.55.45-1 1-1h9c.55 0 1 .45 1 1v13.637l-5.162-3.668a.49.49 0 0 0-.676 0z" fill-rule="evenodd"></path></svg></a></span>
-                <div class="clearfix"></div>
-            </div>
-        </div>
-    </div>
-</div>
-
-
-<div class="col-lg-4 col-md-6 mb-30px card-group">
-    <div class="card h-100">
-        <div class="maxthumb">
-            <a href="https://www.tehlemon.com/tags/3d/">
-                
-                                
-            </a>
-        </div>
-        <div class="card-body">
-            <h2 class="card-title"><a class="text-dark" href="https://www.tehlemon.com/tags/3d/">3D</a></h2>
-            <p class="card-text"></p>
-            <h4 class="card-text"></h4>            
-        </div>
-        <div class="card-footer bg-white">
-            <div class="wrapfooter">
-                
-                
-                
-                <span class="post-date">Jan 1, 0001 - 0 min read </span>
-                </span>
-                <span class="post-read-more"><a href="https://www.tehlemon.com/tags/3d/" title="Read Story"><svg class="svgIcon-use" width="25" height="25" viewbox="0 0 25 25"><path d="M19 6c0-1.1-.9-2-2-2H8c-1.1 0-2 .9-2 2v14.66h.012c.01.103.045.204.12.285a.5.5 0 0 0 .706.03L12.5 16.85l5.662 4.126a.508.508 0 0 0 .708-.03.5.5 0 0 0 .118-.285H19V6zm-6.838 9.97L7 19.636V6c0-.55.45-1 1-1h9c.55 0 1 .45 1 1v13.637l-5.162-3.668a.49.49 0 0 0-.676 0z" fill-rule="evenodd"></path></svg></a></span>
-                <div class="clearfix"></div>
-            </div>
-        </div>
-    </div>
-</div>
-
-
-            </div>
-        </section>
-<div class="bottompagination">
-  <div class="pointerup"><i class="fa fa-caret-up"></i></div>
-  <span class="navigation" role="navigation">
-    
-      <div class="pagination">
-                
-        
-        <a class="ml-1 mr-1" href="../../../tags/">First</a>
-        
-                  
-          <a class="ml-1 mr-1" href="../../../tags/page/12/">&laquo; Prev</a>
-          <a class="ml-1 mr-1" href="../../../tags/page/12/">12</a>
-        
-        
-        <span class="ml-1 mr-1">13</span>
-
-        
-          <a class="ml-1 mr-1" href="../../../tags/page/14/">14</a>
-          <a class="ml-1 mr-1" href="../../../tags/page/14/">Next &raquo;</a>
-        
-
-        
-
-      </div>      
-    
-  </span>
-</div></div>
 
 
             </div>
@@ -409,6 +361,8 @@
 			
 			<a class="mt-1 mb-1" href="../../../tags/kyoto">kyoto</a>
 			
+			<a class="mt-1 mb-1" href="../../../tags/living-room-project">living-room-project</a>
+			
 			<a class="mt-1 mb-1" href="../../../tags/london">london</a>
 			
 			<a class="mt-1 mb-1" href="../../../tags/love-live">love-live</a>
@@ -466,6 +420,8 @@
 			<a class="mt-1 mb-1" href="../../../tags/unity">unity</a>
 			
 			<a class="mt-1 mb-1" href="../../../tags/version-control">version-control</a>
+			
+			<a class="mt-1 mb-1" href="../../../tags/vfx">vfx</a>
 			
 			<a class="mt-1 mb-1" href="../../../tags/video">video</a>
 			

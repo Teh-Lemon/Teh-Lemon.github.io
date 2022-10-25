@@ -593,12 +593,12 @@
   </url>
   
   <url>
-    <loc>https://www.tehlemon.com/tags/programming/</loc>
+    <loc>https://www.tehlemon.com/categories/programming/</loc>
     <lastmod>2018-05-18T00:17:02+01:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.tehlemon.com/categories/programming/</loc>
+    <loc>https://www.tehlemon.com/tags/programming/</loc>
     <lastmod>2018-05-18T00:17:02+01:00</lastmod>
   </url>
   
@@ -619,31 +619,46 @@
   
   <url>
     <loc>https://www.tehlemon.com/tags/3d/</loc>
-    <lastmod>2017-10-31T06:54:34+01:00</lastmod>
+    <lastmod>2018-01-05T06:54:34+01:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.tehlemon.com/categories/game-dev/</loc>
-    <lastmod>2017-10-31T06:54:34+01:00</lastmod>
+    <loc>https://www.tehlemon.com/tags/blender/</loc>
+    <lastmod>2018-01-05T06:54:34+01:00</lastmod>
   </url>
   
   <url>
     <loc>https://www.tehlemon.com/tags/game-dev/</loc>
-    <lastmod>2017-10-31T06:54:34+01:00</lastmod>
+    <lastmod>2018-01-05T06:54:34+01:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.tehlemon.com/tags/living-room-project/</loc>
-    <lastmod>2017-10-31T06:54:34+01:00</lastmod>
+    <loc>https://www.tehlemon.com/categories/game-dev/</loc>
+    <lastmod>2018-01-05T06:54:34+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.tehlemon.com/articles/2018/superunitychan/</loc>
+    <lastmod>2018-01-05T06:54:34+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.tehlemon.com/tags/super-unity-chan-project/</loc>
+    <lastmod>2018-01-05T06:54:34+01:00</lastmod>
   </url>
   
   <url>
     <loc>https://www.tehlemon.com/tags/unity/</loc>
-    <lastmod>2017-10-31T06:54:34+01:00</lastmod>
+    <lastmod>2018-01-05T06:54:34+01:00</lastmod>
   </url>
   
   <url>
     <loc>https://www.tehlemon.com/tags/vfx/</loc>
+    <lastmod>2018-01-05T06:54:34+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.tehlemon.com/tags/living-room-project/</loc>
     <lastmod>2017-10-31T06:54:34+01:00</lastmod>
   </url>
   
@@ -655,11 +670,6 @@
   <url>
     <loc>https://www.tehlemon.com/articles/2010/livingroom-shadow/</loc>
     <lastmod>2017-10-30T06:54:34+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.tehlemon.com/tags/blender/</loc>
-    <lastmod>2017-10-29T06:54:34+01:00</lastmod>
   </url>
   
   <url>

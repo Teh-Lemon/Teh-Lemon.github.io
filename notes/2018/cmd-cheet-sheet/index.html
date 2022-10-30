@@ -211,9 +211,21 @@ Tiling optional, montage will distribute it evenly by default.<br />
 <pre><code>magick montage *.jpg -geometry +0 -tile 1 foo.jpg
 </code></pre>
 
+<h2 id="exiftool">Exiftool</h2>
+
 <h3 id="adding-artist-exif-tag">Adding artist exif tag</h3>
 
 <pre><code>exiftool -artist=&quot;Teh Lemon&quot; *.jpg
+</code></pre>
+
+<h3 id="offset-time-date">Offset time/date</h3>
+
+<pre><code>exiftool “-DateTimeOriginal+=5:10:2 10:48:0” *.jpg
+</code></pre>
+
+<h3 id="strip-all-metadata">Strip all metadata</h3>
+
+<pre><code>exiftool -all= pic.jpg
 </code></pre>
 
 <h2 id="video-editing">Video Editing</h2>

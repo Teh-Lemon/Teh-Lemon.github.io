@@ -218,6 +218,11 @@
   </url>
   
   <url>
+    <loc>https://www.tehlemon.com/blog/2022/mcm-22-05/</loc>
+    <lastmod>2022-05-29T23:30:18+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.tehlemon.com/tags/airports/</loc>
     <lastmod>2020-03-28T00:08:25+00:00</lastmod>
   </url>
@@ -598,12 +603,12 @@
   </url>
   
   <url>
-    <loc>https://www.tehlemon.com/categories/programming/</loc>
+    <loc>https://www.tehlemon.com/tags/programming/</loc>
     <lastmod>2018-05-18T00:17:02+01:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.tehlemon.com/tags/programming/</loc>
+    <loc>https://www.tehlemon.com/categories/programming/</loc>
     <lastmod>2018-05-18T00:17:02+01:00</lastmod>
   </url>
   

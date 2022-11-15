@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Day Trips on Teh Lemon</title>
+    <link>https://www.tehlemon.com/tags/day-trips/</link>
+    <description>Recent content in Day Trips on Teh Lemon</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>Teh Lemon</copyright>
+    <lastBuildDate>Tue, 15 Nov 2022 04:22:39 +0000</lastBuildDate>
+    
+	<atom:link href="https://www.tehlemon.com/tags/day-trips/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Borough Market, London 2022</title>
+      <link>https://www.tehlemon.com/blog/2022/lonbm/</link>
+      <pubDate>Tue, 15 Nov 2022 04:22:39 +0000</pubDate>
+      
+      <guid>https://www.tehlemon.com/blog/2022/lonbm/</guid>
+      <description>&lt;p&gt;
+&lt;a href=&#34;https://i.tehlemon.com/Blog/DayTrips/22-11-London/2022-11-11_13.15.04_Sony-DSC-RX100M3-17mm-ARW.jpg&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://i.tehlemon.com/Blog/DayTrips/22-11-London/2022-11-11_13.15.04_Sony-DSC-RX100M3-17mm-ARW.jpg&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;br /&gt;
+My cousin flew over from Hong Kong so me and my mum are showing her around.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>London Trip to the Transport Museum</title>
+      <link>https://www.tehlemon.com/blog/2018/ltmuseum/</link>
+      <pubDate>Fri, 27 Jul 2018 04:07:26 +0100</pubDate>
+      
+      <guid>https://www.tehlemon.com/blog/2018/ltmuseum/</guid>
+      <description>&lt;p&gt;
+&lt;a href=&#34;https://i.tehlemon.com/Blog/DayTrips/18-07-London/2018-07-23%2016.17.22.jpg&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://i.tehlemon.com/Blog/DayTrips/18-07-London/2018-07-23%2016.17.22.jpg&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;br /&gt;
+My friend had a week off so we met up in London for hijinks.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

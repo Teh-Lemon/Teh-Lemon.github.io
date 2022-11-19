@@ -7,17 +7,80 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Teh Lemon</copyright>
-    <lastBuildDate>Tue, 15 Nov 2022 04:22:39 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 16 Nov 2022 07:10:23 +0000</lastBuildDate>
     
 	<atom:link href="https://www.tehlemon.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>Akihabara</title>
+      <link>https://www.tehlemon.com/tags/akihabara/</link>
+      <pubDate>Wed, 16 Nov 2022 07:10:23 +0000</pubDate>
+      
+      <guid>https://www.tehlemon.com/tags/akihabara/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>anime</title>
+      <link>https://www.tehlemon.com/tags/anime/</link>
+      <pubDate>Wed, 16 Nov 2022 07:10:23 +0000</pubDate>
+      
+      <guid>https://www.tehlemon.com/tags/anime/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>blog</title>
       <link>https://www.tehlemon.com/tags/blog/</link>
-      <pubDate>Tue, 15 Nov 2022 04:22:39 +0000</pubDate>
+      <pubDate>Wed, 16 Nov 2022 07:10:23 +0000</pubDate>
       
       <guid>https://www.tehlemon.com/tags/blog/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Japan</title>
+      <link>https://www.tehlemon.com/tags/japan/</link>
+      <pubDate>Wed, 16 Nov 2022 07:10:23 +0000</pubDate>
+      
+      <guid>https://www.tehlemon.com/tags/japan/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>JP2019</title>
+      <link>https://www.tehlemon.com/tags/jp2019/</link>
+      <pubDate>Wed, 16 Nov 2022 07:10:23 +0000</pubDate>
+      
+      <guid>https://www.tehlemon.com/tags/jp2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>R18</title>
+      <link>https://www.tehlemon.com/tags/r18/</link>
+      <pubDate>Wed, 16 Nov 2022 07:10:23 +0000</pubDate>
+      
+      <guid>https://www.tehlemon.com/tags/r18/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tokyo</title>
+      <link>https://www.tehlemon.com/tags/tokyo/</link>
+      <pubDate>Wed, 16 Nov 2022 07:10:23 +0000</pubDate>
+      
+      <guid>https://www.tehlemon.com/tags/tokyo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Travel</title>
+      <link>https://www.tehlemon.com/tags/travel/</link>
+      <pubDate>Wed, 16 Nov 2022 07:10:23 +0000</pubDate>
+      
+      <guid>https://www.tehlemon.com/tags/travel/</guid>
       <description></description>
     </item>
     
@@ -40,29 +103,11 @@
     </item>
     
     <item>
-      <title>anime</title>
-      <link>https://www.tehlemon.com/tags/anime/</link>
-      <pubDate>Sat, 29 Oct 2022 23:30:18 +0100</pubDate>
-      
-      <guid>https://www.tehlemon.com/tags/anime/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>events</title>
       <link>https://www.tehlemon.com/tags/events/</link>
       <pubDate>Sat, 29 Oct 2022 23:30:18 +0100</pubDate>
       
       <guid>https://www.tehlemon.com/tags/events/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Japan</title>
-      <link>https://www.tehlemon.com/tags/japan/</link>
-      <pubDate>Sat, 29 Oct 2022 23:30:18 +0100</pubDate>
-      
-      <guid>https://www.tehlemon.com/tags/japan/</guid>
       <description></description>
     </item>
     
@@ -139,38 +184,11 @@
     </item>
     
     <item>
-      <title>JP2019</title>
-      <link>https://www.tehlemon.com/tags/jp2019/</link>
-      <pubDate>Fri, 16 Sep 2022 05:11:44 +0100</pubDate>
-      
-      <guid>https://www.tehlemon.com/tags/jp2019/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Skytree</title>
       <link>https://www.tehlemon.com/tags/skytree/</link>
       <pubDate>Fri, 16 Sep 2022 05:11:44 +0100</pubDate>
       
       <guid>https://www.tehlemon.com/tags/skytree/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Tokyo</title>
-      <link>https://www.tehlemon.com/tags/tokyo/</link>
-      <pubDate>Fri, 16 Sep 2022 05:11:44 +0100</pubDate>
-      
-      <guid>https://www.tehlemon.com/tags/tokyo/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Travel</title>
-      <link>https://www.tehlemon.com/tags/travel/</link>
-      <pubDate>Fri, 16 Sep 2022 05:11:44 +0100</pubDate>
-      
-      <guid>https://www.tehlemon.com/tags/travel/</guid>
       <description></description>
     </item>
     
@@ -373,15 +391,6 @@
     </item>
     
     <item>
-      <title>R18</title>
-      <link>https://www.tehlemon.com/tags/r18/</link>
-      <pubDate>Tue, 10 Mar 2020 05:40:00 +0000</pubDate>
-      
-      <guid>https://www.tehlemon.com/tags/r18/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Dotonbori</title>
       <link>https://www.tehlemon.com/tags/dotonbori/</link>
       <pubDate>Sat, 01 Feb 2020 02:51:00 +0000</pubDate>
@@ -495,15 +504,6 @@
       <pubDate>Wed, 22 May 2019 02:27:28 +0100</pubDate>
       
       <guid>https://www.tehlemon.com/tags/kyoto/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Akihabara</title>
-      <link>https://www.tehlemon.com/tags/akihabara/</link>
-      <pubDate>Thu, 09 May 2019 22:25:25 +0100</pubDate>
-      
-      <guid>https://www.tehlemon.com/tags/akihabara/</guid>
       <description></description>
     </item>
     

@@ -7,89 +7,31 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Teh Lemon</copyright>
-    <lastBuildDate>Sat, 19 Nov 2022 02:48:11 +0000</lastBuildDate>
-    
-	<atom:link href="https://www.tehlemon.com/tags/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>Akihabara</title>
-      <link>https://www.tehlemon.com/tags/akihabara/</link>
-      <pubDate>Sat, 19 Nov 2022 02:48:11 +0000</pubDate>
-      
-      <guid>https://www.tehlemon.com/tags/akihabara/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>anime</title>
-      <link>https://www.tehlemon.com/tags/anime/</link>
-      <pubDate>Sat, 19 Nov 2022 02:48:11 +0000</pubDate>
-      
-      <guid>https://www.tehlemon.com/tags/anime/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>blog</title>
-      <link>https://www.tehlemon.com/tags/blog/</link>
-      <pubDate>Sat, 19 Nov 2022 02:48:11 +0000</pubDate>
-      
-      <guid>https://www.tehlemon.com/tags/blog/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Japan</title>
-      <link>https://www.tehlemon.com/tags/japan/</link>
-      <pubDate>Sat, 19 Nov 2022 02:48:11 +0000</pubDate>
-      
-      <guid>https://www.tehlemon.com/tags/japan/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>JP2019</title>
-      <link>https://www.tehlemon.com/tags/jp2019/</link>
-      <pubDate>Sat, 19 Nov 2022 02:48:11 +0000</pubDate>
-      
-      <guid>https://www.tehlemon.com/tags/jp2019/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>R18</title>
-      <link>https://www.tehlemon.com/tags/r18/</link>
-      <pubDate>Sat, 19 Nov 2022 02:48:11 +0000</pubDate>
-      
-      <guid>https://www.tehlemon.com/tags/r18/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Tokyo</title>
-      <link>https://www.tehlemon.com/tags/tokyo/</link>
-      <pubDate>Sat, 19 Nov 2022 02:48:11 +0000</pubDate>
-      
-      <guid>https://www.tehlemon.com/tags/tokyo/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Travel</title>
-      <link>https://www.tehlemon.com/tags/travel/</link>
-      <pubDate>Sat, 19 Nov 2022 02:48:11 +0000</pubDate>
-      
-      <guid>https://www.tehlemon.com/tags/travel/</guid>
-      <description></description>
-    </item>
-    
+    <lastBuildDate>Tue, 15 Nov 2022 04:22:39 +0000</lastBuildDate><atom:link href="https://www.tehlemon.com/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Day Trips</title>
       <link>https://www.tehlemon.com/tags/day-trips/</link>
       <pubDate>Tue, 15 Nov 2022 04:22:39 +0000</pubDate>
       
       <guid>https://www.tehlemon.com/tags/day-trips/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Family</title>
+      <link>https://www.tehlemon.com/tags/family/</link>
+      <pubDate>Tue, 15 Nov 2022 04:22:39 +0000</pubDate>
+      
+      <guid>https://www.tehlemon.com/tags/family/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Group</title>
+      <link>https://www.tehlemon.com/tags/group/</link>
+      <pubDate>Tue, 15 Nov 2022 04:22:39 +0000</pubDate>
+      
+      <guid>https://www.tehlemon.com/tags/group/</guid>
       <description></description>
     </item>
     
@@ -103,11 +45,38 @@
     </item>
     
     <item>
+      <title>anime</title>
+      <link>https://www.tehlemon.com/tags/anime/</link>
+      <pubDate>Sat, 29 Oct 2022 23:30:18 +0100</pubDate>
+      
+      <guid>https://www.tehlemon.com/tags/anime/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>events</title>
       <link>https://www.tehlemon.com/tags/events/</link>
       <pubDate>Sat, 29 Oct 2022 23:30:18 +0100</pubDate>
       
       <guid>https://www.tehlemon.com/tags/events/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hotels</title>
+      <link>https://www.tehlemon.com/tags/hotels/</link>
+      <pubDate>Sat, 29 Oct 2022 23:30:18 +0100</pubDate>
+      
+      <guid>https://www.tehlemon.com/tags/hotels/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Japan</title>
+      <link>https://www.tehlemon.com/tags/japan/</link>
+      <pubDate>Sat, 29 Oct 2022 23:30:18 +0100</pubDate>
+      
+      <guid>https://www.tehlemon.com/tags/japan/</guid>
       <description></description>
     </item>
     
@@ -121,6 +90,15 @@
     </item>
     
     <item>
+      <title>Solo</title>
+      <link>https://www.tehlemon.com/tags/solo/</link>
+      <pubDate>Sat, 29 Oct 2022 23:30:18 +0100</pubDate>
+      
+      <guid>https://www.tehlemon.com/tags/solo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>video games</title>
       <link>https://www.tehlemon.com/tags/video-games/</link>
       <pubDate>Sat, 29 Oct 2022 23:30:18 +0100</pubDate>
@@ -130,11 +108,11 @@
     </item>
     
     <item>
-      <title>Akiba</title>
-      <link>https://www.tehlemon.com/tags/akiba/</link>
+      <title>Akihabara</title>
+      <link>https://www.tehlemon.com/tags/akihabara/</link>
       <pubDate>Fri, 16 Sep 2022 05:11:44 +0100</pubDate>
       
-      <guid>https://www.tehlemon.com/tags/akiba/</guid>
+      <guid>https://www.tehlemon.com/tags/akihabara/</guid>
       <description></description>
     </item>
     
@@ -157,15 +135,6 @@
     </item>
     
     <item>
-      <title>Family</title>
-      <link>https://www.tehlemon.com/tags/family/</link>
-      <pubDate>Fri, 16 Sep 2022 05:11:44 +0100</pubDate>
-      
-      <guid>https://www.tehlemon.com/tags/family/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Food</title>
       <link>https://www.tehlemon.com/tags/food/</link>
       <pubDate>Fri, 16 Sep 2022 05:11:44 +0100</pubDate>
@@ -184,6 +153,15 @@
     </item>
     
     <item>
+      <title>JP2019</title>
+      <link>https://www.tehlemon.com/tags/jp2019/</link>
+      <pubDate>Fri, 16 Sep 2022 05:11:44 +0100</pubDate>
+      
+      <guid>https://www.tehlemon.com/tags/jp2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Skytree</title>
       <link>https://www.tehlemon.com/tags/skytree/</link>
       <pubDate>Fri, 16 Sep 2022 05:11:44 +0100</pubDate>
@@ -193,7 +171,25 @@
     </item>
     
     <item>
-      <title>Animals</title>
+      <title>Tokyo</title>
+      <link>https://www.tehlemon.com/tags/tokyo/</link>
+      <pubDate>Fri, 16 Sep 2022 05:11:44 +0100</pubDate>
+      
+      <guid>https://www.tehlemon.com/tags/tokyo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Travel</title>
+      <link>https://www.tehlemon.com/tags/travel/</link>
+      <pubDate>Fri, 16 Sep 2022 05:11:44 +0100</pubDate>
+      
+      <guid>https://www.tehlemon.com/tags/travel/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>animals</title>
       <link>https://www.tehlemon.com/tags/animals/</link>
       <pubDate>Sat, 03 Sep 2022 08:27:20 +0100</pubDate>
       
@@ -225,6 +221,24 @@
       <pubDate>Sat, 20 Aug 2022 06:51:27 +0100</pubDate>
       
       <guid>https://www.tehlemon.com/tags/art/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Kabukicho</title>
+      <link>https://www.tehlemon.com/tags/kabukicho/</link>
+      <pubDate>Sat, 20 Aug 2022 06:51:27 +0100</pubDate>
+      
+      <guid>https://www.tehlemon.com/tags/kabukicho/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>museums</title>
+      <link>https://www.tehlemon.com/tags/museums/</link>
+      <pubDate>Sat, 20 Aug 2022 06:51:27 +0100</pubDate>
+      
+      <guid>https://www.tehlemon.com/tags/museums/</guid>
       <description></description>
     </item>
     
@@ -261,6 +275,24 @@
       <pubDate>Wed, 03 Aug 2022 06:00:10 +0100</pubDate>
       
       <guid>https://www.tehlemon.com/tags/harajuku/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Nature</title>
+      <link>https://www.tehlemon.com/tags/nature/</link>
+      <pubDate>Wed, 03 Aug 2022 06:00:10 +0100</pubDate>
+      
+      <guid>https://www.tehlemon.com/tags/nature/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>shibuya</title>
+      <link>https://www.tehlemon.com/tags/shibuya/</link>
+      <pubDate>Wed, 03 Aug 2022 06:00:10 +0100</pubDate>
+      
+      <guid>https://www.tehlemon.com/tags/shibuya/</guid>
       <description></description>
     </item>
     
@@ -319,29 +351,11 @@
     </item>
     
     <item>
-      <title>hotels</title>
-      <link>https://www.tehlemon.com/tags/hotels/</link>
-      <pubDate>Sat, 28 Mar 2020 00:08:25 +0000</pubDate>
-      
-      <guid>https://www.tehlemon.com/tags/hotels/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>izakaya</title>
       <link>https://www.tehlemon.com/tags/izakaya/</link>
       <pubDate>Sat, 28 Mar 2020 00:08:25 +0000</pubDate>
       
       <guid>https://www.tehlemon.com/tags/izakaya/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Kabukicho</title>
-      <link>https://www.tehlemon.com/tags/kabukicho/</link>
-      <pubDate>Sat, 28 Mar 2020 00:08:25 +0000</pubDate>
-      
-      <guid>https://www.tehlemon.com/tags/kabukicho/</guid>
       <description></description>
     </item>
     
@@ -355,20 +369,11 @@
     </item>
     
     <item>
-      <title>Shinkansen</title>
+      <title>shinkansen</title>
       <link>https://www.tehlemon.com/tags/shinkansen/</link>
       <pubDate>Sat, 28 Mar 2020 00:08:25 +0000</pubDate>
       
       <guid>https://www.tehlemon.com/tags/shinkansen/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Den Den Town</title>
-      <link>https://www.tehlemon.com/tags/den-den-town/</link>
-      <pubDate>Tue, 10 Mar 2020 05:40:00 +0000</pubDate>
-      
-      <guid>https://www.tehlemon.com/tags/den-den-town/</guid>
       <description></description>
     </item>
     
@@ -387,6 +392,15 @@
       <pubDate>Tue, 10 Mar 2020 05:40:00 +0000</pubDate>
       
       <guid>https://www.tehlemon.com/tags/nipponbashi/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>R18</title>
+      <link>https://www.tehlemon.com/tags/r18/</link>
+      <pubDate>Tue, 10 Mar 2020 05:40:00 +0000</pubDate>
+      
+      <guid>https://www.tehlemon.com/tags/r18/</guid>
       <description></description>
     </item>
     
@@ -414,15 +428,6 @@
       <pubDate>Sat, 01 Feb 2020 02:51:00 +0000</pubDate>
       
       <guid>https://www.tehlemon.com/tags/nara/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Nature</title>
-      <link>https://www.tehlemon.com/tags/nature/</link>
-      <pubDate>Sat, 01 Feb 2020 02:51:00 +0000</pubDate>
-      
-      <guid>https://www.tehlemon.com/tags/nature/</guid>
       <description></description>
     </item>
     
@@ -481,38 +486,11 @@
     </item>
     
     <item>
-      <title>Ume Blossom</title>
-      <link>https://www.tehlemon.com/tags/ume-blossom/</link>
-      <pubDate>Mon, 29 Jul 2019 04:15:14 +0100</pubDate>
-      
-      <guid>https://www.tehlemon.com/tags/ume-blossom/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>History</title>
-      <link>https://www.tehlemon.com/tags/history/</link>
-      <pubDate>Wed, 26 Jun 2019 04:36:51 +0100</pubDate>
-      
-      <guid>https://www.tehlemon.com/tags/history/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Kyoto</title>
       <link>https://www.tehlemon.com/tags/kyoto/</link>
-      <pubDate>Wed, 22 May 2019 02:27:28 +0100</pubDate>
+      <pubDate>Wed, 26 Jun 2019 04:36:51 +0100</pubDate>
       
       <guid>https://www.tehlemon.com/tags/kyoto/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Flying</title>
-      <link>https://www.tehlemon.com/tags/flying/</link>
-      <pubDate>Thu, 25 Apr 2019 04:30:57 +0100</pubDate>
-      
-      <guid>https://www.tehlemon.com/tags/flying/</guid>
       <description></description>
     </item>
     
@@ -537,7 +515,7 @@
     <item>
       <title>Hong Kong</title>
       <link>https://www.tehlemon.com/tags/hong-kong/</link>
-      <pubDate>Sat, 12 Jan 2019 02:23:03 +0000</pubDate>
+      <pubDate>Wed, 24 Apr 2019 23:37:38 +0100</pubDate>
       
       <guid>https://www.tehlemon.com/tags/hong-kong/</guid>
       <description></description>
@@ -553,164 +531,11 @@
     </item>
     
     <item>
-      <title>Love Live</title>
-      <link>https://www.tehlemon.com/tags/love-live/</link>
-      <pubDate>Mon, 05 Nov 2018 23:10:21 +0000</pubDate>
-      
-      <guid>https://www.tehlemon.com/tags/love-live/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Photography</title>
       <link>https://www.tehlemon.com/tags/photography/</link>
       <pubDate>Mon, 05 Nov 2018 23:10:21 +0000</pubDate>
       
       <guid>https://www.tehlemon.com/tags/photography/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Frame Arms Girl</title>
-      <link>https://www.tehlemon.com/tags/frame-arms-girl/</link>
-      <pubDate>Sun, 04 Nov 2018 18:29:58 +0000</pubDate>
-      
-      <guid>https://www.tehlemon.com/tags/frame-arms-girl/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>museums</title>
-      <link>https://www.tehlemon.com/tags/museums/</link>
-      <pubDate>Fri, 27 Jul 2018 04:07:26 +0100</pubDate>
-      
-      <guid>https://www.tehlemon.com/tags/museums/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>audio</title>
-      <link>https://www.tehlemon.com/tags/audio/</link>
-      <pubDate>Sat, 21 Jul 2018 03:58:05 +0100</pubDate>
-      
-      <guid>https://www.tehlemon.com/tags/audio/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>bash</title>
-      <link>https://www.tehlemon.com/tags/bash/</link>
-      <pubDate>Sat, 21 Jul 2018 03:58:05 +0100</pubDate>
-      
-      <guid>https://www.tehlemon.com/tags/bash/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>batch</title>
-      <link>https://www.tehlemon.com/tags/batch/</link>
-      <pubDate>Sat, 21 Jul 2018 03:58:05 +0100</pubDate>
-      
-      <guid>https://www.tehlemon.com/tags/batch/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>cmd</title>
-      <link>https://www.tehlemon.com/tags/cmd/</link>
-      <pubDate>Sat, 21 Jul 2018 03:58:05 +0100</pubDate>
-      
-      <guid>https://www.tehlemon.com/tags/cmd/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>ffmpeg</title>
-      <link>https://www.tehlemon.com/tags/ffmpeg/</link>
-      <pubDate>Sat, 21 Jul 2018 03:58:05 +0100</pubDate>
-      
-      <guid>https://www.tehlemon.com/tags/ffmpeg/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>imagemagick</title>
-      <link>https://www.tehlemon.com/tags/imagemagick/</link>
-      <pubDate>Sat, 21 Jul 2018 03:58:05 +0100</pubDate>
-      
-      <guid>https://www.tehlemon.com/tags/imagemagick/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>media</title>
-      <link>https://www.tehlemon.com/tags/media/</link>
-      <pubDate>Sat, 21 Jul 2018 03:58:05 +0100</pubDate>
-      
-      <guid>https://www.tehlemon.com/tags/media/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>video</title>
-      <link>https://www.tehlemon.com/tags/video/</link>
-      <pubDate>Sat, 21 Jul 2018 03:58:05 +0100</pubDate>
-      
-      <guid>https://www.tehlemon.com/tags/video/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Markdown</title>
-      <link>https://www.tehlemon.com/tags/markdown/</link>
-      <pubDate>Sat, 19 May 2018 04:07:28 +0100</pubDate>
-      
-      <guid>https://www.tehlemon.com/tags/markdown/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Web Dev</title>
-      <link>https://www.tehlemon.com/tags/web-dev/</link>
-      <pubDate>Sat, 19 May 2018 04:07:28 +0100</pubDate>
-      
-      <guid>https://www.tehlemon.com/tags/web-dev/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Git</title>
-      <link>https://www.tehlemon.com/tags/git/</link>
-      <pubDate>Fri, 18 May 2018 00:17:02 +0100</pubDate>
-      
-      <guid>https://www.tehlemon.com/tags/git/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Programming</title>
-      <link>https://www.tehlemon.com/tags/programming/</link>
-      <pubDate>Fri, 18 May 2018 00:17:02 +0100</pubDate>
-      
-      <guid>https://www.tehlemon.com/tags/programming/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Version Control</title>
-      <link>https://www.tehlemon.com/tags/version-control/</link>
-      <pubDate>Fri, 18 May 2018 00:17:02 +0100</pubDate>
-      
-      <guid>https://www.tehlemon.com/tags/version-control/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Workflow</title>
-      <link>https://www.tehlemon.com/tags/workflow/</link>
-      <pubDate>Fri, 18 May 2018 00:17:02 +0100</pubDate>
-      
-      <guid>https://www.tehlemon.com/tags/workflow/</guid>
       <description></description>
     </item>
     

@@ -7,11 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Teh Lemon</copyright>
-    <lastBuildDate>Mon, 11 Jul 2022 06:11:56 +0100</lastBuildDate>
-    
-	<atom:link href="https://www.tehlemon.com/tags/website/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Mon, 11 Jul 2022 06:11:56 +0100</lastBuildDate><atom:link href="https://www.tehlemon.com/tags/website/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Website Update 2022</title>
       <link>https://www.tehlemon.com/articles/2022/2022-website-update/</link>

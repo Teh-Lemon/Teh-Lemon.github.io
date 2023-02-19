@@ -2,7 +2,7 @@
 <html lang="en"><head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<meta name="generator" content="Hugo 0.59.1" />
+	<meta name="generator" content="Hugo 0.110.0">
 	
 	<link rel="icon" href="../../../images/lemon.png">
 	
@@ -17,7 +17,7 @@
 	<meta property="og:title" content="VFX Collection for the Living Room scene in Unity" />
 <meta property="og:description" content="Ooh, shiny" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://www.tehlemon.com/articles/2010/livingroom-vfx/" />
+<meta property="og:url" content="https://www.tehlemon.com/articles/2010/livingroom-vfx/" /><meta property="article:section" content="articles" />
 <meta property="article:published_time" content="2017-10-31T06:54:34+01:00" />
 <meta property="article:modified_time" content="2017-10-31T06:54:34+01:00" />
 
@@ -130,82 +130,48 @@
                     
                     <div class="article-post">
                         <a href="https://i.tehlemon.com/articles/game/livingroom/lr_vfx_gaben.jpg" target="_blank"><img src="https://i.tehlemon.com/articles/game/livingroom/lr_vfx_gaben.jpg" alt=""></a>
-
-<hr />
-
+<hr>
 <p>[This article assumes basic knowledge of Unity and 3D games]</p>
-
 <h2 id="color-masking">Color Masking</h2>
-
-<video src="
-https://i.tehlemon.com/articles/game/livingroom/lr_vfx_colormask.webm" style="max-width:100%;height:auto;" autoplay loop></video>  
-
+<p><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
 <p>I started learning to put together my own shaders because not all the assets I downloaded were compatible with Unity&rsquo;s Standard Shader, which requires certain textures in certain color channels</p>
 
-
 <a href="https://i.tehlemon.com/articles/game/livingroom/lr_vfx_colormask.jpg" target="_blank"><img src="https://i.tehlemon.com/articles/game/livingroom/lr_vfx_colormask.jpg" alt=""></a>
-
-<p>Adding customizable colors to my character&rsquo;s shader, using a mask texture to specify which parts of the model gets colored, was the first thing I learnt.<br />
+<p>Adding customizable colors to my character&rsquo;s shader, using a mask texture to specify which parts of the model gets colored, was the first thing I learnt.<br>
 I used <a href="https://assetstore.unity.com/packages/tools/visual-scripting/amplify-shader-editor-68570" title="Amplify Shader Editor | Visual Scripting | Unity Asset Store">Amplify&rsquo;s Shader Editor</a> since it seemed less daunting to learn and I got it cheap during their pre-order beta sale. Unity&rsquo;s own shader graph editor did not exist yet at this time.</p>
-
 <h2 id="subsurface-scattering">Subsurface Scattering</h2>
 
-
 <a href="https://i.tehlemon.com/articles/game/livingroom/lr_vhx_sss.jpg" target="_blank"><img src="https://i.tehlemon.com/articles/game/livingroom/lr_vhx_sss.jpg" alt=""></a>
-
 <blockquote>
 <p>Subsurface Scattering effect: Note the ears</p>
 </blockquote>
-
 <p>I followed <a href="https://www.alanzucconi.com/">Alan Zucconi&rsquo;s</a> shader tutorials for a few of my effects, but implemented with Amplify&rsquo;s Shader Editor instead.</p>
-
 <p>The Subsurface Scattering effect (SSS) is when a translucent material lets some light in, where the light will then bounce about inside the material, before coming back out. Giving the material an almost sort of glow. It can be see in common materials like skin, wax, jade etc. Though in this case Hoihoi-san&rsquo;s robot skin is made of silicone.</p>
-
 <p>Usually this effect requires a Thickness texture map. I didn&rsquo;t have a way to generate one of these so I used a hacky method where you reuse the Ambient Occlusion texture map but inverted, which works out pretty well.</p>
 
-
 <a href="https://i.tehlemon.com/articles/game/livingroom/lr_vfx_transmission.jpg" target="_blank"><img src="https://i.tehlemon.com/articles/game/livingroom/lr_vfx_transmission.jpg" alt=""></a>
-
 <blockquote>
 <p>Simplified SSS: Off, On</p>
 </blockquote>
-
 <p>I used a simplified, more performant version of the SSS shader for the thin materials in the scene such as these flower petals and the curtains.</p>
-
 <h2 id="iridescence">Iridescence</h2>
 
-
 <a href="https://i.tehlemon.com/articles/game/livingroom/lr_vfx_dvd.jpg" target="_blank"><img src="https://i.tehlemon.com/articles/game/livingroom/lr_vfx_dvd.jpg" alt=""></a>
-
-<video src="
-https://i.tehlemon.com/articles/game/livingroom/lr_vfx_dvd.webm" style="max-width:100%;height:auto;" autoplay loop></video>  
-
+<p><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
 <p>This Iridescent shader is just a 1:1 from the tutorials but it looks cool.</p>
-
 <h2 id="lcd-screen">LCD Screen</h2>
 
-
 <a href="https://i.tehlemon.com/articles/game/livingroom/lr_vfx_lcd.jpg" target="_blank"><img src="https://i.tehlemon.com/articles/game/livingroom/lr_vfx_lcd.jpg" alt=""></a>
-
-<p>This is a shader that shows the subpixels of a LCD screen when the camera gets close enough.<br />
+<p>This is a shader that shows the subpixels of a LCD screen when the camera gets close enough.<br>
 With each of the RGB subpixels showing the appropriate amount of brightness to represent its pixel.</p>
-
-<video src="
-https://i.tehlemon.com/articles/game/livingroom/lr_vfx_lcdzoom.webm" style="max-width:100%;height:auto;" autoplay loop></video>  
-
+<p><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
 <p>I found that you can get a smoother zoom out transition than Alan&rsquo;s tutorial by using mipmaps.</p>
-
-<video src="
-https://i.tehlemon.com/articles/game/livingroom/lr_vfx_lcdactivate.webm" style="max-width:100%;height:auto;" autoplay loop></video>  
-
-<p>I layered the shader so there&rsquo;s also a glossy glass material on top of the LCD pixels which you can see when the screen is off.<br />
+<p><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+<p>I layered the shader so there&rsquo;s also a glossy glass material on top of the LCD pixels which you can see when the screen is off.<br>
 I used Unity&rsquo;s new Timeline feature, which is for setting up sequences of events, to fade the screen on/off when the Player bumps into the computer mouse.</p>
-
 <h2 id="cables">Cables</h2>
 
-
 <a href="https://i.tehlemon.com/articles/game/livingroom/lr_vfx_cables.jpg" target="_blank"><img src="https://i.tehlemon.com/articles/game/livingroom/lr_vfx_cables.jpg" alt=""></a>
-
 <p>I picked up a plugin called <a href="https://assetstore.unity.com/packages/tools/modeling/mesh-deformer-41155" title="Mesh Deformer | Modeling | Unity Asset Store">Mesh Deformer</a> in an Asset Store sale which let me create cables in the Unity Editor to match my scene. I modelled the plug ends in Blender.</p>
                     </div>
                     
@@ -271,8 +237,6 @@ I used Unity&rsquo;s new Timeline feature, which is for setting up sequences of 
 			
 			<a class="mt-1 mb-1" href="../../../tags/airports">airports</a>
 			
-			<a class="mt-1 mb-1" href="../../../tags/akiba">akiba</a>
-			
 			<a class="mt-1 mb-1" href="../../../tags/akihabara">akihabara</a>
 			
 			<a class="mt-1 mb-1" href="../../../tags/animals">animals</a>
@@ -283,31 +247,19 @@ I used Unity&rsquo;s new Timeline feature, which is for setting up sequences of 
 			
 			<a class="mt-1 mb-1" href="../../../tags/asakusa">asakusa</a>
 			
-			<a class="mt-1 mb-1" href="../../../tags/audio">audio</a>
-			
 			<a class="mt-1 mb-1" href="../../../tags/backblaze">backblaze</a>
 			
-			<a class="mt-1 mb-1" href="../../../tags/bash">bash</a>
-			
-			<a class="mt-1 mb-1" href="../../../tags/batch">batch</a>
-			
 			<a class="mt-1 mb-1" href="../../../tags/blender">blender</a>
-			
-			<a class="mt-1 mb-1" href="../../../tags/blog">blog</a>
 			
 			<a class="mt-1 mb-1" href="../../../tags/china">china</a>
 			
 			<a class="mt-1 mb-1" href="../../../tags/cloudflare">cloudflare</a>
-			
-			<a class="mt-1 mb-1" href="../../../tags/cmd">cmd</a>
 			
 			<a class="mt-1 mb-1" href="../../../tags/culture">culture</a>
 			
 			<a class="mt-1 mb-1" href="../../../tags/cute-platformer-game">cute-platformer-game</a>
 			
 			<a class="mt-1 mb-1" href="../../../tags/day-trips">day-trips</a>
-			
-			<a class="mt-1 mb-1" href="../../../tags/den-den-town">den-den-town</a>
 			
 			<a class="mt-1 mb-1" href="../../../tags/don-quijote">don-quijote</a>
 			
@@ -319,21 +271,15 @@ I used Unity&rsquo;s new Timeline feature, which is for setting up sequences of 
 			
 			<a class="mt-1 mb-1" href="../../../tags/festivals">festivals</a>
 			
-			<a class="mt-1 mb-1" href="../../../tags/ffmpeg">ffmpeg</a>
-			
 			<a class="mt-1 mb-1" href="../../../tags/figures">figures</a>
 			
-			<a class="mt-1 mb-1" href="../../../tags/flying">flying</a>
-			
 			<a class="mt-1 mb-1" href="../../../tags/food">food</a>
-			
-			<a class="mt-1 mb-1" href="../../../tags/frame-arms-girl">frame-arms-girl</a>
 			
 			<a class="mt-1 mb-1" href="../../../tags/game-dev">game-dev</a>
 			
 			<a class="mt-1 mb-1" href="../../../tags/ginza">ginza</a>
 			
-			<a class="mt-1 mb-1" href="../../../tags/git">git</a>
+			<a class="mt-1 mb-1" href="../../../tags/group">group</a>
 			
 			<a class="mt-1 mb-1" href="../../../tags/harajuku">harajuku</a>
 			
@@ -343,8 +289,6 @@ I used Unity&rsquo;s new Timeline feature, which is for setting up sequences of 
 			
 			<a class="mt-1 mb-1" href="../../../tags/hiroshima">hiroshima</a>
 			
-			<a class="mt-1 mb-1" href="../../../tags/history">history</a>
-			
 			<a class="mt-1 mb-1" href="../../../tags/hk2018">hk2018</a>
 			
 			<a class="mt-1 mb-1" href="../../../tags/hong-kong">hong-kong</a>
@@ -352,8 +296,6 @@ I used Unity&rsquo;s new Timeline feature, which is for setting up sequences of 
 			<a class="mt-1 mb-1" href="../../../tags/hotels">hotels</a>
 			
 			<a class="mt-1 mb-1" href="../../../tags/hugo">hugo</a>
-			
-			<a class="mt-1 mb-1" href="../../../tags/imagemagick">imagemagick</a>
 			
 			<a class="mt-1 mb-1" href="../../../tags/izakaya">izakaya</a>
 			
@@ -369,13 +311,7 @@ I used Unity&rsquo;s new Timeline feature, which is for setting up sequences of 
 			
 			<a class="mt-1 mb-1" href="../../../tags/london">london</a>
 			
-			<a class="mt-1 mb-1" href="../../../tags/love-live">love-live</a>
-			
-			<a class="mt-1 mb-1" href="../../../tags/markdown">markdown</a>
-			
 			<a class="mt-1 mb-1" href="../../../tags/mcmcomiccon">mcmcomiccon</a>
-			
-			<a class="mt-1 mb-1" href="../../../tags/media">media</a>
 			
 			<a class="mt-1 mb-1" href="../../../tags/miyajima">miyajima</a>
 			
@@ -395,17 +331,19 @@ I used Unity&rsquo;s new Timeline feature, which is for setting up sequences of 
 			
 			<a class="mt-1 mb-1" href="../../../tags/pilgrimage">pilgrimage</a>
 			
-			<a class="mt-1 mb-1" href="../../../tags/programming">programming</a>
-			
 			<a class="mt-1 mb-1" href="../../../tags/r18">r18</a>
 			
 			<a class="mt-1 mb-1" href="../../../tags/rabbit-island">rabbit-island</a>
+			
+			<a class="mt-1 mb-1" href="../../../tags/shibuya">shibuya</a>
 			
 			<a class="mt-1 mb-1" href="../../../tags/shinjuku">shinjuku</a>
 			
 			<a class="mt-1 mb-1" href="../../../tags/shinkansen">shinkansen</a>
 			
 			<a class="mt-1 mb-1" href="../../../tags/skytree">skytree</a>
+			
+			<a class="mt-1 mb-1" href="../../../tags/solo">solo</a>
 			
 			<a class="mt-1 mb-1" href="../../../tags/super-unity-chan-project">super-unity-chan-project</a>
 			
@@ -421,23 +359,13 @@ I used Unity&rsquo;s new Timeline feature, which is for setting up sequences of 
 			
 			<a class="mt-1 mb-1" href="../../../tags/ueno">ueno</a>
 			
-			<a class="mt-1 mb-1" href="../../../tags/ume-blossom">ume-blossom</a>
-			
 			<a class="mt-1 mb-1" href="../../../tags/unity">unity</a>
-			
-			<a class="mt-1 mb-1" href="../../../tags/version-control">version-control</a>
 			
 			<a class="mt-1 mb-1" href="../../../tags/vfx">vfx</a>
 			
-			<a class="mt-1 mb-1" href="../../../tags/video">video</a>
-			
 			<a class="mt-1 mb-1" href="../../../tags/video-games">video-games</a>
 			
-			<a class="mt-1 mb-1" href="../../../tags/web-dev">web-dev</a>
-			
 			<a class="mt-1 mb-1" href="../../../tags/website">website</a>
-			
-			<a class="mt-1 mb-1" href="../../../tags/workflow">workflow</a>
 			
 		</div>
 	</div>
@@ -447,7 +375,7 @@ I used Unity&rsquo;s new Timeline feature, which is for setting up sequences of 
     <div class="container">
         <div class="row">
             <div class="col-md-12 col-sm-6 text-center text-lg-center">
-                &copy; Copyright 2022 <i class="fas fa-lemon" aria-hidden="true"></i> Teh Lemon
+                &copy; Copyright 2023 <i class="fas fa-lemon" aria-hidden="true"></i> Teh Lemon
             </div>
             
         </div>

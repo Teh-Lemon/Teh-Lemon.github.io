@@ -2,7 +2,7 @@
 <html lang="en"><head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<meta name="generator" content="Hugo 0.59.1" />
+	<meta name="generator" content="Hugo 0.110.0">
 	
 	<link rel="icon" href="../../../images/lemon.png">
 	
@@ -17,7 +17,7 @@
 	<meta property="og:title" content="Website Update 2022" />
 <meta property="og:description" content="Move to Backblaze B2 and Cloudflare Pages hosting" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://www.tehlemon.com/articles/2022/2022-website-update/" />
+<meta property="og:url" content="https://www.tehlemon.com/articles/2022/2022-website-update/" /><meta property="article:section" content="articles" />
 <meta property="article:published_time" content="2022-07-11T06:11:56+01:00" />
 <meta property="article:modified_time" content="2022-07-11T06:11:56+01:00" />
 
@@ -130,55 +130,37 @@
                     
                     <div class="article-post">
                         <p>Did I really need to change my website&rsquo;s tech stack? Not really but I did it anyway.</p>
-
-<hr />
-
+<hr>
 <h2 id="changes">Changes</h2>
-
 <h3 id="domain-moved-to-cloudflare">Domain moved to Cloudflare</h3>
-
-<p>I moved my domains from Namecheap to Cloudflare.<br />
-Cloudflare is cheaper and I didn&rsquo;t need any of Namecheap&rsquo;s extra features.<br />
-It was easier than I expected, I didn&rsquo;t need to contact support or anything, just follow the instructions and click some buttons in Namecheap&rsquo;s dashboard.<br />
+<p>I moved my domains from Namecheap to Cloudflare.<br>
+Cloudflare is cheaper and I didn&rsquo;t need any of Namecheap&rsquo;s extra features.<br>
+It was easier than I expected, I didn&rsquo;t need to contact support or anything, just follow the instructions and click some buttons in Namecheap&rsquo;s dashboard.<br>
 Though Cloudflare doesn&rsquo;t recognise the auth code for one of my domains as valid. Might be because it&rsquo;s on a .games domain instead of a .com one but Cloudflare should theoretically support those.</p>
-
 <h3 id="web-hosting-moved-to-cloudflare-pages">Web Hosting moved to Cloudflare Pages</h3>
-
-<p>This website is no longer being served by Github Pages and is now served by Cloudflare Pages.<br />
-I needed a full https stack for my image hosting move to Backblaze B2 and it seemed easier to achieve this by letting Cloudflare act as both the host and the CDN.<br />
-I was already using Cloudflare as a CDN anyway and I figure this would make the hosting more efficient if it all came from one place.<br />
+<p>This website is no longer being served by Github Pages and is now served by Cloudflare Pages.<br>
+I needed a full https stack for my image hosting move to Backblaze B2 and it seemed easier to achieve this by letting Cloudflare act as both the host and the CDN.<br>
+I was already using Cloudflare as a CDN anyway and I figure this would make the hosting more efficient if it all came from one place.<br>
 Cloudflare still pulls the latest files from the original Github page so my production workflow stayed the same.</p>
-
-<p>In the Cloudflare Pages dashboard make sure to add both <code>&quot;your-website.com&quot;</code> and <code>&quot;www.your-website.com&quot;</code> to the <strong>Custom Domains</strong> tab.<br />
+<p>In the Cloudflare Pages dashboard make sure to add both <code>&quot;your-website.com&quot;</code> and <code>&quot;www.your-website.com&quot;</code> to the <strong>Custom Domains</strong> tab.<br>
 In your Cloudflare website DNS records, add a CNAME entry for your Cloudflare Page url (it looks like <code>your-CF-Pages-Name.pages.dev</code>) with the name <code>your-website.com</code>. Duplicate this record and change the name to <code>www</code>.</p>
-
 <h3 id="image-hosting-moved-to-backblaze-b2">Image Hosting moved to Backblaze B2</h3>
-
-<p>Amazon S3&rsquo;s free trial was over and was now costing me a whopping 50 cents a year.<br />
+<p>Amazon S3&rsquo;s free trial was over and was now costing me a whopping 50 cents a year.<br>
 Backblaze&rsquo;s B2 has both an unlimited free trial (for now) for small users (my photos are only 500MB so far). Plus they even have a partnership with Cloudflare for free downloads.</p>
-
-<p>The Backblaze Cloudflare partnership is pretty interesting, turns out their servers are in the same building so they literally patched a cable across to each other&rsquo;s rooms, bypassing any ISP bandwidth charges between them entirely.<br />
+<p>The Backblaze Cloudflare partnership is pretty interesting, turns out their servers are in the same building so they literally patched a cable across to each other&rsquo;s rooms, bypassing any ISP bandwidth charges between them entirely.<br>
 The devs talk about it in this Reddit thread: <a href="https://www.reddit.com/r/backblaze/comments/l2lq42/how_long_will_cloudflare_peering_stay_for/gk6qie0/">How long will Cloudflare peering stay for?</a></p>
-
 <p>One minor annoyance with Backblaze is that each email is region specific. I needed to make a new account to host my B2 bucket in Europe.</p>
-
-<p>I used the service Flexify.IO for a free automatic transfer from S3 to B2: <a href="https://help.backblaze.com/hc/en-us/articles/360041059194-Quickstart-Guide-for-Flexify-IO-to-Transfer-Data-from-Amazon-S3-to-B2">Quickstart Guide for Flexify.IO to Transfer Data from Amazon S3 to B2</a><br />
+<p>I used the service Flexify.IO for a free automatic transfer from S3 to B2: <a href="https://help.backblaze.com/hc/en-us/articles/360041059194-Quickstart-Guide-for-Flexify-IO-to-Transfer-Data-from-Amazon-S3-to-B2">Quickstart Guide for Flexify.IO to Transfer Data from Amazon S3 to B2</a><br>
 I followed this tutorial for setting things up: <a href="https://www.backblaze.com/blog/free-image-hosting-with-cloudflare-transform-rules-and-backblaze-b2/">Free Image Hosting With Cloudflare Transform Rules and Backblaze B2</a></p>
-
 <p>I questioned whether the transform rule for redirecting the urls to my custom domain was required, with S3 I only need a DNS record. In-fact, B2 even offers a S3-like url for my images, but the same DNS record re-direct trick doesn&rsquo;t work for some reason. I read a post from a dev a year ago that they&rsquo;d look into it but it doesn&rsquo;t seem like it&rsquo;s coming anytime soon.</p>
-
-<p>One problem I encountered with the tutorial is that the URL re-direct transform rule was re-directing ALL my urls, not just the images. I needed a second expression to make it work so the final result looks like:<br />
+<p>One problem I encountered with the tutorial is that the URL re-direct transform rule was re-directing ALL my urls, not just the images. I needed a second expression to make it work so the final result looks like:<br>
 <code>(not starts_with(http.request.uri.path, &quot;/file/img-tehlemon-com&quot;) and http.request.full_uri contains &quot;https://i.tehlemon.com&quot;)</code></p>
-
 <p>The website-based UI is somewhat clunky. It logs me out a lot and I need to manually navigate all the way back every time, it&rsquo;s not bookmark-able. So I&rsquo;m using the Windows desktop app, Cyberduck.</p>
-
 <h3 id="updating-the-website-theme">Updating the website theme</h3>
-
-<p>Merged in the latest updates to the parent theme, Mediumish.<br />
-Github couldn&rsquo;t do this automatically by Visual Studio Code could.<br />
+<p>Merged in the latest updates to the parent theme, Mediumish.<br>
+Github couldn&rsquo;t do this automatically by Visual Studio Code could.<br>
 Nothing really changed, a couple bugs got fixed, some libraries updated and support for some features I had already added myself (e.g. allowing your own css tweaks).</p>
-
-<p>There was one problem that didn&rsquo;t show up until I pushed the changes to production.<br />
+<p>There was one problem that didn&rsquo;t show up until I pushed the changes to production.<br>
 The theme creator added support for a security feature that checks the integrity of the site&rsquo;s files which only allows the browser to load the files if they haven&rsquo;t been changed. I couldn&rsquo;t get this compatible with Cloudflare which processes and optimizes the files before serving them so I disabled the intregity checks by ctrl+f&rsquo;ing <code>integrity=&quot;</code> and setting them to <code>integrity=&quot;&quot;</code>.</p>
                     </div>
                     
@@ -238,8 +220,6 @@ The theme creator added support for a security feature that checks the integrity
 			
 			<a class="mt-1 mb-1" href="../../../tags/airports">airports</a>
 			
-			<a class="mt-1 mb-1" href="../../../tags/akiba">akiba</a>
-			
 			<a class="mt-1 mb-1" href="../../../tags/akihabara">akihabara</a>
 			
 			<a class="mt-1 mb-1" href="../../../tags/animals">animals</a>
@@ -250,31 +230,19 @@ The theme creator added support for a security feature that checks the integrity
 			
 			<a class="mt-1 mb-1" href="../../../tags/asakusa">asakusa</a>
 			
-			<a class="mt-1 mb-1" href="../../../tags/audio">audio</a>
-			
 			<a class="mt-1 mb-1" href="../../../tags/backblaze">backblaze</a>
 			
-			<a class="mt-1 mb-1" href="../../../tags/bash">bash</a>
-			
-			<a class="mt-1 mb-1" href="../../../tags/batch">batch</a>
-			
 			<a class="mt-1 mb-1" href="../../../tags/blender">blender</a>
-			
-			<a class="mt-1 mb-1" href="../../../tags/blog">blog</a>
 			
 			<a class="mt-1 mb-1" href="../../../tags/china">china</a>
 			
 			<a class="mt-1 mb-1" href="../../../tags/cloudflare">cloudflare</a>
-			
-			<a class="mt-1 mb-1" href="../../../tags/cmd">cmd</a>
 			
 			<a class="mt-1 mb-1" href="../../../tags/culture">culture</a>
 			
 			<a class="mt-1 mb-1" href="../../../tags/cute-platformer-game">cute-platformer-game</a>
 			
 			<a class="mt-1 mb-1" href="../../../tags/day-trips">day-trips</a>
-			
-			<a class="mt-1 mb-1" href="../../../tags/den-den-town">den-den-town</a>
 			
 			<a class="mt-1 mb-1" href="../../../tags/don-quijote">don-quijote</a>
 			
@@ -286,21 +254,15 @@ The theme creator added support for a security feature that checks the integrity
 			
 			<a class="mt-1 mb-1" href="../../../tags/festivals">festivals</a>
 			
-			<a class="mt-1 mb-1" href="../../../tags/ffmpeg">ffmpeg</a>
-			
 			<a class="mt-1 mb-1" href="../../../tags/figures">figures</a>
 			
-			<a class="mt-1 mb-1" href="../../../tags/flying">flying</a>
-			
 			<a class="mt-1 mb-1" href="../../../tags/food">food</a>
-			
-			<a class="mt-1 mb-1" href="../../../tags/frame-arms-girl">frame-arms-girl</a>
 			
 			<a class="mt-1 mb-1" href="../../../tags/game-dev">game-dev</a>
 			
 			<a class="mt-1 mb-1" href="../../../tags/ginza">ginza</a>
 			
-			<a class="mt-1 mb-1" href="../../../tags/git">git</a>
+			<a class="mt-1 mb-1" href="../../../tags/group">group</a>
 			
 			<a class="mt-1 mb-1" href="../../../tags/harajuku">harajuku</a>
 			
@@ -310,8 +272,6 @@ The theme creator added support for a security feature that checks the integrity
 			
 			<a class="mt-1 mb-1" href="../../../tags/hiroshima">hiroshima</a>
 			
-			<a class="mt-1 mb-1" href="../../../tags/history">history</a>
-			
 			<a class="mt-1 mb-1" href="../../../tags/hk2018">hk2018</a>
 			
 			<a class="mt-1 mb-1" href="../../../tags/hong-kong">hong-kong</a>
@@ -319,8 +279,6 @@ The theme creator added support for a security feature that checks the integrity
 			<a class="mt-1 mb-1" href="../../../tags/hotels">hotels</a>
 			
 			<a class="mt-1 mb-1" href="../../../tags/hugo">hugo</a>
-			
-			<a class="mt-1 mb-1" href="../../../tags/imagemagick">imagemagick</a>
 			
 			<a class="mt-1 mb-1" href="../../../tags/izakaya">izakaya</a>
 			
@@ -336,13 +294,7 @@ The theme creator added support for a security feature that checks the integrity
 			
 			<a class="mt-1 mb-1" href="../../../tags/london">london</a>
 			
-			<a class="mt-1 mb-1" href="../../../tags/love-live">love-live</a>
-			
-			<a class="mt-1 mb-1" href="../../../tags/markdown">markdown</a>
-			
 			<a class="mt-1 mb-1" href="../../../tags/mcmcomiccon">mcmcomiccon</a>
-			
-			<a class="mt-1 mb-1" href="../../../tags/media">media</a>
 			
 			<a class="mt-1 mb-1" href="../../../tags/miyajima">miyajima</a>
 			
@@ -362,17 +314,19 @@ The theme creator added support for a security feature that checks the integrity
 			
 			<a class="mt-1 mb-1" href="../../../tags/pilgrimage">pilgrimage</a>
 			
-			<a class="mt-1 mb-1" href="../../../tags/programming">programming</a>
-			
 			<a class="mt-1 mb-1" href="../../../tags/r18">r18</a>
 			
 			<a class="mt-1 mb-1" href="../../../tags/rabbit-island">rabbit-island</a>
+			
+			<a class="mt-1 mb-1" href="../../../tags/shibuya">shibuya</a>
 			
 			<a class="mt-1 mb-1" href="../../../tags/shinjuku">shinjuku</a>
 			
 			<a class="mt-1 mb-1" href="../../../tags/shinkansen">shinkansen</a>
 			
 			<a class="mt-1 mb-1" href="../../../tags/skytree">skytree</a>
+			
+			<a class="mt-1 mb-1" href="../../../tags/solo">solo</a>
 			
 			<a class="mt-1 mb-1" href="../../../tags/super-unity-chan-project">super-unity-chan-project</a>
 			
@@ -388,23 +342,13 @@ The theme creator added support for a security feature that checks the integrity
 			
 			<a class="mt-1 mb-1" href="../../../tags/ueno">ueno</a>
 			
-			<a class="mt-1 mb-1" href="../../../tags/ume-blossom">ume-blossom</a>
-			
 			<a class="mt-1 mb-1" href="../../../tags/unity">unity</a>
-			
-			<a class="mt-1 mb-1" href="../../../tags/version-control">version-control</a>
 			
 			<a class="mt-1 mb-1" href="../../../tags/vfx">vfx</a>
 			
-			<a class="mt-1 mb-1" href="../../../tags/video">video</a>
-			
 			<a class="mt-1 mb-1" href="../../../tags/video-games">video-games</a>
 			
-			<a class="mt-1 mb-1" href="../../../tags/web-dev">web-dev</a>
-			
 			<a class="mt-1 mb-1" href="../../../tags/website">website</a>
-			
-			<a class="mt-1 mb-1" href="../../../tags/workflow">workflow</a>
 			
 		</div>
 	</div>
@@ -414,7 +358,7 @@ The theme creator added support for a security feature that checks the integrity
     <div class="container">
         <div class="row">
             <div class="col-md-12 col-sm-6 text-center text-lg-center">
-                &copy; Copyright 2022 <i class="fas fa-lemon" aria-hidden="true"></i> Teh Lemon
+                &copy; Copyright 2023 <i class="fas fa-lemon" aria-hidden="true"></i> Teh Lemon
             </div>
             
         </div>

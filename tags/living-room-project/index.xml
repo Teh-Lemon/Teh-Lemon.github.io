@@ -7,11 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Teh Lemon</copyright>
-    <lastBuildDate>Tue, 31 Oct 2017 06:54:34 +0100</lastBuildDate>
-    
-	<atom:link href="https://www.tehlemon.com/tags/living-room-project/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Tue, 31 Oct 2017 06:54:34 +0100</lastBuildDate><atom:link href="https://www.tehlemon.com/tags/living-room-project/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>VFX Collection for the Living Room scene in Unity</title>
       <link>https://www.tehlemon.com/articles/2010/livingroom-vfx/</link>
@@ -28,7 +24,6 @@
       
       <guid>https://www.tehlemon.com/articles/2010/livingroom-shadow/</guid>
       <description>&lt;a href=&#34;https://i.tehlemon.com/articles/game/livingroom/lr_shadow_problem.jpg&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://i.tehlemon.com/articles/game/livingroom/lr_shadow_problem.jpg&#34; alt=&#34;&#34;&gt;&lt;/a&gt;
-
 &lt;p&gt;My solution for real-time ambient shadows for dynamic characters for my living room scene.&lt;/p&gt;</description>
     </item>
     
@@ -39,8 +34,7 @@
       
       <guid>https://www.tehlemon.com/articles/2010/livingroom/</guid>
       <description>&lt;a href=&#34;https://i.tehlemon.com/articles/game/livingroom/lr_overview_final.jpg&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://i.tehlemon.com/articles/game/livingroom/lr_overview_final.jpg&#34; alt=&#34;&#34;&gt;&lt;/a&gt;
-
-&lt;p&gt;A living room scene put together to learn about working with PBR 3D assets, level design tools, lighting, shaders and post-processing. Made in Unity 2017 and Blender.&lt;br /&gt;
+&lt;p&gt;A living room scene put together to learn about working with PBR 3D assets, level design tools, lighting, shaders and post-processing. Made in Unity 2017 and Blender.&lt;br&gt;
 Here&amp;rsquo;s a collection of things I learnt and made over the course of the project.&lt;/p&gt;</description>
     </item>
     

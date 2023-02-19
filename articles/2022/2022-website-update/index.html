@@ -140,7 +140,7 @@
 <p>I moved my domains from Namecheap to Cloudflare.<br />
 Cloudflare is cheaper and I didn&rsquo;t need any of Namecheap&rsquo;s extra features.<br />
 It was easier than I expected, I didn&rsquo;t need to contact support or anything, just follow the instructions and click some buttons in Namecheap&rsquo;s dashboard.<br />
-Though Cloudflare doesn&rsquo;t recognise the auth code for one of my domains as valid. Might be because it&rsquo;s on a .games domain instead of a .com one but Cloudflare should theoretically support those.</p>
+Though Cloudflare doesn&rsquo;t recognise the auth code for one of my domains as valid. Might be because it&rsquo;s on a .games domain instead of a .com one but Cloudflare should theoretically support those?</p>
 
 <h3 id="web-hosting-moved-to-cloudflare-pages">Web Hosting moved to Cloudflare Pages</h3>
 
@@ -149,7 +149,8 @@ I needed a full https stack for my image hosting move to Backblaze B2 and it see
 I was already using Cloudflare as a CDN anyway and I figure this would make the hosting more efficient if it all came from one place.<br />
 Cloudflare still pulls the latest files from the original Github page so my production workflow stayed the same.</p>
 
-<p>In the Cloudflare Pages dashboard make sure to add both <code>&quot;your-website.com&quot;</code> and <code>&quot;www.your-website.com&quot;</code> to the <strong>Custom Domains</strong> tab.<br />
+<p>A tip:<br />
+In the Cloudflare Pages dashboard make sure to add both <code>&quot;your-website.com&quot;</code> and <code>&quot;www.your-website.com&quot;</code> to the <strong>Custom Domains</strong> tab.<br />
 In your Cloudflare website DNS records, add a CNAME entry for your Cloudflare Page url (it looks like <code>your-CF-Pages-Name.pages.dev</code>) with the name <code>your-website.com</code>. Duplicate this record and change the name to <code>www</code>.</p>
 
 <h3 id="image-hosting-moved-to-backblaze-b2">Image Hosting moved to Backblaze B2</h3>
@@ -170,16 +171,17 @@ I followed this tutorial for setting things up: <a href="https://www.backblaze.c
 <p>One problem I encountered with the tutorial is that the URL re-direct transform rule was re-directing ALL my urls, not just the images. I needed a second expression to make it work so the final result looks like:<br />
 <code>(not starts_with(http.request.uri.path, &quot;/file/img-tehlemon-com&quot;) and http.request.full_uri contains &quot;https://i.tehlemon.com&quot;)</code></p>
 
-<p>The website-based UI is somewhat clunky. It logs me out a lot and I need to manually navigate all the way back every time, it&rsquo;s not bookmark-able. So I&rsquo;m using the Windows desktop app, Cyberduck.</p>
+<p>The website-based UI is somewhat clunky. It logs me out a lot and I need to manually navigate all the way back every time and it&rsquo;s not bookmark-able.<br />
+I&rsquo;m using the Windows desktop app, <a href="https://cyberduck.io/" title="Cyberduck | Libre server and cloud storage browser for Mac and Windows with support for FTP, SFTP, WebDAV, Amazon S3, OpenStack Swift, Backblaze B2, Microsoft Azure &amp; OneDrive, Google Drive and Dropbox">Cyberduck</a>, instead for managing my files.</p>
 
 <h3 id="updating-the-website-theme">Updating the website theme</h3>
 
 <p>Merged in the latest updates to the parent theme, Mediumish.<br />
-Github couldn&rsquo;t do this automatically by Visual Studio Code could.<br />
+Github couldn&rsquo;t do this automatically but Visual Studio Code could.<br />
 Nothing really changed, a couple bugs got fixed, some libraries updated and support for some features I had already added myself (e.g. allowing your own css tweaks).</p>
 
 <p>There was one problem that didn&rsquo;t show up until I pushed the changes to production.<br />
-The theme creator added support for a security feature that checks the integrity of the site&rsquo;s files which only allows the browser to load the files if they haven&rsquo;t been changed. I couldn&rsquo;t get this compatible with Cloudflare which processes and optimizes the files before serving them so I disabled the intregity checks by ctrl+f&rsquo;ing <code>integrity=&quot;</code> and setting them to <code>integrity=&quot;&quot;</code>.</p>
+The theme creator added support for a security feature that checks the integrity of the site&rsquo;s files which only allows the browser to load the files if they haven&rsquo;t been changed. I couldn&rsquo;t get this compatible with Cloudflare which processes and optimizes the files before serving them so I disabled the intregity checks by ctrl+f&rsquo;ing <code>integrity=&quot;</code> and replacing them with <code>integrity=&quot;&quot;</code>.</p>
                     </div>
                     
                     

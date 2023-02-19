@@ -2,7 +2,7 @@
 <html lang="en"><head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<meta name="generator" content="Hugo 0.110.0">
+	<meta name="generator" content="Hugo 0.59.1" />
 	
 	<link rel="icon" href="../../../images/lemon.png">
 	
@@ -17,7 +17,7 @@
 	<meta property="og:title" content="Platformer Game Collectibles" />
 <meta property="og:description" content="Drops!" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://www.tehlemon.com/articles/2010/cpg-drops/" /><meta property="article:section" content="articles" />
+<meta property="og:url" content="https://www.tehlemon.com/articles/2010/cpg-drops/" />
 <meta property="article:published_time" content="2016-05-22T06:54:34+01:00" />
 <meta property="article:modified_time" content="2016-05-22T06:54:34+01:00" />
 
@@ -130,107 +130,171 @@
                     
                     <div class="article-post">
                         <a href="https://i.tehlemon.com/articles/game/cuteplatformer/drops/DropsRow.png" target="_blank"><img src="https://i.tehlemon.com/articles/game/cuteplatformer/drops/DropsRow.png" alt=""></a>
+
 <p>Some notes on implementing a collectible in a platformer game.</p>
-<hr>
+
+<hr />
+
 <p>[This article assumes basic knowledge of Unity]</p>
-<p>Cute-Platformer-Game was a project I was working on back in 2016 with a team online.<br>
-The project was cancelled after my team disappeared, never to be seen again. I continued working on it a bit but ultimately, the scope was far too large for our level of experience. Looking back, it was a bit naive to think a bunch of beginners were going to create the next Mario Odyssey.<br>
+
+<p>Cute-Platformer-Game was a project I was working on back in 2016 with a team online.<br />
+The project was cancelled after my team disappeared, never to be seen again. I continued working on it a bit but ultimately, the scope was far too large for our level of experience. Looking back, it was a bit naive to think a bunch of beginners were going to create the next Mario Odyssey.<br />
 A common tale in game dev.</p>
 
+
 <a href="https://i.tehlemon.com/articles/game/cuteplatformer/drops/drops_first_colors.jpg" target="_blank"><img src="https://i.tehlemon.com/articles/game/cuteplatformer/drops/drops_first_colors.jpg" alt=""></a>
+
 <blockquote>
 <p>The Drops along with a well, my first model made in Blender.</p>
 </blockquote>
-<p>Drops were the game&rsquo;s main collectible currency. They were inspired by the Japanese candy, konpeito, while the name came from a British sweet which also has a similar look.<br>
+
+<p>Drops were the game&rsquo;s main collectible currency. They were inspired by the Japanese candy, konpeito, while the name came from a British sweet which also has a similar look.<br />
 So basically they were the star bits from Mario Galaxy.</p>
 
+
 <a href="https://i.tehlemon.com/articles/game/cuteplatformer/drops/drops_inspiration.jpg" target="_blank"><img src="https://i.tehlemon.com/articles/game/cuteplatformer/drops/drops_inspiration.jpg" alt=""></a>
+
 <blockquote>
 <p>Souvenirs from a Japan trip. I just think konpeitos are neat.</p>
 </blockquote>
-<p>Here it is in action:<br>
-<!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+
+<p>Here it is in action:<br />
+<video src="
+https://i.tehlemon.com/articles/game/cuteplatformer/drops/drops_final.webm" controls width="600"></video></p>
+
 <h2 id="drops">Drops</h2>
+
 <p>Below are some notes I had written at the time, back when I was developing it.</p>
+
 <h3 id="the-gameobject-setup">The GameObject Setup</h3>
+
 <p>Typical Unity workflow would dictate that you make a prefab out of a GameObject with all its components attached. This had a couple problems:</p>
+
 <ol>
 <li>When the Drop was removed from the game when it&rsquo;s picked up by the player, the audio and particle effects would also immediately be removed.</li>
 <li>I needed 2 different trigger sphere colliders. A hitbox for when it touches the player, and a second bigger sphere for when the player gets near it to make it start floating towards them.</li>
 </ol>
-<p>The first problem was easy to solve. I created a global object pool system that can spawn objects, in this case the audio/particle effects, on request.<br>
+
+<p>The first problem was easy to solve. I created a global object pool system that can spawn objects, in this case the audio/particle effects, on request.<br />
 Once they were done, the object pool would then store them to be reused later. This was an important optimization during the Unity 5 days, (though I hear garbage collection is less of a problem in Unity 2022).</p>
-<p>The second problem took a bit of experimentation.<br>
+
+<p>The second problem took a bit of experimentation.<br />
 If Unity wouldn&rsquo;t let me use 2 separate trigger colliders, <strong>what if I used 1 trigger sphere collider and 1 solid (not-trigger) cube collider?</strong> Unfortunately, there was a noticeable delay between the solid collider touching the player&rsquo;s body and the code being activated so this was a no go.</p>
-<p>If Unity wouldn&rsquo;t let me use 2 separate trigger colliders on 1 GameObject, <strong>what if I had 2 GameObjects instead?</strong> In fact, I had a group of 3 GameObjects. This was before I made the above Object Pool so I had 2 for the colliders and 1 for the audio/particle effects.<br>
-I dropped this approach since it required the team to set up all the objects and scripts in a specific way which was prone to user error.<br>
+
+<p>If Unity wouldn&rsquo;t let me use 2 separate trigger colliders on 1 GameObject, <strong>what if I had 2 GameObjects instead?</strong> In fact, I had a group of 3 GameObjects. This was before I made the above Object Pool so I had 2 for the colliders and 1 for the audio/particle effects.<br />
+I dropped this approach since it required the team to set up all the objects and scripts in a specific way which was prone to user error.<br />
 It also made it a pain to reference scripts from another object because I needed to get the components from all the children and sort through them etc.</p>
-<p>So back to 1 GameObject. <strong>What if I didn&rsquo;t need 2 triggers?</strong><br>
-A sphere check is actually a very simple thing to code, I don&rsquo;t need to rely on Unity&rsquo;s Physics engine at all. I can just check the distance between the Drop and the Player.<br>
+
+<p>So back to 1 GameObject. <strong>What if I didn&rsquo;t need 2 triggers?</strong><br />
+A sphere check is actually a very simple thing to code, I don&rsquo;t need to rely on Unity&rsquo;s Physics engine at all. I can just check the distance between the Drop and the Player.<br />
 For debugging I can visualize this manual sphere using Editor gizmos.</p>
+
 <h3 id="visuals-and-movement">Visuals and Movement</h3>
-<p><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+
+<video src="
+https://i.tehlemon.com/articles/game/cuteplatformer/drops/drops_loop.webm" autoplay loop></video>  
+
 <p>They all slowly spin and bob (at slightly different speeds to each other) to add a bit of life into the levels. We didn&rsquo;t have any artists so we figured the levels might feel barren without these little bits of movement.</p>
+
 <p>On spawn, I cycle through the available colors instead of randomizing them because it looks nicer when the colours are evenly distributed.</p>
-<p>There are no lights on the Drop. The glow is made using a Halo Component and an emissive material.<br>
+
+<p>There are no lights on the Drop. The glow is made using a Halo Component and an emissive material.<br />
 I was planning on experimenting with actual lights if we ever made a night level. It would possibly impact performance though we were using deferred lighting which should allow for this.</p>
-<p>There&rsquo;s a particle trail as it flies towards the player to emphasize its motion. When it hits the player there is a shattering-glass-like particle effect to make it feel more satisfying to collect.<br>
+
+<p>There&rsquo;s a particle trail as it flies towards the player to emphasize its motion. When it hits the player there is a shattering-glass-like particle effect to make it feel more satisfying to collect.<br />
 The speed the Drops fly at the player is fast enough to easily catch up but the air resistance is high enough for the Drop to &ldquo;skid&rdquo; and curve through the air creating lovely swirly patterns with the trails.</p>
-<p><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
-<p>Instead of just floating into the player when they get close, the drop will first hop straight up (as if it&rsquo;s been activated), freeze for a second, before shooting at the player. This makes it feel more lively and satisfying.<br>
+
+<video src="
+https://i.tehlemon.com/articles/game/cuteplatformer/drops/drops_particles_first_pass.webm" autoplay loop ></video>  
+
+<p>Instead of just floating into the player when they get close, the drop will first hop straight up (as if it&rsquo;s been activated), freeze for a second, before shooting at the player. This makes it feel more lively and satisfying.<br />
 I make sure the Drops have line of sight to the Player first, so they don&rsquo;t get activated through walls.</p>
+
 <h3 id="populating-the-levels">Populating the levels</h3>
-<p><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+
+<video src="
+https://i.tehlemon.com/articles/game/cuteplatformer/drops/drops_collision.webm" autoplay loop width="300"></video>  
+
 <blockquote>
 <p>Turns out that having 100 colliding objects in close proximity will tank the frame rate.</p>
 </blockquote>
-<p>For easier level creation, I first thought to make the Drops physics objects.<br>
-Instead of needing to carefully place all the Drops at the right height in the levels, I thought it would be quicker if they had gravity and could automatically fall to the ground when they spawn.<br>
+
+<p>For easier level creation, I first thought to make the Drops physics objects.<br />
+Instead of needing to carefully place all the Drops at the right height in the levels, I thought it would be quicker if they had gravity and could automatically fall to the ground when they spawn.<br />
 Still, this involved a lot of copy/paste so I scrapped it.</p>
+
 <p>Here&rsquo;s what I came up with instead.</p>
 
+
 <a href="https://i.tehlemon.com/articles/game/cuteplatformer/drops/drops_line.jpg" target="_blank"><img src="https://i.tehlemon.com/articles/game/cuteplatformer/drops/drops_line.jpg" alt=""></a>
+
 <blockquote>
 <p>Line Spawners</p>
 </blockquote>
-<p>These evenly spawn GameObjects along their path.<br>
-These were going to be used for the hand-added Drops in the levels. To guide the Player in the right direction or to catch their attention in certain areas.<br>
+
+<p>These evenly spawn GameObjects along their path.<br />
+These were going to be used for the hand-added Drops in the levels. To guide the Player in the right direction or to catch their attention in certain areas.<br />
 This ended up being much easier to implement than I thought. Though I did use a script I found online for calculating the bezier curves.</p>
-<p>The 2nd spawner type spews GameObjects out like a fountain.<br>
-These were used for dynamically spawned Drops, like when an enemy is defeated or when the Player breaks open a crate.<br>
+
+<p>The 2nd spawner type spews GameObjects out like a fountain.<br />
+These were used for dynamically spawned Drops, like when an enemy is defeated or when the Player breaks open a crate.<br />
 This involved figuring out how to math random points on a sphere within a given angle/cone to get the spawning directions, but in hindsight maybe just a random.x + random.z would&rsquo;ve been good enough.</p>
-<p><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+
+<video src="
+https://i.tehlemon.com/articles/game/cuteplatformer/drops/drops_fountain_spawner.webm" autoplay loop height="480"></video>  
+
 <h3 id="audio">Audio</h3>
+
 <p>&ldquo;Should be easy. Find some satisfying foley, drop in the file and I&rsquo;m done, right?&rdquo;</p>
-<p>Warning: Loud<br>
-<!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+
+<p>Warning: Loud<br />
+<video src="
+https://i.tehlemon.com/articles/game/cuteplatformer/drops/drops_sound_jar.webm" controls height="360"></video></p>
+
 <p>2 problems. First, kinda annoying. Second, getting a bunch of Drops at once either causes the sounds to stack/resonate/SCREECH or it breaks Unity and no sound is played at all.</p>
+
 <p>A few techniques I had used to improve this:</p>
-<p><strong>Use a different sound effect.</strong><br>
-I tried out a few more foley-type effects but they all sounded obnoxious when repeated so frequently.<br>
-Then I tried something abstract/gamey and found a few which sounded decent but didn&rsquo;t quite fit.<br>
+
+<p><strong>Use a different sound effect.</strong><br />
+I tried out a few more foley-type effects but they all sounded obnoxious when repeated so frequently.<br />
+Then I tried something abstract/gamey and found a few which sounded decent but didn&rsquo;t quite fit.<br />
 I eventually settled on an inoffensive sparkly effect in the end.</p>
-<p><strong>Randomize the pitch, volume and length of the sound clip.</strong><br>
+
+<p><strong>Randomize the pitch, volume and length of the sound clip.</strong><br />
 This helped reduced the ear-piercing a lot since they were no longer resonating with each other when the player picked up a large group at once. Plus it added a little variation.</p>
-<p><strong>Cull sound clips that played too close to each other and add a delay between each Drop spawn.</strong><br>
+
+<p><strong>Cull sound clips that played too close to each other and add a delay between each Drop spawn.</strong><br />
 This had the unintended side effect of making it look like the drops were streaming out the spawn point like a fountain which I totally love.</p>
-<p><strong>Increase the pitch after consecutive pick ups.</strong><br>
-I tried this with the hand-placed Drops. This is the same technique used in the Mario games. As you pick up coins quickly the pitch rises like a nice musical combo.<br>
-Though the intended effect didn&rsquo;t quite work out as well here as you pick up a lot of Drops at once compared to the other games that use this technique.<br>
+
+<p><strong>Increase the pitch after consecutive pick ups.</strong><br />
+I tried this with the hand-placed Drops. This is the same technique used in the Mario games. As you pick up coins quickly the pitch rises like a nice musical combo.<br />
+Though the intended effect didn&rsquo;t quite work out as well here as you pick up a lot of Drops at once compared to the other games that use this technique.<br />
 I did leave it in but only subtly. I feel this technique is better reserved for more difficult challenges to audibly reward the player.</p>
-<p><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+
+<video src="
+https://i.tehlemon.com/articles/game/cuteplatformer/drops/drops_audio_pitch_increase.webm" controls width="300"></video>  
+
 <blockquote>
 <p>In-progress video with an exaggerated increasing pitch effect before I settled on the sparkly audio</p>
 </blockquote>
+
 <h3 id="final-result">Final Result</h3>
+
 <p>While it&rsquo;s a shame the project never got anywhere I am still pretty satisfied with how these turned out. I&rsquo;d love to get a chance to reuse them in a future project if the oppotunity ever arises.</p>
-<p><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+
+<video src="
+https://i.tehlemon.com/articles/game/cuteplatformer/drops/drops_final.webm" controls width="600"></video>  
+
 <h2 id="bonus">Bonus</h2>
+
 <p>The heartmato was going to be the health collectible in the game.</p>
+
 
 <a href="https://i.tehlemon.com/articles/game/cuteplatformer/drops/heartmato.jpg" target="_blank"><img src="https://i.tehlemon.com/articles/game/cuteplatformer/drops/heartmato.jpg" alt=""></a>
 
+
 <a href="https://i.tehlemon.com/articles/game/cuteplatformer/drops/pre-boss_supplies.jpg" target="_blank"><img src="https://i.tehlemon.com/articles/game/cuteplatformer/drops/pre-boss_supplies.jpg" alt=""></a>
+
 <blockquote>
 <p>The 2nd model I had ever made in Blender.</p>
 </blockquote>

@@ -7,7 +7,11 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Teh Lemon</copyright>
-    <lastBuildDate>Wed, 22 Jun 2016 06:54:34 +0100</lastBuildDate><atom:link href="https://www.tehlemon.com/tags/cute-platformer-game/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 22 Jun 2016 06:54:34 +0100</lastBuildDate>
+    
+	<atom:link href="https://www.tehlemon.com/tags/cute-platformer-game/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>My First Character Model</title>
       <link>https://www.tehlemon.com/articles/2010/cpg-melon/</link>
@@ -15,6 +19,7 @@
       
       <guid>https://www.tehlemon.com/articles/2010/cpg-melon/</guid>
       <description>&lt;a href=&#34;https://i.tehlemon.com/articles/game/cuteplatformer/melon/melon_tex_v1.jpg&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://i.tehlemon.com/articles/game/cuteplatformer/melon/melon_tex_v1.jpg&#34; alt=&#34;&#34;&gt;&lt;/a&gt;
+
 &lt;p&gt;Blog on my first attempt at 3D character modelling for the Cute-Platformer-Game.&lt;/p&gt;</description>
     </item>
     
@@ -25,6 +30,7 @@
       
       <guid>https://www.tehlemon.com/articles/2010/cpg-drops/</guid>
       <description>&lt;a href=&#34;https://i.tehlemon.com/articles/game/cuteplatformer/drops/DropsRow.png&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://i.tehlemon.com/articles/game/cuteplatformer/drops/DropsRow.png&#34; alt=&#34;&#34;&gt;&lt;/a&gt;
+
 &lt;p&gt;Some notes on implementing a collectible in a platformer game.&lt;/p&gt;</description>
     </item>
     

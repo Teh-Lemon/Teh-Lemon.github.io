@@ -7,10 +7,64 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Teh Lemon</copyright>
-    <lastBuildDate>Mon, 05 Jun 2023 05:16:15 +0100</lastBuildDate>
+    <lastBuildDate>Sun, 12 Nov 2023 01:25:52 +0000</lastBuildDate>
     
 	<atom:link href="https://www.tehlemon.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Culture</title>
+      <link>https://www.tehlemon.com/tags/culture/</link>
+      <pubDate>Sun, 12 Nov 2023 01:25:52 +0000</pubDate>
+      
+      <guid>https://www.tehlemon.com/tags/culture/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Family</title>
+      <link>https://www.tehlemon.com/tags/family/</link>
+      <pubDate>Sun, 12 Nov 2023 01:25:52 +0000</pubDate>
+      
+      <guid>https://www.tehlemon.com/tags/family/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Food</title>
+      <link>https://www.tehlemon.com/tags/food/</link>
+      <pubDate>Sun, 12 Nov 2023 01:25:52 +0000</pubDate>
+      
+      <guid>https://www.tehlemon.com/tags/food/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>HKSK23</title>
+      <link>https://www.tehlemon.com/tags/hksk23/</link>
+      <pubDate>Sun, 12 Nov 2023 01:25:52 +0000</pubDate>
+      
+      <guid>https://www.tehlemon.com/tags/hksk23/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hong Kong</title>
+      <link>https://www.tehlemon.com/tags/hong-kong/</link>
+      <pubDate>Sun, 12 Nov 2023 01:25:52 +0000</pubDate>
+      
+      <guid>https://www.tehlemon.com/tags/hong-kong/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Travel</title>
+      <link>https://www.tehlemon.com/tags/travel/</link>
+      <pubDate>Sun, 12 Nov 2023 01:25:52 +0000</pubDate>
+      
+      <guid>https://www.tehlemon.com/tags/travel/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>anime</title>
@@ -27,24 +81,6 @@
       <pubDate>Mon, 05 Jun 2023 05:16:15 +0100</pubDate>
       
       <guid>https://www.tehlemon.com/tags/events/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Family</title>
-      <link>https://www.tehlemon.com/tags/family/</link>
-      <pubDate>Mon, 05 Jun 2023 05:16:15 +0100</pubDate>
-      
-      <guid>https://www.tehlemon.com/tags/family/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Food</title>
-      <link>https://www.tehlemon.com/tags/food/</link>
-      <pubDate>Mon, 05 Jun 2023 05:16:15 +0100</pubDate>
-      
-      <guid>https://www.tehlemon.com/tags/food/</guid>
       <description></description>
     </item>
     
@@ -193,15 +229,6 @@
     </item>
     
     <item>
-      <title>Travel</title>
-      <link>https://www.tehlemon.com/tags/travel/</link>
-      <pubDate>Tue, 12 Mar 2019 06:54:29 +0100</pubDate>
-      
-      <guid>https://www.tehlemon.com/tags/travel/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Akihabara</title>
       <link>https://www.tehlemon.com/tags/akihabara/</link>
       <pubDate>Mon, 11 Mar 2019 22:53:23 +0000</pubDate>
@@ -243,15 +270,6 @@
       <pubDate>Sat, 09 Mar 2019 05:11:44 +0100</pubDate>
       
       <guid>https://www.tehlemon.com/tags/asakusa/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Culture</title>
-      <link>https://www.tehlemon.com/tags/culture/</link>
-      <pubDate>Sat, 09 Mar 2019 05:11:44 +0100</pubDate>
-      
-      <guid>https://www.tehlemon.com/tags/culture/</guid>
       <description></description>
     </item>
     
@@ -540,15 +558,6 @@
       <pubDate>Sun, 25 Feb 2018 23:37:38 +0100</pubDate>
       
       <guid>https://www.tehlemon.com/tags/hk2018/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Hong Kong</title>
-      <link>https://www.tehlemon.com/tags/hong-kong/</link>
-      <pubDate>Sun, 25 Feb 2018 23:37:38 +0100</pubDate>
-      
-      <guid>https://www.tehlemon.com/tags/hong-kong/</guid>
       <description></description>
     </item>
     

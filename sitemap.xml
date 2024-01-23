@@ -3,32 +3,72 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://www.tehlemon.com/categories/blog/</loc>
+    <lastmod>2023-11-12T01:25:52+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.tehlemon.com/blog/</loc>
+    <lastmod>2023-11-12T01:25:52+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.tehlemon.com/categories/</loc>
+    <lastmod>2023-11-12T01:25:52+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.tehlemon.com/tags/culture/</loc>
+    <lastmod>2023-11-12T01:25:52+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.tehlemon.com/tags/family/</loc>
+    <lastmod>2023-11-12T01:25:52+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.tehlemon.com/tags/food/</loc>
+    <lastmod>2023-11-12T01:25:52+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.tehlemon.com/tags/hksk23/</loc>
+    <lastmod>2023-11-12T01:25:52+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.tehlemon.com/tags/hong-kong/</loc>
+    <lastmod>2023-11-12T01:25:52+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.tehlemon.com/blog/2024/23hksk-06/</loc>
+    <lastmod>2023-11-12T01:25:52+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.tehlemon.com/tags/</loc>
+    <lastmod>2023-11-12T01:25:52+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.tehlemon.com/</loc>
+    <lastmod>2023-11-12T01:25:52+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.tehlemon.com/tags/travel/</loc>
+    <lastmod>2023-11-12T01:25:52+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.tehlemon.com/tags/anime/</loc>
     <lastmod>2023-06-05T05:16:15+01:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.tehlemon.com/blog/</loc>
-    <lastmod>2023-06-05T05:16:15+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.tehlemon.com/categories/</loc>
-    <lastmod>2023-06-05T05:16:15+01:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://www.tehlemon.com/tags/events/</loc>
-    <lastmod>2023-06-05T05:16:15+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.tehlemon.com/tags/family/</loc>
-    <lastmod>2023-06-05T05:16:15+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.tehlemon.com/tags/food/</loc>
     <lastmod>2023-06-05T05:16:15+01:00</lastmod>
   </url>
   
@@ -65,21 +105,6 @@
   <url>
     <loc>https://www.tehlemon.com/tags/mcmcomiccon/</loc>
     <lastmod>2023-06-05T05:16:15+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.tehlemon.com/tags/</loc>
-    <lastmod>2023-06-05T05:16:15+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.tehlemon.com/</loc>
-    <lastmod>2023-06-05T05:16:15+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.tehlemon.com/categories/blog/</loc>
-    <lastmod>2022-11-15T04:22:39+00:00</lastmod>
   </url>
   
   <url>
@@ -178,11 +203,6 @@
   </url>
   
   <url>
-    <loc>https://www.tehlemon.com/tags/travel/</loc>
-    <lastmod>2019-03-12T06:54:29+01:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://www.tehlemon.com/tags/akihabara/</loc>
     <lastmod>2019-03-11T22:53:23+00:00</lastmod>
   </url>
@@ -219,11 +239,6 @@
   
   <url>
     <loc>https://www.tehlemon.com/tags/asakusa/</loc>
-    <lastmod>2019-03-09T05:11:44+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.tehlemon.com/tags/culture/</loc>
     <lastmod>2019-03-09T05:11:44+01:00</lastmod>
   </url>
   
@@ -533,11 +548,6 @@
   </url>
   
   <url>
-    <loc>https://www.tehlemon.com/tags/hong-kong/</loc>
-    <lastmod>2018-02-25T23:37:38+01:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://www.tehlemon.com/blog/2019/hk-07/</loc>
     <lastmod>2018-02-25T23:37:38+01:00</lastmod>
   </url>
@@ -583,12 +593,12 @@
   </url>
   
   <url>
-    <loc>https://www.tehlemon.com/categories/game-dev/</loc>
+    <loc>https://www.tehlemon.com/tags/game-dev/</loc>
     <lastmod>2018-01-05T06:54:34+01:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.tehlemon.com/tags/game-dev/</loc>
+    <loc>https://www.tehlemon.com/categories/game-dev/</loc>
     <lastmod>2018-01-05T06:54:34+01:00</lastmod>
   </url>
   

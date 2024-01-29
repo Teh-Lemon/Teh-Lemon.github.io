@@ -7,10 +7,64 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Teh Lemon</copyright>
-    <lastBuildDate>Sun, 12 Nov 2023 01:25:52 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 13 Nov 2023 04:12:59 +0000</lastBuildDate>
     
 	<atom:link href="https://www.tehlemon.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Airports</title>
+      <link>https://www.tehlemon.com/tags/airports/</link>
+      <pubDate>Mon, 13 Nov 2023 04:12:59 +0000</pubDate>
+      
+      <guid>https://www.tehlemon.com/tags/airports/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Family</title>
+      <link>https://www.tehlemon.com/tags/family/</link>
+      <pubDate>Mon, 13 Nov 2023 04:12:59 +0000</pubDate>
+      
+      <guid>https://www.tehlemon.com/tags/family/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>HKSK23</title>
+      <link>https://www.tehlemon.com/tags/hksk23/</link>
+      <pubDate>Mon, 13 Nov 2023 04:12:59 +0000</pubDate>
+      
+      <guid>https://www.tehlemon.com/tags/hksk23/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Korea</title>
+      <link>https://www.tehlemon.com/tags/korea/</link>
+      <pubDate>Mon, 13 Nov 2023 04:12:59 +0000</pubDate>
+      
+      <guid>https://www.tehlemon.com/tags/korea/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Seoul</title>
+      <link>https://www.tehlemon.com/tags/seoul/</link>
+      <pubDate>Mon, 13 Nov 2023 04:12:59 +0000</pubDate>
+      
+      <guid>https://www.tehlemon.com/tags/seoul/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Travel</title>
+      <link>https://www.tehlemon.com/tags/travel/</link>
+      <pubDate>Mon, 13 Nov 2023 04:12:59 +0000</pubDate>
+      
+      <guid>https://www.tehlemon.com/tags/travel/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Culture</title>
@@ -18,15 +72,6 @@
       <pubDate>Sun, 12 Nov 2023 01:25:52 +0000</pubDate>
       
       <guid>https://www.tehlemon.com/tags/culture/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Family</title>
-      <link>https://www.tehlemon.com/tags/family/</link>
-      <pubDate>Sun, 12 Nov 2023 01:25:52 +0000</pubDate>
-      
-      <guid>https://www.tehlemon.com/tags/family/</guid>
       <description></description>
     </item>
     
@@ -40,29 +85,11 @@
     </item>
     
     <item>
-      <title>HKSK23</title>
-      <link>https://www.tehlemon.com/tags/hksk23/</link>
-      <pubDate>Sun, 12 Nov 2023 01:25:52 +0000</pubDate>
-      
-      <guid>https://www.tehlemon.com/tags/hksk23/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Hong Kong</title>
       <link>https://www.tehlemon.com/tags/hong-kong/</link>
       <pubDate>Sun, 12 Nov 2023 01:25:52 +0000</pubDate>
       
       <guid>https://www.tehlemon.com/tags/hong-kong/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Travel</title>
-      <link>https://www.tehlemon.com/tags/travel/</link>
-      <pubDate>Sun, 12 Nov 2023 01:25:52 +0000</pubDate>
-      
-      <guid>https://www.tehlemon.com/tags/travel/</guid>
       <description></description>
     </item>
     
@@ -202,15 +229,6 @@
     </item>
     
     <item>
-      <title>Airports</title>
-      <link>https://www.tehlemon.com/tags/airports/</link>
-      <pubDate>Tue, 12 Mar 2019 06:54:29 +0100</pubDate>
-      
-      <guid>https://www.tehlemon.com/tags/airports/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>JP2019</title>
       <link>https://www.tehlemon.com/tags/jp2019/</link>
       <pubDate>Tue, 12 Mar 2019 06:54:29 +0100</pubDate>
@@ -256,7 +274,7 @@
     </item>
     
     <item>
-      <title>R18</title>
+      <title>r18</title>
       <link>https://www.tehlemon.com/tags/r18/</link>
       <pubDate>Sun, 10 Mar 2019 08:10:23 +0000</pubDate>
       
@@ -292,7 +310,7 @@
     </item>
     
     <item>
-      <title>animals</title>
+      <title>Animals</title>
       <link>https://www.tehlemon.com/tags/animals/</link>
       <pubDate>Fri, 08 Mar 2019 08:27:20 +0100</pubDate>
       

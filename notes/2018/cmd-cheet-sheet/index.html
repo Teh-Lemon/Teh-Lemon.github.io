@@ -207,6 +207,11 @@ youtube-dl --write-sub --sub-lang en --embed-subs https://www.youtube.com/watch?
 ffmpeg -ss 00:59:30 -i &quot;vidlink&quot; -ss 00:59:30 -i &quot;audlink&quot; -map 0:v -map 1:a -ss 30 -t 60 out.mp4
 </code></pre>
 
+<p>Filter by date</p>
+
+<pre><code>gallery-dl --filter &quot;(datetime(2020, 12, 31) &lt; date)&quot; 
+</code></pre>
+
 <h2 id="image-editing">Image Editing</h2>
 
 <h3 id="tiling">Tiling</h3>
